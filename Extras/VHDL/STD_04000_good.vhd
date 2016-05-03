@@ -4,9 +4,10 @@
 -- Copyright : Copyright (c) CNES.
 -- Licensing : GNU GPLv3
 -------------------------------------------------------------------------------------------------
--- Version         : V1
+-- Version         : V1.1
 -- Version history :
---    V1 : 2015-04-13 : Mickael Carl (CNES): Creation
+--    V1   : 2015-04-13 : Mickael Carl (CNES): Creation
+--    V1.1 : 2016-05-03 : F.Manni (CNES) : add initialization trough reset for Raz, enable and Count_Length
 -------------------------------------------------------------------------------------------------
 -- File name          : STD_04000_good.vhd
 -- File Creation date : 2015-04-13
@@ -85,6 +86,9 @@ begin
    begin
       if (i_Reset_n = '0') then
          sm_State <= init;
+         Raz      <= '0';
+         Enable   <= '0';
+         Count_Length <= (others=>'0');
       else
          if (rising_edge(i_Clock)) then
             case sm_State is

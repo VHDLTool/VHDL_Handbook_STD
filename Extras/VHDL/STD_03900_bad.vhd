@@ -4,9 +4,10 @@
 -- Copyright : Copyright (c) CNES.
 -- Licensing : GNU GPLv3
 -------------------------------------------------------------------------------------------------
--- Version         : V1
+-- Version         : V1.1
 -- Version history :
---    V1 : 2015-04-13 : Mickael Carl (CNES): Creation
+--    V1   : 2015-04-13 : Mickael Carl (CNES): Creation
+--    V1.1 : 2016-05-03 : F.Manni (CNES) : add initialization trough reset for Raz, enable and Count_Length
 -------------------------------------------------------------------------------------------------
 -- File name          : STD_03900_bad.vhd
 -- File Creation date : 2015-04-13
@@ -14,7 +15,7 @@
 -------------------------------------------------------------------------------------------------
 -- Softwares             :  Microsoft Windows (Windows 7) - Editor (Eclipse + VEditor)
 -------------------------------------------------------------------------------------------------
--- Description : Handbook example: State machine type defintion: bad example
+-- Description : Handbook example: State machine type definition: bad example
 --
 -- Limitations : This file is an example of the VHDL handbook made by CNES. It is a stub aimed at
 --               demonstrating good practices in VHDL and as such, its design is minimalistic.
@@ -84,6 +85,9 @@ begin
    begin
       if (i_Reset_n = '0') then
          sm_State <= "0001";
+         Raz      <= '0';
+         Enable   <= '0';
+         Count_Length <= (others=>'0');
       else
          if (rising_edge(i_Clock)) then
             case sm_State is

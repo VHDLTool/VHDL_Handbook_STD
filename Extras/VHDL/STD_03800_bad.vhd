@@ -4,9 +4,10 @@
 -- Copyright : Copyright (c) CNES.
 -- Licensing : GNU GPLv3
 -------------------------------------------------------------------------------------------------
--- Version         : V1
+-- Version         : V1.1
 -- Version history :
---    V1 : 2015-04-07 : Mickael Carl (CNES): Creation
+--    V1   : 2015-04-07 : Mickael Carl (CNES): Creation
+--    V1.1 : 2016-05-03 : F.MAnni (CNES) : remove i_Reset_n from process sensitivity list
 -------------------------------------------------------------------------------------------------
 -- File name          : STD_03800_bad.vhd
 -- File Creation date : 2015-04-07
@@ -64,7 +65,7 @@ architecture Behavioral of STD_03800_bad is
    signal Q_n : std_logic := '1';       -- Same as Q, inverted
 begin
    -- D FlipFlop process
-   P_FlipFlop : process(i_Clock, i_Reset_n)
+   P_FlipFlop : process(i_Clock)
    begin
       if (rising_edge(i_Clock)) then
          Q   <= i_D;

@@ -4,9 +4,10 @@
 -- Copyright : Copyright (c) CNES.
 -- Licensing : GNU GPLv3
 -------------------------------------------------------------------------------------------------
--- Version         : V1
+-- Version         : V1.1
 -- Version history :
---    V1 : 2015-04-07 : Mickael Carl (CNES): Creation
+--    V1   : 2015-04-07 : Mickael Carl (CNES): Creation
+--    V1.1 : 2016-05-03 : F.Manni (CNES) : add initialization for D_re
 -------------------------------------------------------------------------------------------------
 -- File name          : STD_03600_bad.vhd
 -- File Creation date : 2015-04-07
@@ -81,6 +82,7 @@ begin
    begin
       if (Reset = '1') then
          D_r2 <= '0';
+         D_re <= '0';
       else
          if (rising_edge(i_Clock)) then
             D_r2 <= D_r1;
