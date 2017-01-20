@@ -66,10 +66,8 @@ begin
    begin
       if (i_Reset_n = '0') then
          o_B <= (others => '0');
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             o_B <= std_logic_vector(unsigned(i_A) + unsigned(o_B));
-         end if;
       end if;
    end process;
 end Behavioral;

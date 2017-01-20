@@ -71,14 +71,12 @@ begin
    begin
       if (i_Reset_n = '0') then
          Count <= 0;
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             if (Count >= Count_Length) then  -- Counter restarts from 0
                Count <= 0;
             elsif (i_Enable = '1') then      -- Increment counter value
                Count <= Count + 1;
             end if;
-         end if;
       end if;
    end process;
 

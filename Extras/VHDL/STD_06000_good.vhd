@@ -71,13 +71,11 @@ begin
    begin
       if (i_Reset_n = '0') then
          D <= (others => (others => '0'));
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             D(0) <= i_Data;
             for i in 1 to g_Pipeline_Length-1 loop
                D(i) <= D(i-1);
             end loop;
-         end if;
       end if;
    end process;
 

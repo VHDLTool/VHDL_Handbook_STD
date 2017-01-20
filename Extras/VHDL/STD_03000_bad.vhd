@@ -66,12 +66,10 @@ begin
    begin
       if (i_Reset_n = '0') then
          Q <= '0';
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             if (i_Enable = '1') then
                Q <= i_D;
             end if;
-         end if;
       end if;
    end process;
 

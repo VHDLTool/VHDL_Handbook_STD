@@ -88,8 +88,7 @@ begin
          Raz      <= '0';
          Enable   <= '0';
          Count_Length <= (others=>'0');
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             case sm_State is
                when "0001" =>
                   -- Set the length value
@@ -114,7 +113,6 @@ begin
                when others =>
                   sm_State <= "0001";
             end case;
-         end if;
       end if;
    end process;
 end Behavioral;

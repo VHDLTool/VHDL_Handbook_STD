@@ -67,11 +67,9 @@ begin
       if (i_Reset_Input_n = '0') then
          Main_Reset_n   <= '0';         -- Output reset signal is active low
          Main_Reset_n_r <= '0';
-      else
-         if rising_edge(i_Clock) then
+      elsif rising_edge(i_Clock) then
             Main_Reset_n   <= '1';  -- Reset is deasserted. Since it is active low, the inactive value is 1
             Main_Reset_n_r <= Main_Reset_n;
-         end if;
       end if;
    end process;
 

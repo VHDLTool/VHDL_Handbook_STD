@@ -83,13 +83,11 @@ begin
       if (i_Reset_n = '0') then
          Data_r  <= '0';
          Data_r2 <= '0';
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             if (Enable_r = '1') then
                Data_r  <= i_Data;
                Data_r2 <= Data_r;
             end if;
-         end if;
       end if;
    end process;
 

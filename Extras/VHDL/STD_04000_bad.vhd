@@ -89,8 +89,7 @@ begin
          Raz      <= '0';
          Enable   <= '0';
          Count_Length <= (others=>'0');
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             case sm_State is
                when init =>
                   -- Set the length value
@@ -116,7 +115,6 @@ begin
                   --*** MISSING finished state of the FSM ***--
 
             end case;
-         end if;
       end if;
    end process;
 end Behavioral;

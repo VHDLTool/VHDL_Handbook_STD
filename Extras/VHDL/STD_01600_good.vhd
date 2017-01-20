@@ -103,11 +103,9 @@ begin
       if (i_Reset_n = '0') then
          Q1 <= '0';
          Q2 <= '0';
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             Q1 <= OutMux1;
             Q2 <= OutMux2;
-         end if;
       end if;
    end process;
 

@@ -67,10 +67,8 @@ begin
    begin
       if (i_Reset_n = '0') then
          B <= (others => '0');
-      else
-         if (rising_edge(i_Clock)) then
+      elsif (rising_edge(i_Clock)) then
             B <= std_logic_vector(unsigned(i_A) + unsigned(B));
-         end if;
       end if;
    end process;
 

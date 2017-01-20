@@ -80,12 +80,10 @@ begin
       if (i_ResetA_n = '0') then
          Grant_r1 <= '0';
          Grant_r2 <= '0';
-      else
-         if (rising_edge(i_ClockA)) then
+      elsif (rising_edge(i_ClockA)) then
             -- Synchronize i_Grant to i_ClockA domain
             Grant_r1 <= i_Grant;
             Grant_r2 <= Grant_r1;
-         end if;
       end if;
    end process;
 
@@ -94,13 +92,11 @@ begin
       if (i_ResetB_n = '0') then
          Request_r1 <= '0';
          Request_r2 <= '0';
-      else
-         if (rising_edge(i_ClockB)) then
+      elsif (rising_edge(i_ClockB)) then
             -- Synchronize i_Request to i_ClockB domain
             -- Data is valid when Request_r2 is asserted
             Request_r1 <= i_Request;
             Request_r2 <= Request_r1;
-         end if;
       end if;
    end process;
 
