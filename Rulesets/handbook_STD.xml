@@ -31,6 +31,11 @@
 			<hb:LongDesc>The extension of the VHDL file is ".vhd". The extension ".v" is reserved for the Verilog language. 
 The extension ".vhdl" is not permitted.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -68,6 +73,11 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			<hb:ShortDesc>File name uses an unique and specific naming convention within a design.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -107,6 +117,11 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			
 				(Any characters)MyEntity(Any characters).vhd</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -143,6 +158,11 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			<hb:ShortDesc>VHDL Object name definition uses an unique and specific naming convention.</hb:ShortDesc>
 			<hb:LongDesc>This convention can address the naming of any VHDL objects like signals, variables, constants, generic, labels, modules, entity, etc.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -181,6 +201,11 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			<hb:ShortDesc>The clock signal name includes "clk" or "clock".</hb:ShortDesc>
 			<hb:LongDesc>A signal is considered as a "CLOCK" whenever it is used to synchronize other signals to its rising or falling edge within a synchronous process with one of the following VHDL functions ('event, rising_edge or falling_edge), or when it is mapped on an IP clock input.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_00200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_00200_good</hb:GoodExample>
@@ -189,6 +214,18 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			<hb:FigureDesc />
 			<hb:Figure ></hb:Figure>
 		</hb:RuleDesc>
+		<hb:RuleParams>
+			<hb:StringParam>
+				<hb:ParamID>P1</hb:ParamID>
+				<hb:Position>Contain</hb:Position>
+				<hb:Value>clk</hb:Value>
+			</hb:StringParam>
+			<hb:StringParam>
+				<hb:ParamID>P2</hb:ParamID>
+				<hb:Position>Contain</hb:Position>
+				<hb:Value>clock</hb:Value>
+			</hb:StringParam>
+		</hb:RuleParams>
 	</hb:Rule>
 	
 	<hb:Rule UID="STD_00300">
@@ -222,6 +259,11 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 			<hb:LongDesc>A signal is considered as a "RESET" whenever it is used inside a clocked-process to initialize signals value to a known state (most of the time zero) or mapped on a IP reset input.
 If several reset signals are used, each reset is identified with a different name.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_00300_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_00300_good</hb:GoodExample>
@@ -230,6 +272,23 @@ If several reset signals are used, each reset is identified with a different nam
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
+		<hb:RuleParams>
+			<hb:StringParam>
+				<hb:ParamID>P1</hb:ParamID>
+				<hb:Position>Contain</hb:Position>
+				<hb:Value>reset</hb:Value>
+			</hb:StringParam>
+			<hb:StringParam>
+				<hb:ParamID>P2</hb:ParamID>
+				<hb:Position>Contain</hb:Position>
+				<hb:Value>rst</hb:Value>
+			</hb:StringParam>
+			<hb:StringParam>
+				<hb:ParamID>P3</hb:ParamID>
+				<hb:Position>Contain</hb:Position>
+				<hb:Value>clr</hb:Value>
+			</hb:StringParam>
+		</hb:RuleParams>
 	</hb:Rule>
 	
 	<hb:Rule UID="STD_00400">
@@ -259,6 +318,11 @@ If several reset signals are used, each reset is identified with a different nam
 			<hb:ShortDesc>Processes are identified by a label.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_00400_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_00400_good</hb:GoodExample>
@@ -296,6 +360,11 @@ If several reset signals are used, each reset is identified with a different nam
 			<hb:LongDesc>A signal name is related to its functionality.
 For example a control signal (chip-select, write enable, read/output enable), an address, a counter, an enable, a pulse, a flag, acknowledge, ...</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -337,6 +406,11 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>Important signals like reset or clock have to keep their name across hierarchy. 
 It is best practice for other signals not to change their name if they are not altered by any kind of logic.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -375,6 +449,11 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>Critical signals like reset or clock have to keep their name. 
 			It is best practice not to change signals name if they are not altered by any kind of logic. They should also keep their meaning (e.g. an enable should contain "en", a write "wr" etc.)</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -411,6 +490,11 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:ShortDesc>Each VHDL file includes only one architecture per file.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -448,6 +532,11 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:ShortDesc>Each line includes only one statement.</hb:ShortDesc>
 			<hb:LongDesc>A statement could be an affectation sequence, a conditional test, a declaration or a VHDL beginning sequence like case, process...).</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01200_good</hb:GoodExample>
@@ -486,6 +575,11 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:ShortDesc>Each line includes only one port definition or mapping.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01300_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01300_good</hb:GoodExample>
@@ -527,6 +621,11 @@ It reduces risks of inconsistency between the entity definition and the componen
 			<hb:LongDesc>Since instantiation is made by name, the instantiation by position is prohibited.
 This rule does not apply to instantiations made within IP cores would they be coming auto generated from a tool or provided by any IP core provider.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01400_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01400_good</hb:GoodExample>
@@ -564,6 +663,11 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:ShortDesc>Each source file contains only one VHDL entity.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -602,6 +706,11 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:ShortDesc>VHDL source file is indented.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01900_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01900_good</hb:GoodExample>
@@ -638,6 +747,11 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:ShortDesc>Indentation is made by a fixed number of blank spaces instead of tabulation.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -674,6 +788,11 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:ShortDesc>Entity ports are organized with a dedicated convention.</hb:ShortDesc>
 			<hb:LongDesc>This convention deals with the way the ports of an entity are sorted: by direction, interface, special signals...</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -713,6 +832,11 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:LongDesc>Entity ports are grouped by external interfaces.
 Within an interface group, ports could then be sorted by direction (input, output, bidirectional).</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01600_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01600_good</hb:GoodExample>
@@ -751,6 +875,11 @@ Within an interface group, ports could then be sorted by direction (input, outpu
 			<hb:ShortDesc>Special ports are the first group of an entity.</hb:ShortDesc>
 			<hb:LongDesc>Special input ports like clock(s), reset and global enable are the first to be written in an entity.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01700_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_01700_good</hb:GoodExample>
@@ -789,6 +918,11 @@ Within an interface group, ports could then be sorted by direction (input, outpu
 			<hb:LongDesc>When an IP core is used (memory inference/instantiation, primitives instantiations like PLLs, etc), then the generated HDL code is manufacturer/technology specific.
 It is best practice to separate this code from the general HDL code, which is not specific to the manufacturer/technology, by creating a	more generic wrapper which contains all those specific HDL codes.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -827,6 +961,11 @@ Moreover, some tools do not handle well too many characters per lines.</hb:Ratio
 			<hb:ShortDesc>Hand coded VHDL source files are limited in size.</hb:ShortDesc>
 			<hb:LongDesc>File limitation strategy might be implemented with a limit of lines, name characters, entity's names length, compact signal name, etc. </hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -866,6 +1005,11 @@ Moreover, some tools do not handle well too many characters per lines.</hb:Ratio
 			  - The name of the company owning the rights,
 			  - The VHDL designer company if the design is subcontracted.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -915,6 +1059,11 @@ Understanding the last modifications allows integrator to know if a bug was corr
 			  - Current version number.
 Large VHDL project could use version control software (like SVN). If this is the case a tag identifying the version is also included.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_02200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_02200_good</hb:GoodExample>
@@ -952,6 +1101,11 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:ShortDesc>Header, instructions and comments are written in English.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -989,6 +1143,11 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:ShortDesc>The VHDL code includes comments.</hb:ShortDesc>
 			<hb:LongDesc>The VHDL code comments need to explain the purposes and objectives of the code as much as possible, but should not describe it.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -1027,6 +1186,11 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:ShortDesc>Each entity port is commented with a short functional description.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_02900_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_02900_good</hb:GoodExample>
@@ -1065,6 +1229,11 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:ShortDesc>Each process, group of instructions and objects declaration are commented</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03000_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03000_good</hb:GoodExample>
@@ -1104,6 +1273,11 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:LongDesc>Do not use deprecated Synopsys libraries "std_logic_arith", "std_logic_signed" and "std_logic_unsigned" except if you are targeting specifically a Synopsys synthesizer (like for an ASIC for instance).
 Nevertheless, never mix these two library families.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -1142,6 +1316,11 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:ShortDesc>Unnecessary portions of code are deleted</hb:ShortDesc>
 			<hb:LongDesc>Unused declared signals and constants are deleted. Inactive or wrong code is deleted. Pieces of code commented out doesn't appear in HDL sources.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03100_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03100_good</hb:GoodExample>
@@ -1179,6 +1358,11 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:ShortDesc>Unused output ports are mapped with the keyword "open".</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03200_good</hb:GoodExample>
@@ -1217,6 +1401,11 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:ShortDesc>"Buffer" port in an entity is forbidden.</hb:ShortDesc>
 			<hb:LongDesc>Reading an output signal inside an entity can be achieved by creating an internal signal.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03300_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03300_good</hb:GoodExample>
@@ -1253,6 +1442,11 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:ShortDesc>Top level ports include approved types.</hb:ShortDesc>
 			<hb:LongDesc>When designing the TOP level, the designer uses only types which are allowed. Every types which are not in the allowed list are prohibited to use.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -1290,6 +1484,11 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:ShortDesc> Record type is forbidden for top level entity ports.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -1328,6 +1527,11 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:ShortDesc>Every synchronous process uses the same reset	activation level.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03600_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03600_good</hb:GoodExample>
@@ -1371,6 +1575,11 @@ Doing so, if there is a glitch on the external reset, it will produce an interna
 			<hb:ShortDesc>Internal reset is asserted asynchronously and deasserted synchronously.</hb:ShortDesc>
 			<hb:LongDesc>If several clock domains are used then several reset signals are created to be deasserted synchronously with each targeted clock domain.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03700_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03700_good</hb:GoodExample>
@@ -1422,6 +1631,11 @@ Benefits of changing resets to synchronous :
 - More flexible register placement
 - More predictable timing and circuit operation</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03800_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03800_good</hb:GoodExample>
@@ -1459,6 +1673,11 @@ Benefits of changing resets to synchronous :
 			<hb:ShortDesc>FSM states are encoded using enumerated type.</hb:ShortDesc>
 			<hb:LongDesc>Other type of state machine definition like vectors or integer are forbidden.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03900_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_03900_good</hb:GoodExample>
@@ -1497,6 +1716,11 @@ Benefits of changing resets to synchronous :
 			<hb:LongDesc>When all cases statement are not explicitly addressed in the VHDL code, an extra "when others" case will be added.
 "when others" instruction handles the default condition when none of the previous case statements are met.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04000_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_04000_good</hb:GoodExample>
@@ -1535,6 +1759,11 @@ Benefits of changing resets to synchronous :
 			<hb:ShortDesc>An unique single sensitive edge is used to clock all flip-flop in the same clock domain.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -1573,6 +1802,11 @@ The use of a validated clock domain change mechanism reduces the risk of discrep
 			<hb:ShortDesc>All data exchanges between different clock domains are done with specific approved mechanism.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -1621,6 +1855,11 @@ Source data stability:
 The source clock domain should continue to assert the "transmit request" control signal until "receipt acknowledge" is asserted at the source clock domain.
 The sender should not assert a new "transmit request" until the acknowledgement for the previous transfer is deasserted in the source clock domain.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_04200_good</hb:GoodExample>
@@ -1675,6 +1914,11 @@ Here is a list of possible assertion checks for a FIFO design:
 			- a FIFO preserves the data order,
 			- a FIFO preserves the data value.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -1714,6 +1958,11 @@ Such a practice isolates all vendor-specific clocking	elements such as PLLs, clo
 			<hb:ShortDesc>All global clocks are generated in a single dedicated module.</hb:ShortDesc>
 			<hb:LongDesc>Any clock element inserted in any clock path is instantiated inside the same design entity. Clock elements are clock buffers, clock multiplexers, PLLs, DCMs, fractional dividers, gapped clock logic, enabled clock logic...</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -1756,6 +2005,11 @@ For those reasons, usage of a single clock domain is strongly recommended.</hb:R
 When a slower clock version is needed, use an enable signal instead of a derived clock to throttle the resulting clock rate.
 When a faster clock version is needed, promote that faster clock as the single clock domain used if the design and or re-design consequences are not prohibitive prior to creating a derived clock domain.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -1765,6 +2019,13 @@ When a faster clock version is needed, promote that faster clock as the single c
 			<hb:Figure fileref="STD_04600.svg" height="450px"
 				width="450px" />
 		</hb:RuleDesc>
+		<hb:RuleParams>
+			<hb:IntParam>
+				<hb:ParamID>P1</hb:ParamID>
+				<hb:Relation>LET</hb:Relation>
+				<hb:Value>1</hb:Value>
+			</hb:IntParam>
+		</hb:RuleParams>
 	</hb:Rule>
 	
 	<hb:Rule UID="STD_04700">
@@ -1796,6 +2057,11 @@ When a faster clock version is needed, promote that faster clock as the single c
 The only module that can handle several clocks are the clock management module and the reset management module.
 Other modules can include different clocks but the data exchange between them is done through the approved clock domain crossing module.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -1804,6 +2070,13 @@ Other modules can include different clocks but the data exchange between them is
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
+		<hb:RuleParams>
+			<hb:IntParam>
+				<hb:ParamID>P1</hb:ParamID>
+				<hb:Relation>LET</hb:Relation>
+				<hb:Value>1</hb:Value>
+			</hb:IntParam>
+		</hb:RuleParams>
 	</hb:Rule>
 	
 	<hb:Rule UID="STD_05000">
@@ -1834,6 +2107,11 @@ Moreover, this practice risks adding combinational blocks on clock and reset tre
 			<hb:ShortDesc>A synchronous process needs only the clock and reset signals in its sensitivity list.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05000_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05000_good</hb:GoodExample>
@@ -1875,6 +2153,11 @@ Not doing so causes issues in Finite State Machines. For example, the FSM can se
 			<hb:LongDesc>Asynchronous inputs signals are defined as the following : 
 signals generated without clock and signals generated in another time domain.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05100_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05100_good</hb:GoodExample>
@@ -1916,6 +2199,11 @@ signals generated without clock and signals generated in another time domain.</h
 This mechanism involves a real design clock, at least one D Flip-Flop to delay the signal, and combinational gate(s) to select the edge.
 			</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04900_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_04900_good</hb:GoodExample>
@@ -1958,6 +2246,11 @@ With controlled clocks to outputs delays, enough PCB propagation time and inputs
 			<hb:LongDesc>Combinational outputs at top level are forbidden. Those outputs belong to the timing domain in which they are generated at top level. Whenever it is possible, use I/O blocks register instead of internal register for top level outputs.
 Unless specified and approved, a combinational signal is never used directly as a top level output.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -1997,6 +2290,11 @@ Unless specified and approved, a combinational signal is never used directly as 
 			<hb:ShortDesc>Combinational processes have a sensitivity list including all inputs signals which are read.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -2036,6 +2334,11 @@ Unless specified and approved, a combinational signal is never used directly as 
 			<hb:ShortDesc>The design does not use latches on purpose.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05500_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05500_good</hb:GoodExample>
@@ -2076,6 +2379,11 @@ Indeed, at every step of the way through the backend, the timing loops provoked 
 			<hb:ShortDesc>The design does not use combinatorial feedback.</hb:ShortDesc>
 			<hb:LongDesc>When synthesis reports that a timing loop is broken in a combinational process, check your design for asynchronous signals appearing on both sides of a combinational assignment statement. Once isolated break the timing loop.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05600_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05600_good</hb:GoodExample>
@@ -2117,6 +2425,11 @@ Thus, gated clock usage is prohibited inside FPGA.</hb:Rationale>
 			<hb:LongDesc>Intentionally inferring gated clock in FPGA is prohibited; use the Flip-Flops clock enable instead.
 When the synthesis reports that a gated clock was created, turn off the synthesis tool "auto convert gated clock" option, so that the tool uses the Flip-Flops clock enable instead.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05700_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05700_good</hb:GoodExample>
@@ -2157,6 +2470,11 @@ For that reason, it is prohibited.</hb:Rationale>
 			<hb:LongDesc>When an internal tristate solution would satisfy the functionality to model, use a multiplexer-based solution instead.
 Do not hesitate to pipeline the structure according to the targeted clock frequency and targeted technology.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -2195,6 +2513,11 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 			<hb:ShortDesc>Integer type are constrained using the keyword "range".</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05900_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_05900_good</hb:GoodExample>
@@ -2232,6 +2555,11 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 			<hb:ShortDesc>"Array" type declaration uses increasing index with "to" keyword.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06000_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06000_good</hb:GoodExample>
@@ -2270,6 +2598,11 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 			<hb:ShortDesc>"Std_logic_vector" type declaration uses decreasing index with "downto" keyword.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06100_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06100_good</hb:GoodExample>
@@ -2307,6 +2640,11 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 			<hb:LongDesc>Only the following types are allowed for RTL design : std_logic, std_logic_vector, integer, signed, unsigned and record/array of those.
 Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -2343,6 +2681,11 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:ShortDesc>Variables are prohibited in the RTL design.</hb:ShortDesc>
 			<hb:LongDesc>Only signal type is allowed in RTL design.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample />
@@ -2380,6 +2723,11 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:ShortDesc>Use VHDL constant as much as possible instead of hard coded numeric values.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06200_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06200_good</hb:GoodExample>
@@ -2416,6 +2764,11 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:ShortDesc>All mitigation mechanisms are done with a specific approved mechanism.</hb:ShortDesc>
 			<hb:LongDesc>In order to mitigate errors due to radiation, mechanisms(EDAC, ECC, parity, srubbing, triplication...) can be implemented in the FPGA if needed.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -2455,6 +2808,11 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 For an up counter, use the greater than or equal to (&gt;=) comparison sign instead of the equals sign (=).
 For a down counter, use the less than or equal (&lt;=) comparison sign instead of the equals sign (=).</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06500_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06500_good</hb:GoodExample>
@@ -2492,6 +2850,11 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:ShortDesc>The "wait" statement and "after" clause are forbidden in RTL design.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
 			<hb:GoodExample ></hb:GoodExample>
@@ -2530,6 +2893,11 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:ShortDesc>Procedures and functions are forbidden in RTL design.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -2566,6 +2934,11 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:ShortDesc>Signals are never initialized to a default value when declared.</hb:ShortDesc>
 			<hb:LongDesc>Signals are not initialized to a default value in declaration level but only during a reset sequence.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06800_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06800_good</hb:GoodExample>
@@ -2604,6 +2977,11 @@ Moreover, the testbench is more compact because identical instructions aren't re
 			<hb:ShortDesc>Procedures and functions are recommended in testbenches.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -2643,6 +3021,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>Testbenches are scheduled with "wait" instruction and "after" clause instead of combinational process.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_07300_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_07300_good</hb:GoodExample>
@@ -2680,6 +3063,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>The simulation duration is terminated by an automatic mechanism.</hb:ShortDesc>
 			<hb:LongDesc>The simulation stop automatically without any human action in the simulator. This can be done by external scripts, event starvation (like freezing the main clocks) in the testbench.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_07100_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_07100_good</hb:GoodExample>
@@ -2716,6 +3104,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>HDL file includes a header with specific information.</hb:ShortDesc>
 			<hb:LongDesc>Typical information that can be included in the header are: file name, author, creation date, project name, software context.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -2749,6 +3142,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>Header of file includes information about code functionality.</hb:ShortDesc>
 			<hb:LongDesc>Functional description could be, for example, a short description of the file functions, its limitations or a description of the naming convention used.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
@@ -2785,6 +3183,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>Do not reassign a clock in a concurrent statement.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04500_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_04500_good</hb:GoodExample>
@@ -2821,6 +3224,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>Two comparison elements must have the same type and dimension.</hb:ShortDesc>
 			<hb:LongDesc>Using of unsigned or signed type to insure comparison between two elements is a best practice.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06600_good.vhd</hb:GoodExDesc>
 			<hb:GoodExample >STD_06600_good</hb:GoodExample>
@@ -2854,6 +3262,11 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:ShortDesc>Nested VHDL objects are limited in depth.</hb:ShortDesc>
 			<hb:LongDesc>The depth of nested objects (entities, packages, dimensions) should be kept limited.</hb:LongDesc>
 		</hb:RuleContent>
+		<hb:RuleDebt>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:Tag>TBD</hb:Tag>
+		</hb:RuleDebt>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
 			<hb:GoodExample />
