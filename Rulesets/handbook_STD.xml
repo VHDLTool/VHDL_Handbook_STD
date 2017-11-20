@@ -2762,7 +2762,7 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:Severity>Major</hb:Severity>
 			<hb:Rationale>Error mitigation can be made at VHDL design level. If it is expected to be done at this level, the mechanisms have to be approved.</hb:Rationale>
 			<hb:ShortDesc>All mitigation mechanisms are done with a specific approved mechanism.</hb:ShortDesc>
-			<hb:LongDesc>In order to mitigate errors due to radiation, mechanisms(EDAC, ECC, parity, srubbing, triplication...) can be implemented in the FPGA if needed.</hb:LongDesc>
+			<hb:LongDesc>In order to mitigate errors due to radiation, mechanisms (EDAC, ECC, parity, srubbing, triplication...) can be implemented in the FPGA if needed.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:RuleDebt>
 			<hb:RemediationEffort>TBD</hb:RemediationEffort>
