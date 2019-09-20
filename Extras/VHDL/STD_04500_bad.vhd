@@ -7,6 +7,7 @@
 -- Version         : V1
 -- Version history :
 --    V1 : 2015-04-08 : Mickael Carl (CNES): Creation
+--    V1.1: 2018-09-20 : Florent Manni (CNES) : updated to trigger simulation mistake in Modelsim
 -------------------------------------------------------------------------------------------------
 -- File name          : STD_04500_bad.vhd
 -- File Creation date : 2015-04-08
@@ -73,39 +74,41 @@ architecture Behavioral of STD_04500_bad is
    signal QA     : std_logic;
    signal QB     : std_logic;
 begin
+   
+   ClockC <= ClockB;
+   ClockB <= ClockA;
    ClockA <= i_Clock;
-   ClockB <= i_Clock;
-   ClockC <= i_Clock;
+   
 
    -- First Flip-Flop
-   DFF1 : DFlipFlop
-      port map (
-         i_Clock   => ClockA,
-         i_Reset_n => i_Reset_n,
-         i_D       => i_DA,
-         o_Q       => QA,
-         o_Q_n     => open
-         );
+   P_FlipFlopA : process(ClockA, i_Reset_n)
+   begin
+      if (i_Reset_n = '0') then
+         QA <= '0';
+      elsif (rising_edge(ClockA)) then
+         QA <= i_DA;
+      end if;
+   end process;
 
    -- Second Flip-Flop
-   DFF2 : DFlipFlop
-      port map (
-         i_Clock   => ClockB,
-         i_Reset_n => i_Reset_n,
-         i_D       => QA,
-         o_Q       => QB,
-         o_Q_n     => open
-         );
+ P_FlipFlopB: process(ClockB, i_Reset_n)
+   begin
+      if (i_Reset_n = '0') then
+         QB <= '0';
+      elsif (rising_edge(ClockB)) then
+         QB <= QA;
+      end if;
+   end process;
 
    -- Third Flip-Flop
-   DFF3 : DFlipFlop
-      port map (
-         i_Clock   => ClockC,
-         i_Reset_n => i_Reset_n,
-         i_D       => QB,
-         o_Q       => o_QC,
-         o_Q_n     => open
-         );
+ P_FlipFlopC: process(ClockC, i_Reset_n)
+   begin
+      if (i_Reset_n = '0') then
+         o_QC <= '0';
+      elsif (rising_edge(ClockC)) then
+         o_QC <= QB;
+      end if;
+   end process;
 
    o_QA <= QA;
    o_QB <= QB;
