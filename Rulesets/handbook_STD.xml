@@ -3326,7 +3326,7 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:Category>Design</hb:Category>
 			<hb:SubCategory>Clocking</hb:SubCategory>
 			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Reassignement of clock signal can lead to simulation mismatch regarding the P&R design. Search for simulation and delta cycle topic.</hb:Rationale>
+			<hb:Rationale>Reassignement of clock signal can lead to simulation mismatch regarding the Place and Route design. Search for simulation and delta cycle topic.</hb:Rationale>
 			<hb:ShortDesc>Do not reassign a clock in a concurrent statement.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
