@@ -3313,6 +3313,7 @@ The testbench instructions inside a process are then sequential which is coheren
 				V1 : 2015-02-17 : Creation
 				V2 : 2015-07-16 : Name ; GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V3 : 2017-11-24 : Sonarqube ; Status
+				V4 : 2019-09-23 : Rationale
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -3325,7 +3326,7 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:Category>Design</hb:Category>
 			<hb:SubCategory>Clocking</hb:SubCategory>
 			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Using only one signal or one port for clock avoids multiple net names for the same clock signal, which eases the fitter to match the clock network on the dedicated low skew resources.</hb:Rationale>
+			<hb:Rationale>Reassignement of clock signal can lead to simulation mismatch regarding the P&R design. Search for simulation and delta cycle topic.</hb:Rationale>
 			<hb:ShortDesc>Do not reassign a clock in a concurrent statement.</hb:ShortDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
