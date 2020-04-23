@@ -3441,15 +3441,16 @@ The testbench instructions inside a process are then sequential which is coheren
 	
 	
 	<hb:RuleSetHist>
-		<hb:Version>5</hb:Version>
+		<hb:Version>6</hb:Version>
 		<hb:Creation>2014-09-30</hb:Creation>
-		<hb:Modified>2017-11-24</hb:Modified>
+		<hb:Modified>2020-04-23</hb:Modified>
 		<hb:Revision>V1 : 2014-11-13 : Creation.
 V2   : 2014-12-01 : Update of rules with remarks from partners about V1 revision, rules have been transferred to CNES handbook.
 V3   : 2015-02-17 : Update of rules with remarks from partners about V2 revision
 V4   : 2015-07-16 : Update of rules with examples
 V4.1 : 2015-11-18 : Correct several data from remarks
 V5   : 2017-11-24 : Creation of Sonarqube data and update of some status
+V6   : 2020-04-23 : Put implmented status for rules in software
 		</hb:Revision>
 	</hb:RuleSetHist>	
 </hb:RuleSet>
