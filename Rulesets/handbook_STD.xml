@@ -3,141 +3,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="HANDBOOK ../XSD/handbook.xsd ">
 
-	<hb:Rule UID="STD_00600">
-		<hb:RuleUID>STD_00600</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-         </hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>VHDL file extension</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>Naming</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Same extension for each source file improves search and scripted automated actions.</hb:Rationale>
-			<hb:ShortDesc>The extension of VHDL source file is .vhd</hb:ShortDesc>
-			<hb:LongDesc>The extension of the VHDL file is ".vhd". The extension ".v" is reserved for the Verilog language. 
-The extension ".vhdl" is not permitted.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_00800">
-		<hb:RuleUID>STD_00800</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>File name convention</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>Naming</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>File name coherence improves search and scripted automated actions.</hb:Rationale>
-			<hb:ShortDesc>File name uses an unique and specific naming convention within a design.</hb:ShortDesc>
-			<hb:LongDesc>No additional information.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_00900">
-		<hb:RuleUID>STD_00900</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>File name of an entity</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>true</hb:IsSon>
-			<hb:ParentUID>STD_00800</hb:ParentUID>
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>Naming</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>The match between file name and entity name improves the search for an entity inside a project.</hb:Rationale>
-			<hb:ShortDesc>The file name for an entity VHDL file includes at least the entity name.</hb:ShortDesc>
-			<hb:LongDesc>File name of an entity called MyEntity is :
-			
-				(Any characters)MyEntity(Any characters).vhd</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
-	
 	<hb:Rule UID="STD_00100">
 		<hb:RuleUID>STD_00100</hb:RuleUID>
 		<hb:RuleHist>
@@ -184,16 +49,17 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 	<hb:Rule UID="STD_00200">
 		<hb:RuleUID>STD_00200</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc
 				V3 : 2015-02-17 : ShortDesc ; LongDesc ; FigureDesc
 				V4 : 2015-07-16 : GoodExample ; GoodExDesc 
 				V5 : 2017-11-24 : Sonarqube ; Status
+				V6 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -241,10 +107,10 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 	<hb:Rule UID="STD_00300">
 		<hb:RuleUID>STD_00300</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>6</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>7</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc
@@ -252,6 +118,7 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 				V4 : 2015-07-16 : GoodExample ; GoodExDesc
 				V5 : 2015-11-18 : LongDesc
 				V6 : 2017-11-24 : Sonarqube ; Status
+				V7 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -306,15 +173,16 @@ If several reset signals are used, each reset is identified with a different nam
 	<hb:Rule UID="STD_00400">
 		<hb:RuleUID>STD_00400</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology ; Rationale
 				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V4 : 2017-11-24 : Sonarqube ; Status
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -386,6 +254,51 @@ For example a control signal (chip-select, write enable, read/output enable), an
 			<hb:GoodExample ></hb:GoodExample>
 			<hb:BadExDesc></hb:BadExDesc>
 			<hb:BadExample ></hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_00600">
+		<hb:RuleUID>STD_00600</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale
+				V3 : 2015-02-17 : Severity
+				V4 : 2017-11-24 : Sonarqube
+         </hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>VHDL file extension</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>Naming</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Same extension for each source file improves search and scripted automated actions.</hb:Rationale>
+			<hb:ShortDesc>The extension of VHDL source file is .vhd</hb:ShortDesc>
+			<hb:LongDesc>The extension of the VHDL file is ".vhd". The extension ".v" is reserved for the Verilog language. 
+The extension ".vhdl" is not permitted.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
@@ -484,17 +397,153 @@ Moreover, changing a signal name which is not altered makes the understanding of
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_01100">
-		<hb:RuleUID>STD_01100</hb:RuleUID>
+	<hb:Rule UID="STD_00800">
+		<hb:RuleUID>STD_00800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2017-11-24</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale
+				V3 : 2015-02-17 : Severity
+				V4 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>File name convention</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>Naming</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>File name coherence improves search and scripted automated actions.</hb:Rationale>
+			<hb:ShortDesc>File name uses an unique and specific naming convention within a design.</hb:ShortDesc>
+			<hb:LongDesc>No additional information.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_00900">
+		<hb:RuleUID>STD_00900</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
+				V3 : 2015-02-17 : Severity
+				V4 : 2017-11-24 : Sonarqube
+				V5 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>File name of an entity</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>true</hb:IsSon>
+			<hb:ParentUID>STD_00800</hb:ParentUID>
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>Naming</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>The match between file name and entity name improves the search for an entity inside a project.</hb:Rationale>
+			<hb:ShortDesc>The file name for an entity VHDL file includes at least the entity name.</hb:ShortDesc>
+			<hb:LongDesc>File name of an entity called MyEntity is :
+			
+				(Any characters)MyEntity(Any characters).vhd</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
+		<hb:Rule UID="STD_01000">
+		<hb:RuleUID>STD_01000</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology
+				V3 : 2015-02-17 : Rationale
+				V4 : 2017-11-24 : Sonarqube
+				V5 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Number of entities per file</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>FileStructure</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>A single entity by file avoids compilation or synthesis ordering problems. It improves search for the file including a specific entity.</hb:Rationale>
+			<hb:ShortDesc>Each source file contains only one VHDL entity.</hb:ShortDesc>
+			<hb:LongDesc>No additional information.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc></hb:GoodExDesc>
+			<hb:GoodExample ></hb:GoodExample>
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample ></hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_01100">
+		<hb:RuleUID>STD_01100</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2017-11-24 : Sonarqube
+				V4 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -530,15 +579,16 @@ Moreover, changing a signal name which is not altered makes the understanding of
 	<hb:Rule UID="STD_01200">
 		<hb:RuleUID>STD_01200</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V4 : 2017-11-24 : Sonarqube
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -574,16 +624,17 @@ Moreover, changing a signal name which is not altered makes the understanding of
 	<hb:Rule UID="STD_01300">
 		<hb:RuleUID>STD_01300</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2015-02-17 : Rationale
 				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V5 : 2017-11-24 : Sonarqube
+				V6 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -663,24 +714,22 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:Figure />
 		</hb:RuleDesc>
 
-	</hb:Rule>
-	<hb:Rule UID="STD_01000">
-		<hb:RuleUID>STD_01000</hb:RuleUID>
+	</hb:Rule><hb:Rule UID="STD_01500">
+		<hb:RuleUID>STD_01500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>3</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2017-11-24</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Rationale
-				V4 : 2017-11-24 : Sonarqube
+				V2 : 2014-12-01 : Technology ; LongDesc
+				V3 : 2017-11-24 : Sonarqube
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
-			<hb:Name>Number of entities per file</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
+			<hb:Name>Entity ports convention</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
 			<hb:IsSon>false</hb:IsSon>
 			<hb:ParentUID xsi:nil="true" />
 			<hb:Technology>VLSI</hb:Technology>
@@ -688,9 +737,9 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:Category>Formatting</hb:Category>
 			<hb:SubCategory>FileStructure</hb:SubCategory>
 			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>A single entity by file avoids compilation or synthesis ordering problems. It improves search for the file including a specific entity.</hb:Rationale>
-			<hb:ShortDesc>Each source file contains only one VHDL entity.</hb:ShortDesc>
-			<hb:LongDesc>No additional information.</hb:LongDesc>
+			<hb:Rationale>Ports declaration strategy allows readability and reuse.</hb:Rationale>
+			<hb:ShortDesc>Entity ports are organized with a dedicated convention.</hb:ShortDesc>
+			<hb:LongDesc>This convention deals with the way the ports of an entity are sorted: by direction, interface, special signals...</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
 			<hb:SonarType>TBD</hb:SonarType>
@@ -700,15 +749,149 @@ This rule does not apply to instantiations made within IP cores would they be co
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample ></hb:GoodExample>
+			<hb:GoodExample />
 			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample ></hb:BadExample>
-			<hb:FigureDesc />
+			<hb:BadExample />
+			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
+
 	
-	<hb:Rule UID="STD_01900">
+	<hb:Rule UID="STD_01600">
+		<hb:RuleUID>STD_01600</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology
+				V3 : 2015-02-17 : Severity
+				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V5 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Entity port sort</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>true</hb:IsSon>
+			<hb:ParentUID>STD_01500</hb:ParentUID>
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>FileStructure</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Ports grouped by external interfaces improves readability.</hb:Rationale>
+			<hb:ShortDesc>Entity ports are organized by interface.</hb:ShortDesc>
+			<hb:LongDesc>Entity ports are grouped by external interfaces.
+Within an interface group, ports could then be sorted by direction (input, output, bidirectional).</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_01600_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_01600_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_01600_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_01600_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+
+	</hb:Rule><hb:Rule UID="STD_01700">
+		<hb:RuleUID>STD_01700</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale
+				V3 : 2015-02-17 : Severity
+				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V5 : 2017-11-24 : Sonarqube
+				V6 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Entity special ports</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>true</hb:IsSon>
+			<hb:ParentUID>STD_01500</hb:ParentUID>
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>FileStructure</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>These special signals are important for the understanding of the module functionalities. Thus gathering them at the beginning of an entity improves readability.</hb:Rationale>
+			<hb:ShortDesc>Special ports are the first group of an entity.</hb:ShortDesc>
+			<hb:LongDesc>Special input ports like clock(s), reset and global enable are the first to be written in an entity.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_01700_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_01700_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_01700_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_01700_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_01800">
+		<hb:RuleUID>STD_01800</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Name ; ShortDesc
+				V3 : 2015-02-17 : Name ; ShortDesc
+				V4 : 2017-11-24 : Sonarqube ; Status
+				V5 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Primitive isolation</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Formatting</hb:Category>
+			<hb:SubCategory>FileStructure</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Specific or primitive IP cores are technology dependent. Isolating these IP improves technology retargeting.</hb:Rationale>
+			<hb:ShortDesc>Primitive are isolated in a wrapper entity defined in a dedicated VHDL file.</hb:ShortDesc>
+			<hb:LongDesc>When an IP core is used (memory inference/instantiation, primitives instantiations like PLLs, etc), then the generated HDL code is manufacturer/technology specific.
+It is best practice to separate this code from the general HDL code, which is not specific to the manufacturer/technology, by creating a	more generic wrapper which contains all those specific HDL codes.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_01900">
 		<hb:RuleUID>STD_01900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -796,184 +979,12 @@ This rule does not apply to instantiations made within IP cores would they be co
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_01500">
-		<hb:RuleUID>STD_01500</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; LongDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Entity ports convention</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>FileStructure</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Ports declaration strategy allows readability and reuse.</hb:Rationale>
-			<hb:ShortDesc>Entity ports are organized with a dedicated convention.</hb:ShortDesc>
-			<hb:LongDesc>This convention deals with the way the ports of an entity are sorted: by direction, interface, special signals...</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample />
-			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample />
-			<hb:FigureDesc ></hb:FigureDesc>
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_01600">
-		<hb:RuleUID>STD_01600</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Entity port sort</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>true</hb:IsSon>
-			<hb:ParentUID>STD_01500</hb:ParentUID>
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>FileStructure</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Ports grouped by external interfaces improves readability.</hb:Rationale>
-			<hb:ShortDesc>Entity ports are organized by interface.</hb:ShortDesc>
-			<hb:LongDesc>Entity ports are grouped by external interfaces.
-Within an interface group, ports could then be sorted by direction (input, output, bidirectional).</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_01600_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_01600_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_01600_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_01600_bad</hb:BadExample>
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-
-	</hb:Rule>
-	<hb:Rule UID="STD_01700">
-		<hb:RuleUID>STD_01700</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Entity special ports</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>true</hb:IsSon>
-			<hb:ParentUID>STD_01500</hb:ParentUID>
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>FileStructure</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>These special signals are important for the understanding of the module functionalities. Thus gathering them at the beginning of an entity improves readability.</hb:Rationale>
-			<hb:ShortDesc>Special ports are the first group of an entity.</hb:ShortDesc>
-			<hb:LongDesc>Special input ports like clock(s), reset and global enable are the first to be written in an entity.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_01700_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_01700_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_01700_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_01700_bad</hb:BadExample>
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_01800">
-		<hb:RuleUID>STD_01800</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; ShortDesc
-				V3 : 2015-02-17 : Name ; ShortDesc
-				V4 : 2017-11-24 : Sonarqube ; Status
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Primitive isolation</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Formatting</hb:Category>
-			<hb:SubCategory>FileStructure</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Specific or primitive IP cores are technology dependent. Isolating these IP improves technology retargeting.</hb:Rationale>
-			<hb:ShortDesc>Primitive are isolated in a wrapper entity defined in a dedicated VHDL file.</hb:ShortDesc>
-			<hb:LongDesc>When an IP core is used (memory inference/instantiation, primitives instantiations like PLLs, etc), then the generated HDL code is manufacturer/technology specific.
-It is best practice to separate this code from the general HDL code, which is not specific to the manufacturer/technology, by creating a	more generic wrapper which contains all those specific HDL codes.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>Code_Smell</hb:SonarType>
-			<hb:SonarSeverity>Major</hb:SonarSeverity>
-			<hb:RemediationEffort>High</hb:RemediationEffort>
-			<hb:SonarTag>Bad-practice</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
+	
+	
+	
+	
 	
 	<hb:Rule UID="STD_02100">
 		<hb:RuleUID>STD_02100</hb:RuleUID>
@@ -1003,52 +1014,6 @@ It is best practice to separate this code from the general HDL code, which is no
 Moreover, some tools do not handle well too many characters per lines.</hb:Rationale>
 			<hb:ShortDesc>Hand coded VHDL source files are limited in size.</hb:ShortDesc>
 			<hb:LongDesc>File limitation strategy might be implemented with a limit of lines, name characters, entity's names length, compact signal name, etc. </hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_02300">
-		<hb:RuleUID>STD_02300</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : IsParent ; IsSon ; ParentUID ; Technology
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Copyright information in the header of file</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Traceability</hb:Category>
-			<hb:SubCategory>Versioning</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>These information ensure that the VHDL file is not reused or disclosed if it is not allowed.</hb:Rationale>
-			<hb:ShortDesc>Header of the file includes copyright information.</hb:ShortDesc>
-			<hb:LongDesc>The copyright information includes:
-			  - A license restriction (if needed),
-			  - The name of the company owning the rights,
-			  - The VHDL designer company if the design is subcontracted.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
 			<hb:SonarType>TBD</hb:SonarType>
@@ -1114,13 +1079,184 @@ Large VHDL project could use version control software (like SVN). If this is the
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_02200_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_02200_good</hb:GoodExample>
+			<hb:GoodExample>STD_02200_good</hb:GoodExample>
 			<hb:BadExDesc>Extracted from STD_02200_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_02200_bad</hb:BadExample>
+			<hb:BadExample>STD_02200_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_02300">
+		<hb:RuleUID>STD_02300</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>3</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : IsParent ; IsSon ; ParentUID ; Technology
+				V3 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Copyright information in the header of file</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Traceability</hb:Category>
+			<hb:SubCategory>Versioning</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>These information ensure that the VHDL file is not reused or disclosed if it is not allowed.</hb:Rationale>
+			<hb:ShortDesc>Header of the file includes copyright information.</hb:ShortDesc>
+			<hb:LongDesc>The copyright information includes:
+			  - A license restriction (if needed),
+			  - The name of the company owning the rights,
+			  - The VHDL designer company if the design is subcontracted.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_02400">
+		<hb:RuleUID>STD_02400</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>3</hb:Version>
+			<hb:Creation>2014-12-01</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2015-02-17 : Severity
+				V3 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Creation information in the header of the file</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Traceability</hb:Category>
+			<hb:SubCategory>Versioning</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>A common header format which gathers all important information for each HDL file improves the understanding of VHDL background context of the developed module.</hb:Rationale>
+			<hb:ShortDesc>HDL file includes a header with specific information.</hb:ShortDesc>
+			<hb:LongDesc>Typical information that can be included in the header are: file name, author, creation date, project name, software context.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_02500">
+		<hb:RuleUID>STD_02500</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>2</hb:Version>
+			<hb:Creation>2014-12-01</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-12-01 : Creation
+				V2 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Functional information in the header of file</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Traceability</hb:Category>
+			<hb:SubCategory>Versioning</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Functional information in the file header improves understanding of the code function while reviewing or reusing it.</hb:Rationale>
+			<hb:ShortDesc>Header of file includes information about code functionality.</hb:ShortDesc>
+			<hb:LongDesc>Functional description could be, for example, a short description of the file functions, its limitations or a description of the naming convention used.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_02600">
+		<hb:RuleUID>STD_02600</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology
+				V3 : 2015-02-17 : Severity ; LongDesc
+				V4 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>IEEE libraries preference</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Traceability</hb:Category>
+			<hb:SubCategory>Reuse</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Using libraries standardized by the IEEE improves code portability.
+"std_logic_arith", "std_logic_signed" and "std_logic_unsigned" libraries are not standardized.</hb:Rationale>
+			<hb:ShortDesc>Use the following IEEE libraries : "std_logic_1164" and "numeric_std"</hb:ShortDesc>
+			<hb:LongDesc>Do not use deprecated Synopsys libraries "std_logic_arith", "std_logic_signed" and "std_logic_unsigned" except if you are targeting specifically a Synopsys synthesizer (like for an ASIC for instance).
+Nevertheless, never mix these two library families.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
+	
+	
 	
 	<hb:Rule UID="STD_02700">
 		<hb:RuleUID>STD_02700</hb:RuleUID>
@@ -1300,51 +1436,7 @@ Large VHDL project could use version control software (like SVN). If this is the
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_02600">
-		<hb:RuleUID>STD_02600</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity ; LongDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>IEEE libraries preference</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Traceability</hb:Category>
-			<hb:SubCategory>Reuse</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Using libraries standardized by the IEEE improves code portability.
-"std_logic_arith", "std_logic_signed" and "std_logic_unsigned" libraries are not standardized.</hb:Rationale>
-			<hb:ShortDesc>Use the following IEEE libraries : "std_logic_1164" and "numeric_std"</hb:ShortDesc>
-			<hb:LongDesc>Do not use deprecated Synopsys libraries "std_logic_arith", "std_logic_signed" and "std_logic_unsigned" except if you are targeting specifically a Synopsys synthesizer (like for an ASIC for instance).
-Nevertheless, never mix these two library families.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
+	
 	
 	<hb:Rule UID="STD_03100">
 		<hb:RuleUID>STD_03100</hb:RuleUID>
@@ -1570,16 +1662,17 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 	<hb:Rule UID="STD_03600">
 		<hb:RuleUID>STD_03600</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Rationale ; LongDesc
 				V3 : 2015-02-17 : Rationale
 				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V5 : 2017-11-24 : Sonarqube ; Status
+				V6 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -1615,10 +1708,10 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 	<hb:Rule UID="STD_03700">
 		<hb:RuleUID>STD_03700</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>6</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>7</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology ; Name ; Rationale ; ShortDesc ; LongDesc
@@ -1626,6 +1719,7 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 				V4 : 2015-07-16 : GoodExample ; GoodExDesc
 				V5 : 2015-11-18 : Rationale
 				V6 : 2017-11-24 : Sonarqube ; Status
+				V7 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -1666,16 +1760,17 @@ Doing so, if there is a glitch on the external reset, it will produce an interna
 	<hb:Rule UID="STD_03800">
 		<hb:RuleUID>STD_03800</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology ; Rationale ; ShortDesc
 				V3 : 2015-02-17 : Technology
 				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V5 : 2017-11-24 : Sonarqube ; Status
+				V6 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -1809,51 +1904,6 @@ Benefits of changing resets to synchronous :
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_04800">
-		<hb:RuleUID>STD_04800</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Severity ; Rationale
-				V3 : 2017-11-24 : Sonarqube ; Status
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Clock edge sensitivity</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>FPGA</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Clocking</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Usage of a single clock sensitive edge allows efficient timing analysis.
-				Using only one edge of a clock allows to avoid over-constraining static timing analysis. Moreover, the design isn't duty cycle sensitive.
-			</hb:Rationale>
-			<hb:ShortDesc>An unique single sensitive edge is used to clock all flip-flop in the same clock domain.</hb:ShortDesc>
-			<hb:LongDesc>No additional information.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>Code_Smell</hb:SonarType>
-			<hb:SonarSeverity>Critical</hb:SonarSeverity>
-			<hb:RemediationEffort>Complex</hb:RemediationEffort>
-			<hb:SonarTag>Design</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample />
-			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
-	
 	<hb:Rule UID="STD_04100">
 		<hb:RuleUID>STD_04100</hb:RuleUID>
 		<hb:RuleHist>
@@ -1897,9 +1947,7 @@ The use of a validated clock domain change mechanism reduces the risk of discrep
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_04200">
+	</hb:Rule><hb:Rule UID="STD_04200">
 		<hb:RuleUID>STD_04200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -1946,16 +1994,13 @@ The sender should not assert a new "transmit request" until the acknowledgement 
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04200_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_04200_good</hb:GoodExample>
+			<hb:GoodExample>STD_04200_good</hb:GoodExample>
 			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample ></hb:BadExample>
+			<hb:BadExample></hb:BadExample>
 			<hb:FigureDesc></hb:FigureDesc>
-			<hb:Figure fileref="STD_04200.svg" height="450px"
-				width="450px" ></hb:Figure>
+			<hb:Figure fileref="STD_04200.svg" height="450px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_04300">
+	</hb:Rule><hb:Rule UID="STD_04300">
 		<hb:RuleUID>STD_04300</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -2011,12 +2056,9 @@ Here is a list of possible assertion checks for a FIFO design:
 			<hb:BadExDesc />
 			<hb:BadExample />
 			<hb:FigureDesc></hb:FigureDesc>
-			<hb:Figure fileref="STD_04300.svg" height="250px"
-				width="450px" />
+			<hb:Figure fileref="STD_04300.svg" height="250px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_04400">
+	</hb:Rule><hb:Rule UID="STD_04400">
 		<hb:RuleUID>STD_04400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -2053,27 +2095,68 @@ Such a practice isolates all vendor-specific clocking	elements such as PLLs, clo
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample ></hb:GoodExample>
+			<hb:GoodExample></hb:GoodExample>
 			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample ></hb:BadExample>
+			<hb:BadExample></hb:BadExample>
 			<hb:FigureDesc></hb:FigureDesc>
-			<hb:Figure fileref="STD_04400.svg" height="400px"
-				width="450px" />
+			<hb:Figure fileref="STD_04400.svg" height="400px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_04600">
+	</hb:Rule><hb:Rule UID="STD_04500">
+		<hb:RuleUID>STD_04500</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2015-02-17</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2015-02-17 : Creation
+				V2 : 2015-07-16 : Name ; GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V3 : 2017-11-24 : Sonarqube ; Status
+				V4 : 2019-09-23 : Rationale
+				V5 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Unsuitability of Clock Reassignment</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Clocking</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Reassignement of clock signal can lead to simulation mismatch regarding the Place and Route design. Search for simulation and delta cycle topic.</hb:Rationale>
+			<hb:ShortDesc>Do not reassign a clock in a concurrent statement.</hb:ShortDesc>
+			<hb:LongDesc>No additional information.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
+			<hb:SonarTag>Bug</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_04500_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_04500_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_04500_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_04500_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_04600">
 		<hb:RuleUID>STD_04600</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2015-02-17 : FigureDesc
 				V3 : 2015-07-16 : Figure
 				V4 : 2017-11-24 : Sonarqube ; Status
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -2106,8 +2189,7 @@ When a faster clock version is needed, promote that faster clock as the single c
 			<hb:BadExDesc></hb:BadExDesc>
 			<hb:BadExample />
 			<hb:FigureDesc />
-			<hb:Figure fileref="STD_04600.svg" height="450px"
-				width="450px" />
+			<hb:Figure fileref="STD_04600.svg" height="450px" width="450px" />
 		</hb:RuleDesc>
 		<hb:RuleParams>
 			<hb:IntParam>
@@ -2117,19 +2199,19 @@ When a faster clock version is needed, promote that faster clock as the single c
 			</hb:IntParam>
 		</hb:RuleParams>
 	</hb:Rule>
-	
 	<hb:Rule UID="STD_04700">
 		<hb:RuleUID>STD_04700</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : LongDesc
 				V3 : 2015-02-17 : FigureDesc
 				V4 : 2017-11-24 : Sonarqube ; Status
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -2169,20 +2251,110 @@ Other modules can include different clocks but the data exchange between them is
 				<hb:Value>1</hb:Value>
 			</hb:IntParam>
 		</hb:RuleParams>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_05000">
-		<hb:RuleUID>STD_05000</hb:RuleUID>
+	</hb:Rule><hb:Rule UID="STD_04800">
+		<hb:RuleUID>STD_04800</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
+			<hb:Status>Implemented</hb:Status>
 			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Severity ; Rationale
+				V3 : 2017-11-24 : Sonarqube ; Status
+				V4 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Clock edge sensitivity</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>FPGA</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Clocking</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Usage of a single clock sensitive edge allows efficient timing analysis.
+				Using only one edge of a clock allows to avoid over-constraining static timing analysis. Moreover, the design isn't duty cycle sensitive.
+			</hb:Rationale>
+			<hb:ShortDesc>An unique single sensitive edge is used to clock all flip-flop in the same clock domain.</hb:ShortDesc>
+			<hb:LongDesc>No additional information.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc></hb:GoodExDesc>
+			<hb:GoodExample />
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04900">
+		<hb:RuleUID>STD_04900</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Severity
+				V3 : 2015-02-17 : Figure
+				V4 : 2015-07-16 : GoodExample ; GoodExDesc
+				V5 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Edge detection best practice</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Synchronous</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Flip-Flops clock input is dedicated to a clock signal. Thus, using it as a way to detect a signal edge (by using rising_edge(...) or 'event attribute) may lead to the creation of a new clock domain for each signal edge detection implemented in the design: this is not the purpose.</hb:Rationale>
+			<hb:ShortDesc>Synchronous mechanisms are used for signal edge detection.</hb:ShortDesc>
+			<hb:LongDesc>A specific mechanism is used in order to detect rising or falling edge input signal.
+This mechanism involves a real design clock, at least one D Flip-Flop to delay the signal, and combinational gate(s) to select the edge.
+			</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_04900_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_04900_good</hb:GoodExample>
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample></hb:BadExample>
+			<hb:FigureDesc></hb:FigureDesc>
+			<hb:Figure fileref="STD_04900.svg" height="450px" width="480px" />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_05000">
+		<hb:RuleUID>STD_05000</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V4 : 2017-11-24 : Sonarqube ; Status
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -2265,53 +2437,7 @@ signals generated without clock and signals generated in another time domain.</h
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_04900">
-		<hb:RuleUID>STD_04900</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Edge detection best practice</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Synchronous</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Flip-Flops clock input is dedicated to a clock signal. Thus, using it as a way to detect a signal edge (by using rising_edge(...) or 'event attribute) may lead to the creation of a new clock domain for each signal edge detection implemented in the design: this is not the purpose.</hb:Rationale>
-			<hb:ShortDesc>Synchronous mechanisms are used for signal edge detection.</hb:ShortDesc>
-			<hb:LongDesc>A specific mechanism is used in order to detect rising or falling edge input signal.
-This mechanism involves a real design clock, at least one D Flip-Flop to delay the signal, and combinational gate(s) to select the edge.
-			</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_04900_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_04900_good</hb:GoodExample>
-			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample ></hb:BadExample>
-			<hb:FigureDesc></hb:FigureDesc>
-			<hb:Figure fileref="STD_04900.svg" height="450px"
-				width="480px" />
-		</hb:RuleDesc>
-	</hb:Rule>
+	
 	
 	<hb:Rule UID="STD_05200">
 		<hb:RuleUID>STD_05200</hb:RuleUID>
@@ -2365,16 +2491,17 @@ Unless specified and approved, a combinational signal is never used directly as 
 	<hb:Rule UID="STD_05300">
 		<hb:RuleUID>STD_05300</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2015-02-17 : Rationale ; Figure
 				V4 : 2015-07-16 : Figure
 				V5 : 2017-11-24 : Sonarqube ; Status
+				V6 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -2405,6 +2532,50 @@ Unless specified and approved, a combinational signal is never used directly as 
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure fileref="STD_05300.svg" height="450px"
 				width="450px" />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_05400">
+		<hb:RuleUID>STD_05400</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Severity ; Rationale ; ShortDesc
+				V3 : 2015-02-17 : Rationale ; ShortDesc ; Figure
+				V4 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Unsuitability of internal tristate</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Combinational</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Best design practices call for design reuse. Inferring internal tristate goes against it as not every FPGA and every ASIC include this functionality.
+For that reason, it is prohibited.</hb:Rationale>
+			<hb:ShortDesc>Internal tristates drivers are forbidden in VLSI.</hb:ShortDesc>
+			<hb:LongDesc>When an internal tristate solution would satisfy the functionality to model, use a multiplexer-based solution instead.
+Do not hesitate to pipeline the structure according to the targeted clock frequency and targeted technology.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc></hb:GoodExDesc>
+			<hb:GoodExample></hb:GoodExample>
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample></hb:BadExample>
+			<hb:FigureDesc></hb:FigureDesc>
+			<hb:Figure fileref="STD_05400.svg" height="400px" width="450px" />
 		</hb:RuleDesc>
 	</hb:Rule>
 	
@@ -2547,37 +2718,33 @@ When the synthesis reports that a gated clock was created, turn off the synthesi
 			<hb:Figure fileref="STD_05700.svg" height="300px"
 				width="450px" ></hb:Figure>
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_05400">
-		<hb:RuleUID>STD_05400</hb:RuleUID>
+	</hb:Rule><hb:Rule UID="STD_05800">
+		<hb:RuleUID>STD_05800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>3</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2017-11-24</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; Rationale ; ShortDesc
-				V3 : 2015-02-17 : Rationale ; ShortDesc ; Figure
-				V4 : 2017-11-24 : Sonarqube
+				V2 : 2014-12-01 : Name ; Technology ; Rationale; LongDesc
+				V3 : 2017-11-24 : Sonarqube
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
-			<hb:Name>Unsuitability of internal tristate</hb:Name>
+			<hb:Name>Use of VHDL types in RTL design</hb:Name>
 			<hb:IsParent>false</hb:IsParent>
 			<hb:IsSon>false</hb:IsSon>
 			<hb:ParentUID xsi:nil="true" />
 			<hb:Technology>VLSI</hb:Technology>
 			<hb:ApplicationFields>General</hb:ApplicationFields>
 			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Combinational</hb:SubCategory>
+			<hb:SubCategory>Type</hb:SubCategory>
 			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Best design practices call for design reuse. Inferring internal tristate goes against it as not every FPGA and every ASIC include this functionality.
-For that reason, it is prohibited.</hb:Rationale>
-			<hb:ShortDesc>Internal tristates drivers are forbidden in VLSI.</hb:ShortDesc>
-			<hb:LongDesc>When an internal tristate solution would satisfy the functionality to model, use a multiplexer-based solution instead.
-Do not hesitate to pipeline the structure according to the targeted clock frequency and targeted technology.</hb:LongDesc>
+			<hb:Rationale>VHDL language provides many different types. These types do not all have a physical match with a physical component. Some of them are only used in simulation.</hb:Rationale>
+			<hb:ShortDesc>Only synthesizable types are allowed in RTL design.</hb:ShortDesc>
+			<hb:LongDesc>Only the following types are allowed for RTL design : std_logic, std_logic_vector, integer, signed, unsigned and record/array of those.
+Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
 			<hb:SonarType>TBD</hb:SonarType>
@@ -2587,27 +2754,29 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample ></hb:GoodExample>
+			<hb:GoodExample />
 			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample ></hb:BadExample>
-			<hb:FigureDesc></hb:FigureDesc>
-			<hb:Figure fileref="STD_05400.svg" height="400px"
-				width="450px" />
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
+	
+	
 	
 	<hb:Rule UID="STD_05900">
 		<hb:RuleUID>STD_05900</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Modified>2020-04-23</hb:Modified>
 			<hb:Revision>
 				V1 : 2014-09-30 : Creation
 				V2 : 2014-12-01 : Technology
 				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
 				V4 : 2017-11-24 : Sonarqube
+				V5 : 2020-04-23 : Status
 			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
@@ -2729,92 +2898,9 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_05800">
-		<hb:RuleUID>STD_05800</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Name ; Technology ; Rationale; LongDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Use of VHDL types in RTL design</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Type</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>VHDL language provides many different types. These types do not all have a physical match with a physical component. Some of them are only used in simulation.</hb:Rationale>
-			<hb:ShortDesc>Only synthesizable types are allowed in RTL design.</hb:ShortDesc>
-			<hb:LongDesc>Only the following types are allowed for RTL design : std_logic, std_logic_vector, integer, signed, unsigned and record/array of those.
-Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample />
-			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_06300">
-		<hb:RuleUID>STD_06300</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Unsuitability of variables in RTL design</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Type</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>VHDL signal is the object used to describe an electrical wire connection or a register. VHDL signal is the way to have a communication between VHDL processes, whereas variable were meant to store a value inside a VHDL process. A variable is assigned without any delay whereas signal assignment lead to an event after a delta delay. This difference can induce design errors or simulation and synthesis mismatch</hb:Rationale>
-			<hb:ShortDesc>Variables are prohibited in the RTL design.</hb:ShortDesc>
-			<hb:LongDesc>Only signal type is allowed in RTL design.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc></hb:GoodExDesc>
-			<hb:GoodExample />
-			<hb:BadExDesc></hb:BadExDesc>
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
+	
+	
 	
 	<hb:Rule UID="STD_06200">
 		<hb:RuleUID>STD_06200</hb:RuleUID>
@@ -2860,7 +2946,49 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_06400">
+	<hb:Rule UID="STD_06300">
+		<hb:RuleUID>STD_06300</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Severity
+				V3 : 2017-11-24 : Sonarqube
+				V4 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Unsuitability of variables in RTL design</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Type</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>VHDL signal is the object used to describe an electrical wire connection or a register. VHDL signal is the way to have a communication between VHDL processes, whereas variable were meant to store a value inside a VHDL process. A variable is assigned without any delay whereas signal assignment lead to an event after a delta delay. This difference can induce design errors or simulation and synthesis mismatch</hb:Rationale>
+			<hb:ShortDesc>Variables are prohibited in the RTL design.</hb:ShortDesc>
+			<hb:LongDesc>Only signal type is allowed in RTL design.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc></hb:GoodExDesc>
+			<hb:GoodExample />
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample />
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_06400">
 		<hb:RuleUID>STD_06400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -2949,7 +3077,48 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_06700">
+	<hb:Rule UID="STD_06600">
+		<hb:RuleUID>STD_06600</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>3</hb:Version>
+			<hb:Creation>2015-02-17</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2015-02-17 : Creation
+				V2 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V3 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Dimension of comparison elements</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Reliability</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Comparison of two std_logic_vector signal of different size can lead to unexpected result.</hb:Rationale>
+			<hb:ShortDesc>Two comparison elements must have the same type and dimension.</hb:ShortDesc>
+			<hb:LongDesc>Using of unsigned or signed type to insure comparison between two elements is a best practice.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_06600_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_06600_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_06600_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_06600_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_06700">
 		<hb:RuleUID>STD_06700</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -2993,7 +3162,51 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_06900">
+	<hb:Rule UID="STD_06800">
+		<hb:RuleUID>STD_06800</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Version>5</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale
+				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V4 : 2017-11-24 : Sonarqube 
+				V5 : 2020-04-23 : Status
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Unsuitability of signal initialization in declaration
+				section</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Design</hb:Category>
+			<hb:SubCategory>Miscellaneous</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Signals default value, in declaration section, is usually not synthesizable.</hb:Rationale>
+			<hb:ShortDesc>Signals are never initialized to a default value when declared.</hb:ShortDesc>
+			<hb:LongDesc>Signals are not initialized to a default value in declaration level but only during a reset sequence.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_06800_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_06800_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_06800_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_06800_bad</hb:BadExample>
+			<hb:FigureDesc></hb:FigureDesc>
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_06900">
 		<hb:RuleUID>STD_06900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -3036,35 +3249,31 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule>
-	
-	<hb:Rule UID="STD_06800">
-		<hb:RuleUID>STD_06800</hb:RuleUID>
+	</hb:Rule><hb:Rule UID="STD_07000">
+		<hb:RuleUID>STD_07000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Version>2</hb:Version>
+			<hb:Creation>2015-02-17</hb:Creation>
 			<hb:Modified>2017-11-24</hb:Modified>
 			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc</hb:Revision>
-				V4 : 2017-11-24 : Sonarqube
+				V1 : 2015-02-17 : Creation
+				V2 : 2017-11-24 : Sonarqube
+			</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
-			<hb:Name>Unsuitability of signal initialization in declaration
-				section</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
+			<hb:Name>Maximum depths of nested objects</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
 			<hb:IsSon>false</hb:IsSon>
 			<hb:ParentUID xsi:nil="true" />
 			<hb:Technology>VLSI</hb:Technology>
 			<hb:ApplicationFields>General</hb:ApplicationFields>
 			<hb:Category>Design</hb:Category>
 			<hb:SubCategory>Miscellaneous</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Signals default value, in declaration section, is usually not synthesizable.</hb:Rationale>
-			<hb:ShortDesc>Signals are never initialized to a default value when declared.</hb:ShortDesc>
-			<hb:LongDesc>Signals are not initialized to a default value in declaration level but only during a reset sequence.</hb:LongDesc>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Nested objects limited in depth improves understanding of project and keep modules less complicated.</hb:Rationale>
+			<hb:ShortDesc>Nested VHDL objects are limited in depth.</hb:ShortDesc>
+			<hb:LongDesc>The depth of nested objects (entities, packages, dimensions) should be kept limited.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
 			<hb:SonarType>TBD</hb:SonarType>
@@ -3073,16 +3282,60 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:SonarTag>TBD</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_06800_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_06800_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_06800_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_06800_bad</hb:BadExample>
-			<hb:FigureDesc ></hb:FigureDesc>
+			<hb:GoodExDesc />
+			<hb:GoodExample />
+			<hb:BadExDesc />
+			<hb:BadExample />
+			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_07200">
+	
+	
+	<hb:Rule UID="STD_07100">
+		<hb:RuleUID>STD_07100</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Version>4</hb:Version>
+			<hb:Creation>2014-09-30</hb:Creation>
+			<hb:Modified>2017-11-24</hb:Modified>
+			<hb:Revision>
+				V1 : 2014-09-30 : Creation
+				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
+				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
+				V4 : 2017-11-24 : Sonarqube
+			</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Simulation ending</hb:Name>
+			<hb:IsParent>false</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Simulation</hb:Category>
+			<hb:SubCategory>Miscellaneous</hb:SubCategory>
+			<hb:Severity>Major</hb:Severity>
+			<hb:Rationale>Limited duration for testbenches avoid useless simulation runs (beyond stimulus range) thus freeing machine resources for other designers. This allows the automatic sequencing of testbenches (during non regression tests for instance).</hb:Rationale>
+			<hb:ShortDesc>The simulation duration is terminated by an automatic mechanism.</hb:ShortDesc>
+			<hb:LongDesc>The simulation stop automatically without any human action in the simulator. This can be done by external scripts, event starvation (like freezing the main clocks) in the testbench.</hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>TBD</hb:SonarType>
+			<hb:SonarSeverity>TBD</hb:SonarSeverity>
+			<hb:RemediationEffort>TBD</hb:RemediationEffort>
+			<hb:SonarTag>TBD</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc>Extracted from STD_07100_good.vhd</hb:GoodExDesc>
+			<hb:GoodExample>STD_07100_good</hb:GoodExample>
+			<hb:BadExDesc>Extracted from STD_07100_bad.vhd</hb:BadExDesc>
+			<hb:BadExample>STD_07100_bad</hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule><hb:Rule UID="STD_07200">
 		<hb:RuleUID>STD_07200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
@@ -3173,263 +3426,17 @@ The testbench instructions inside a process are then sequential which is coheren
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	<hb:Rule UID="STD_07100">
-		<hb:RuleUID>STD_07100</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
-			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Simulation ending</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Simulation</hb:Category>
-			<hb:SubCategory>Miscellaneous</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Limited duration for testbenches avoid useless simulation runs (beyond stimulus range) thus freeing machine resources for other designers. This allows the automatic sequencing of testbenches (during non regression tests for instance).</hb:Rationale>
-			<hb:ShortDesc>The simulation duration is terminated by an automatic mechanism.</hb:ShortDesc>
-			<hb:LongDesc>The simulation stop automatically without any human action in the simulator. This can be done by external scripts, event starvation (like freezing the main clocks) in the testbench.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_07100_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_07100_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_07100_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_07100_bad</hb:BadExample>
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_02400">
-		<hb:RuleUID>STD_02400</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2014-12-01</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2015-02-17 : Severity
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Creation information in the header of the file</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Traceability</hb:Category>
-			<hb:SubCategory>Versioning</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>A common header format which gathers all important information for each HDL file improves the understanding of VHDL background context of the developed module.</hb:Rationale>
-			<hb:ShortDesc>HDL file includes a header with specific information.</hb:ShortDesc>
-			<hb:LongDesc>Typical information that can be included in the header are: file name, author, creation date, project name, software context.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_02500">
-		<hb:RuleUID>STD_02500</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>2</hb:Version>
-			<hb:Creation>2014-12-01</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-12-01 : Creation
-				V2 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Functional information in the header of file</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Traceability</hb:Category>
-			<hb:SubCategory>Versioning</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Functional information in the file header improves understanding of the code function while reviewing or reusing it.</hb:Rationale>
-			<hb:ShortDesc>Header of file includes information about code functionality.</hb:ShortDesc>
-			<hb:LongDesc>Functional description could be, for example, a short description of the file functions, its limitations or a description of the naming convention used.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_04500">
-		<hb:RuleUID>STD_04500</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Active</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2015-02-17</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2015-07-16 : Name ; GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V3 : 2017-11-24 : Sonarqube ; Status
-				V4 : 2019-09-23 : Rationale
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Unsuitability of Clock Reassignment</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Clocking</hb:SubCategory>
-			<hb:Severity>Major</hb:Severity>
-			<hb:Rationale>Reassignement of clock signal can lead to simulation mismatch regarding the Place and Route design. Search for simulation and delta cycle topic.</hb:Rationale>
-			<hb:ShortDesc>Do not reassign a clock in a concurrent statement.</hb:ShortDesc>
-			<hb:LongDesc>No additional information.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>Bug</hb:SonarType>
-			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
-			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
-			<hb:SonarTag>Bug</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_04500_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_04500_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_04500_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_04500_bad</hb:BadExample>
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_06600">
-		<hb:RuleUID>STD_06600</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
-			<hb:Creation>2015-02-17</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Dimension of comparison elements</hb:Name>
-			<hb:IsParent>false</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Reliability</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Comparison of two std_logic_vector signal of different size can lead to unexpected result.</hb:Rationale>
-			<hb:ShortDesc>Two comparison elements must have the same type and dimension.</hb:ShortDesc>
-			<hb:LongDesc>Using of unsigned or signed type to insure comparison between two elements is a best practice.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc>Extracted from STD_06600_good.vhd</hb:GoodExDesc>
-			<hb:GoodExample >STD_06600_good</hb:GoodExample>
-			<hb:BadExDesc>Extracted from STD_06600_bad.vhd</hb:BadExDesc>
-			<hb:BadExample >STD_06600_bad</hb:BadExample>
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
 	
-	<hb:Rule UID="STD_07000">
-		<hb:RuleUID>STD_07000</hb:RuleUID>
-		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Version>2</hb:Version>
-			<hb:Creation>2015-02-17</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2017-11-24 : Sonarqube
-			</hb:Revision>
-		</hb:RuleHist>
-		<hb:RuleContent>
-			<hb:Name>Maximum depths of nested objects</hb:Name>
-			<hb:IsParent>true</hb:IsParent>
-			<hb:IsSon>false</hb:IsSon>
-			<hb:ParentUID xsi:nil="true" />
-			<hb:Technology>VLSI</hb:Technology>
-			<hb:ApplicationFields>General</hb:ApplicationFields>
-			<hb:Category>Design</hb:Category>
-			<hb:SubCategory>Miscellaneous</hb:SubCategory>
-			<hb:Severity>Minor</hb:Severity>
-			<hb:Rationale>Nested objects limited in depth improves understanding of project and keep modules less complicated.</hb:Rationale>
-			<hb:ShortDesc>Nested VHDL objects are limited in depth.</hb:ShortDesc>
-			<hb:LongDesc>The depth of nested objects (entities, packages, dimensions) should be kept limited.</hb:LongDesc>
-		</hb:RuleContent>
-		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
-		</hb:Sonarqube>
-		<hb:RuleDesc>
-			<hb:GoodExDesc />
-			<hb:GoodExample />
-			<hb:BadExDesc />
-			<hb:BadExample />
-			<hb:FigureDesc />
-			<hb:Figure />
-		</hb:RuleDesc>
-	</hb:Rule>
+	
+	
+	
+	
+	
+	
 	
 	
 	
