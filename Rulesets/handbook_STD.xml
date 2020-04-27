@@ -2,19 +2,14 @@
 <hb:RuleSet xmlns:hb="HANDBOOK"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="HANDBOOK ../XSD/handbook.xsd ">
-
 	<hb:Rule UID="STD_00100">
 		<hb:RuleUID>STD_00100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; ShortDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>VHDL object naming convention</hb:Name>
@@ -31,10 +26,10 @@
 			<hb:LongDesc>This convention can address the naming of any VHDL objects like signals, variables, constants, generic, labels, modules, entity, etc.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -53,14 +48,7 @@
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc
-				V3 : 2015-02-17 : ShortDesc ; LongDesc ; FigureDesc
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc 
-				V5 : 2017-11-24 : Sonarqube ; Status
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Name of clock signal</hb:Name>
@@ -111,15 +99,7 @@
 			<hb:Version>7</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc
-				V3 : 2015-02-17 : ShortDesc ; FigureDesc
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2015-11-18 : LongDesc
-				V6 : 2017-11-24 : Sonarqube ; Status
-				V7 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Name of reset signal</hb:Name>
@@ -177,13 +157,7 @@ If several reset signals are used, each reset is identified with a different nam
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube ; Status
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Label for process</hb:Name>
@@ -219,14 +193,10 @@ If several reset signals are used, each reset is identified with a different nam
 		<hb:RuleUID>STD_00500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; ShortDesc ; LongDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Name of signal relation with behaviour</hb:Name>
@@ -244,10 +214,10 @@ If several reset signals are used, each reset is identified with a different nam
 For example a control signal (chip-select, write enable, read/output enable), an address, a counter, an enable, a pulse, a flag, acknowledge, ...</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Confusing</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -263,15 +233,10 @@ For example a control signal (chip-select, write enable, read/output enable), an
 		<hb:RuleUID>STD_00600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-         </hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>VHDL file extension</hb:Name>
@@ -289,10 +254,10 @@ For example a control signal (chip-select, write enable, read/output enable), an
 The extension ".vhdl" is not permitted.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -308,16 +273,10 @@ The extension ".vhdl" is not permitted.</hb:LongDesc>
 		<hb:RuleUID>STD_00700</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Deleted</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; IsParent ; Rationale ; LongDesc
-				V3 : 2015-02-17 : LongDesc
-				V4 : 2015-07-31 : Status
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Preservation of signal name</hb:Name>
@@ -337,10 +296,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 It is best practice for other signals not to change their name if they are not altered by any kind of logic.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Confusing</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -356,13 +315,10 @@ It is best practice for other signals not to change their name if they are not a
 		<hb:RuleUID>STD_00701</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>2</hb:Version>
+			<hb:Version>3</hb:Version>
 			<hb:Creation>2015-07-31</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Preservation of signal name inside an entity</hb:Name>
@@ -382,10 +338,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			It is best practice not to change signals name if they are not altered by any kind of logic. They should also keep their meaning (e.g. an enable should contain "en", a write "wr" etc.)</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -401,15 +357,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 		<hb:RuleUID>STD_00800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>File name convention</hb:Name>
@@ -426,10 +377,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -448,13 +399,7 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Severity
-				V4 : 2017-11-24 : Sonarqube
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>File name of an entity</hb:Name>
@@ -473,10 +418,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 				(Any characters)MyEntity(Any characters).vhd</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -494,13 +439,7 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Rationale
-				V4 : 2017-11-24 : Sonarqube
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Number of entities per file</hb:Name>
@@ -517,10 +456,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -539,12 +478,7 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2017-11-24 : Sonarqube
-				V4 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Number of architectures in files</hb:Name>
@@ -561,10 +495,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -583,13 +517,7 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Number of statements per line</hb:Name>
@@ -606,10 +534,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>A statement could be an affectation sequence, a conditional test, a declaration or a VHDL beginning sequence like case, process...).</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01200_good.vhd</hb:GoodExDesc>
@@ -628,14 +556,7 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Rationale
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Number of ports declaration per line</hb:Name>
@@ -652,10 +573,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01300_good.vhd</hb:GoodExDesc>
@@ -671,16 +592,10 @@ Moreover, changing a signal name which is not altered makes the understanding of
 		<hb:RuleUID>STD_01400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; LongDesc
-				V3 : 2015-02-17 : Rationale
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Instantiation of components</hb:Name>
@@ -700,10 +615,10 @@ It reduces risks of inconsistency between the entity definition and the componen
 This rule does not apply to instantiations made within IP cores would they be coming auto generated from a tool or provided by any IP core provider.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01400_good.vhd</hb:GoodExDesc>
@@ -718,14 +633,10 @@ This rule does not apply to instantiations made within IP cores would they be co
 		<hb:RuleUID>STD_01500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; LongDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Entity ports convention</hb:Name>
@@ -742,10 +653,10 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:LongDesc>This convention deals with the way the ports of an entity are sorted: by direction, interface, special signals...</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -756,22 +667,15 @@ This rule does not apply to instantiations made within IP cores would they be co
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-
 	
 	<hb:Rule UID="STD_01600">
 		<hb:RuleUID>STD_01600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Entity port sort</hb:Name>
@@ -789,10 +693,10 @@ This rule does not apply to instantiations made within IP cores would they be co
 Within an interface group, ports could then be sorted by direction (input, output, bidirectional).</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01600_good.vhd</hb:GoodExDesc>
@@ -810,14 +714,7 @@ Within an interface group, ports could then be sorted by direction (input, outpu
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Entity special ports</hb:Name>
@@ -834,10 +731,10 @@ Within an interface group, ports could then be sorted by direction (input, outpu
 			<hb:LongDesc>Special input ports like clock(s), reset and global enable are the first to be written in an entity.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01700_good.vhd</hb:GoodExDesc>
@@ -847,20 +744,16 @@ Within an interface group, ports could then be sorted by direction (input, outpu
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_01800">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_01800">
 		<hb:RuleUID>STD_01800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Implemented</hb:Status>
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; ShortDesc
-				V3 : 2015-02-17 : Name ; ShortDesc
-				V4 : 2017-11-24 : Sonarqube ; Status
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Primitive isolation</hb:Name>
@@ -891,20 +784,16 @@ It is best practice to separate this code from the general HDL code, which is no
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_01900">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_01900">
 		<hb:RuleUID>STD_01900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Indentation of source code</hb:Name>
@@ -921,10 +810,10 @@ It is best practice to separate this code from the general HDL code, which is no
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Info</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_01900_good.vhd</hb:GoodExDesc>
@@ -940,14 +829,10 @@ It is best practice to separate this code from the general HDL code, which is no
 		<hb:RuleUID>STD_02000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Indentation style</hb:Name>
@@ -964,10 +849,10 @@ It is best practice to separate this code from the general HDL code, which is no
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Trivial</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -978,27 +863,15 @@ It is best practice to separate this code from the general HDL code, which is no
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
-	
-	
-	
-	
-	
+
 	<hb:Rule UID="STD_02100">
 		<hb:RuleUID>STD_02100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Name ; Technology ; Rationale ; ShortDesc ; LongDesc
-				V3 : 2015-02-17 : Rationale
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Compactness of VHDL source code</hb:Name>
@@ -1016,10 +889,10 @@ Moreover, some tools do not handle well too many characters per lines.</hb:Ratio
 			<hb:LongDesc>File limitation strategy might be implemented with a limit of lines, name characters, entity's names length, compact signal name, etc. </hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1035,16 +908,10 @@ Moreover, some tools do not handle well too many characters per lines.</hb:Ratio
 		<hb:RuleUID>STD_02200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity ; GoodExDesc ; BadExDesc
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Version control in header of file</hb:Name>
@@ -1072,10 +939,10 @@ Understanding the last modifications allows integrator to know if a bug was corr
 Large VHDL project could use version control software (like SVN). If this is the case a tag identifying the version is also included.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_02200_good.vhd</hb:GoodExDesc>
@@ -1085,18 +952,16 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_02300">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_02300">
 		<hb:RuleUID>STD_02300</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : IsParent ; IsSon ; ParentUID ; Technology
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Copyright information in the header of file</hb:Name>
@@ -1116,10 +981,10 @@ Large VHDL project could use version control software (like SVN). If this is the
 			  - The VHDL designer company if the design is subcontracted.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Security</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1129,18 +994,16 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_02400">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_02400">
 		<hb:RuleUID>STD_02400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-12-01</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2015-02-17 : Severity
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Creation information in the header of the file</hb:Name>
@@ -1157,10 +1020,10 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:LongDesc>Typical information that can be included in the header are: file name, author, creation date, project name, software context.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1170,17 +1033,16 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_02500">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_02500">
 		<hb:RuleUID>STD_02500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>2</hb:Version>
+			<hb:Version>3</hb:Version>
 			<hb:Creation>2014-12-01</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-12-01 : Creation
-				V2 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Functional information in the header of file</hb:Name>
@@ -1197,10 +1059,10 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:LongDesc>Functional description could be, for example, a short description of the file functions, its limitations or a description of the naming convention used.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1210,19 +1072,16 @@ Large VHDL project could use version control software (like SVN). If this is the
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_02600">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_02600">
 		<hb:RuleUID>STD_02600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity ; LongDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>IEEE libraries preference</hb:Name>
@@ -1241,10 +1100,10 @@ Large VHDL project could use version control software (like SVN). If this is the
 Nevertheless, never mix these two library families.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1255,22 +1114,15 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
+
 	<hb:Rule UID="STD_02700">
 		<hb:RuleUID>STD_02700</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name
-				V3 : 2015-02-17 : Severity ; Rationale
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Default language</hb:Name>
@@ -1287,10 +1139,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1306,15 +1158,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 		<hb:RuleUID>STD_02800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Severity ; LongDesc ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Comment strategy</hb:Name>
@@ -1331,10 +1178,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>The VHDL code comments need to explain the purposes and objectives of the code as much as possible, but should not describe it.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1350,16 +1197,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 		<hb:RuleUID>STD_02900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Severity ; Rationale
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Comments for entity ports</hb:Name>
@@ -1376,10 +1217,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_02900_good.vhd</hb:GoodExDesc>
@@ -1395,16 +1236,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 		<hb:RuleUID>STD_03000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; ShortDesc
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Comments for objects declaration and statements</hb:Name>
@@ -1421,10 +1256,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>User-experience</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03000_good.vhd</hb:GoodExDesc>
@@ -1435,23 +1270,15 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
+
 	<hb:Rule UID="STD_03100">
 		<hb:RuleUID>STD_03100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Dead VHDL code</hb:Name>
@@ -1468,10 +1295,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>Unused declared signals and constants are deleted. Inactive or wrong code is deleted. Pieces of code commented out doesn't appear in HDL sources.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Vulnerability</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Suspicious</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03100_good.vhd</hb:GoodExDesc>
@@ -1487,15 +1314,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 		<hb:RuleUID>STD_03200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unused output ports components management</hb:Name>
@@ -1512,10 +1334,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Pittfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03200_good.vhd</hb:GoodExDesc>
@@ -1531,15 +1353,10 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 		<hb:RuleUID>STD_03300</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Buffer port type</hb:Name>
@@ -1557,10 +1374,10 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:LongDesc>Reading an output signal inside an entity can be achieved by creating an internal signal.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Pittfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03300_good.vhd</hb:GoodExDesc>
@@ -1570,20 +1387,16 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-
 	</hb:Rule>
+	
 	<hb:Rule UID="STD_03400">
 		<hb:RuleUID>STD_03400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Top level ports</hb:Name>
@@ -1600,10 +1413,10 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:LongDesc>When designing the TOP level, the designer uses only types which are allowed. Every types which are not in the allowed list are prohibited to use.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -1619,15 +1432,10 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 		<hb:RuleUID>STD_03500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; LongDesc
-				V3 : 2015-02-17 : ShortDesc ; FigureDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Record type for top level entity ports</hb:Name>
@@ -1644,10 +1452,10 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -1666,14 +1474,7 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Rationale ; LongDesc
-				V3 : 2015-02-17 : Rationale
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube ; Status
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Reset sensitive level</hb:Name>
@@ -1712,15 +1513,7 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:Version>7</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; Rationale ; ShortDesc ; LongDesc
-				V3 : 2015-02-17 : Name ; Rationale ; ShortDesc; Figure
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2015-11-18 : Rationale
-				V6 : 2017-11-24 : Sonarqube ; Status
-				V7 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Reset assertion and deassertion</hb:Name>
@@ -1764,14 +1557,7 @@ Doing so, if there is a glitch on the external reset, it will produce an interna
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; ShortDesc
-				V3 : 2015-02-17 : Technology
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube ; Status
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Synchronous elements initialization</hb:Name>
@@ -1819,15 +1605,10 @@ Benefits of changing resets to synchronous :
 		<hb:RuleUID>STD_03900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; LongDesc
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>State machine type definition</hb:Name>
@@ -1844,10 +1625,10 @@ Benefits of changing resets to synchronous :
 			<hb:LongDesc>Other type of state machine definition like vectors or integer are forbidden.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03900_good.vhd</hb:GoodExDesc>
@@ -1863,15 +1644,10 @@ Benefits of changing resets to synchronous :
 		<hb:RuleUID>STD_04000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>State machine case enumeration completion</hb:Name>
@@ -1889,10 +1665,10 @@ Benefits of changing resets to synchronous :
 "when others" instruction handles the default condition when none of the previous case statements are met.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04000_good.vhd</hb:GoodExDesc>
@@ -1908,15 +1684,10 @@ Benefits of changing resets to synchronous :
 		<hb:RuleUID>STD_04100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; GoodExDesc ; BadExDesc ; FigureDesc
-				V3 : 2015-02-17 : Rationale ; ShortDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock domain crossing</hb:Name>
@@ -1934,10 +1705,10 @@ The use of a validated clock domain change mechanism reduces the risk of discrep
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -1947,20 +1718,16 @@ The use of a validated clock domain change mechanism reduces the risk of discrep
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_04200">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04200">
 		<hb:RuleUID>STD_04200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock domain crossing handshake based</hb:Name>
@@ -1987,10 +1754,10 @@ The source clock domain should continue to assert the "transmit request" control
 The sender should not assert a new "transmit request" until the acknowledgement for the previous transfer is deasserted in the source clock domain.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04200_good.vhd</hb:GoodExDesc>
@@ -2000,19 +1767,16 @@ The sender should not assert a new "transmit request" until the acknowledgement 
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure fileref="STD_04200.svg" height="450px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_04300">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04300">
 		<hb:RuleUID>STD_04300</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; Rationale
-				V3 : 2015-02-17 : LongDesc ; Figure
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock domain crossing FIFOs based</hb:Name>
@@ -2045,10 +1809,10 @@ Here is a list of possible assertion checks for a FIFO design:
 			- a FIFO preserves the data value.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -2058,19 +1822,16 @@ Here is a list of possible assertion checks for a FIFO design:
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure fileref="STD_04300.svg" height="250px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_04400">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04400">
 		<hb:RuleUID>STD_04400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; ShortDesc
-				V3 : 2015-02-17 : Figure
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock management module</hb:Name>
@@ -2088,10 +1849,10 @@ Such a practice isolates all vendor-specific clocking	elements such as PLLs, clo
 			<hb:LongDesc>Any clock element inserted in any clock path is instantiated inside the same design entity. Clock elements are clock buffers, clock multiplexers, PLLs, DCMs, fractional dividers, gapped clock logic, enabled clock logic...</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -2101,20 +1862,16 @@ Such a practice isolates all vendor-specific clocking	elements such as PLLs, clo
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure fileref="STD_04400.svg" height="400px" width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_04500">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04500">
 		<hb:RuleUID>STD_04500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Implemented</hb:Status>
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2015-02-17</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2015-07-16 : Name ; GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V3 : 2017-11-24 : Sonarqube ; Status
-				V4 : 2019-09-23 : Rationale
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of Clock Reassignment</hb:Name>
@@ -2144,20 +1901,16 @@ Such a practice isolates all vendor-specific clocking	elements such as PLLs, clo
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_04600">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04600">
 		<hb:RuleUID>STD_04600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Implemented</hb:Status>
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2015-02-17 : FigureDesc
-				V3 : 2015-07-16 : Figure
-				V4 : 2017-11-24 : Sonarqube ; Status
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock domain number in the design</hb:Name>
@@ -2199,6 +1952,7 @@ When a faster clock version is needed, promote that faster clock as the single c
 			</hb:IntParam>
 		</hb:RuleParams>
 	</hb:Rule>
+	
 	<hb:Rule UID="STD_04700">
 		<hb:RuleUID>STD_04700</hb:RuleUID>
 		<hb:RuleHist>
@@ -2206,13 +1960,7 @@ When a faster clock version is needed, promote that faster clock as the single c
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : LongDesc
-				V3 : 2015-02-17 : FigureDesc
-				V4 : 2017-11-24 : Sonarqube ; Status
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Number of clock domains per modules</hb:Name>
@@ -2251,19 +1999,16 @@ Other modules can include different clocks but the data exchange between them is
 				<hb:Value>1</hb:Value>
 			</hb:IntParam>
 		</hb:RuleParams>
-	</hb:Rule><hb:Rule UID="STD_04800">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_04800">
 		<hb:RuleUID>STD_04800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Implemented</hb:Status>
 			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Severity ; Rationale
-				V3 : 2017-11-24 : Sonarqube ; Status
-				V4 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Clock edge sensitivity</hb:Name>
@@ -2301,16 +2046,10 @@ Other modules can include different clocks but the data exchange between them is
 		<hb:RuleUID>STD_04900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Edge detection best practice</hb:Name>
@@ -2329,10 +2068,10 @@ This mechanism involves a real design clock, at least one D Flip-Flop to delay t
 			</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_04900_good.vhd</hb:GoodExDesc>
@@ -2342,20 +2081,16 @@ This mechanism involves a real design clock, at least one D Flip-Flop to delay t
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure fileref="STD_04900.svg" height="450px" width="480px" />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_05000">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_05000">
 		<hb:RuleUID>STD_05000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Implemented</hb:Status>
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube ; Status
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Sensitivity list for synchronous processes</hb:Name>
@@ -2392,16 +2127,10 @@ Moreover, this practice risks adding combinational blocks on clock and reset tre
 		<hb:RuleUID>STD_05100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology; Rationale ; LongDesc
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Metastability management</hb:Name>
@@ -2421,10 +2150,10 @@ Not doing so causes issues in Finite State Machines. For example, the FSM can se
 signals generated without clock and signals generated in another time domain.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Pittfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05100_good.vhd</hb:GoodExDesc>
@@ -2436,23 +2165,15 @@ signals generated without clock and signals generated in another time domain.</h
 				width="450px" />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
+		
 	<hb:Rule UID="STD_05200">
 		<hb:RuleUID>STD_05200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-06-16 : Rationale, ShortDesc, LongDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Output signal registration</hb:Name>
@@ -2472,10 +2193,10 @@ With controlled clocks to outputs delays, enough PCB propagation time and inputs
 Unless specified and approved, a combinational signal is never used directly as a top level output.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -2495,14 +2216,7 @@ Unless specified and approved, a combinational signal is never used directly as 
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Rationale ; Figure
-				V4 : 2015-07-16 : Figure
-				V5 : 2017-11-24 : Sonarqube ; Status
-				V6 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Sensitivity list for combinational processes </hb:Name>
@@ -2533,19 +2247,16 @@ Unless specified and approved, a combinational signal is never used directly as 
 			<hb:Figure fileref="STD_05300.svg" height="450px"
 				width="450px" />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_05400">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_05400">
 		<hb:RuleUID>STD_05400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; Rationale ; ShortDesc
-				V3 : 2015-02-17 : Rationale ; ShortDesc ; Figure
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of internal tristate</hb:Name>
@@ -2564,10 +2275,10 @@ For that reason, it is prohibited.</hb:Rationale>
 Do not hesitate to pipeline the structure according to the targeted clock frequency and targeted technology.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -2583,16 +2294,10 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 		<hb:RuleUID>STD_05500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of latches</hb:Name>
@@ -2609,10 +2314,10 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05500_good.vhd</hb:GoodExDesc>
@@ -2629,16 +2334,10 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 		<hb:RuleUID>STD_05600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-02-17 : Figure
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of combinational feedbacks</hb:Name>
@@ -2656,10 +2355,10 @@ Indeed, at every step of the way through the backend, the timing loops provoked 
 			<hb:LongDesc>When synthesis reports that a timing loop is broken in a combinational process, check your design for asynchronous signals appearing on both sides of a combinational assignment statement. Once isolated break the timing loop.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05600_good.vhd</hb:GoodExDesc>
@@ -2676,16 +2375,10 @@ Indeed, at every step of the way through the backend, the timing loops provoked 
 		<hb:RuleUID>STD_05700</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Technology ; Figure
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc ; Figure
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of gated clocks</hb:Name>
@@ -2704,10 +2397,10 @@ Thus, gated clock usage is prohibited inside FPGA.</hb:Rationale>
 When the synthesis reports that a gated clock was created, turn off the synthesis tool "auto convert gated clock" option, so that the tool uses the Flip-Flops clock enable instead.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05700_good.vhd</hb:GoodExDesc>
@@ -2718,18 +2411,16 @@ When the synthesis reports that a gated clock was created, turn off the synthesi
 			<hb:Figure fileref="STD_05700.svg" height="300px"
 				width="450px" ></hb:Figure>
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_05800">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_05800">
 		<hb:RuleUID>STD_05800</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Name ; Technology ; Rationale; LongDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Use of VHDL types in RTL design</hb:Name>
@@ -2747,10 +2438,10 @@ When the synthesis reports that a gated clock was created, turn off the synthesi
 Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -2761,9 +2452,7 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
+		
 	<hb:Rule UID="STD_05900">
 		<hb:RuleUID>STD_05900</hb:RuleUID>
 		<hb:RuleHist>
@@ -2771,13 +2460,7 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Range for integers</hb:Name>
@@ -2794,10 +2477,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Suspicious</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05900_good.vhd</hb:GoodExDesc>
@@ -2813,15 +2496,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		<hb:RuleUID>STD_06000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-07-16 : GoodExample ; GoodExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Range direction for arrays</hb:Name>
@@ -2838,10 +2516,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06000_good.vhd</hb:GoodExDesc>
@@ -2857,16 +2535,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		<hb:RuleUID>STD_06100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-02-17 : Severity
-				V4 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Range direction for std_logic_vector</hb:Name>
@@ -2883,10 +2555,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Convention</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06100_good.vhd</hb:GoodExDesc>
@@ -2897,24 +2569,15 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
-	
-	
+
 	<hb:Rule UID="STD_06200">
 		<hb:RuleUID>STD_06200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Name ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Management of numeric values</hb:Name>
@@ -2931,10 +2594,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06200_good.vhd</hb:GoodExDesc>
@@ -2953,12 +2616,7 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2017-11-24 : Sonarqube
-				V4 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of variables in RTL design</hb:Name>
@@ -2975,10 +2633,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>Only signal type is allowed in RTL design.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Info</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Suspicious</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -2988,18 +2646,16 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_06400">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_06400">
 		<hb:RuleUID>STD_06400</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Error mitigation strategy</hb:Name>
@@ -3016,10 +2672,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 			<hb:LongDesc>In order to mitigate errors due to radiation, mechanisms (EDAC, ECC, parity, srubbing, triplication...) can be implemented in the FPGA if needed.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Vulnerability</hb:SonarType>
+			<hb:SonarSeverity>Critical</hb:SonarSeverity>
+			<hb:RemediationEffort>Complex</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -3035,15 +2691,10 @@ Enumerate is allowed for FSMs and boolean for generics.</hb:LongDesc>
 		<hb:RuleUID>STD_06500</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; Rationale ; GoodExDesc ; BadExDesc
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Counters end of counting</hb:Name>
@@ -3062,10 +2713,10 @@ For an up counter, use the greater than or equal to (&gt;=) comparison sign inst
 For a down counter, use the less than or equal (&lt;=) comparison sign instead of the equals sign (=).</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Vulnerability</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Major</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06500_good.vhd</hb:GoodExDesc>
@@ -3081,14 +2732,10 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 		<hb:RuleUID>STD_06600</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2015-02-17</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Dimension of comparison elements</hb:Name>
@@ -3105,10 +2752,10 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:LongDesc>Using of unsigned or signed type to insure comparison between two elements is a best practice.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Unpredictable</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06600_good.vhd</hb:GoodExDesc>
@@ -3118,19 +2765,16 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_06700">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_06700">
 		<hb:RuleUID>STD_06700</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology
-				V3 ; 2015-02-17 : Rationale ; ShortDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of wait statement in RTL design</hb:Name>
@@ -3147,10 +2791,10 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Bug</hb:SonarType>
+			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc></hb:GoodExDesc>
@@ -3169,13 +2813,7 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube 
-				V5 : 2020-04-23 : Status
-			</hb:Revision>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of signal initialization in declaration
@@ -3193,10 +2831,10 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:LongDesc>Signals are not initialized to a default value in declaration level but only during a reset sequence.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Major</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Suspicious</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_06800_good.vhd</hb:GoodExDesc>
@@ -3206,18 +2844,16 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:FigureDesc></hb:FigureDesc>
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_06900">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_06900">
 		<hb:RuleUID>STD_06900</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Unsuitability of procedures and functions in RTL design</hb:Name>
@@ -3236,10 +2872,10 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Suspicious</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -3249,17 +2885,16 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_07000">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_07000">
 		<hb:RuleUID>STD_07000</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>2</hb:Version>
+			<hb:Version>3</hb:Version>
 			<hb:Creation>2015-02-17</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2015-02-17 : Creation
-				V2 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Maximum depths of nested objects</hb:Name>
@@ -3276,10 +2911,10 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:LongDesc>The depth of nested objects (entities, packages, dimensions) should be kept limited.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>High</hb:RemediationEffort>
+			<hb:SonarTag>Design</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -3291,21 +2926,14 @@ Procedures and functions are not provided for synthesis approach but for testben
 		</hb:RuleDesc>
 	</hb:Rule>
 	
-	
-	
 	<hb:Rule UID="STD_07100">
 		<hb:RuleUID>STD_07100</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>4</hb:Version>
+			<hb:Version>5</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
-				V3 : 2015-07-16 : GoodExample ; BadExample ; GoodExDesc ; BadExDesc
-				V4 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Simulation ending</hb:Name>
@@ -3322,10 +2950,10 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:LongDesc>The simulation stop automatically without any human action in the simulator. This can be done by external scripts, event starvation (like freezing the main clocks) in the testbench.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_07100_good.vhd</hb:GoodExDesc>
@@ -3335,18 +2963,16 @@ Procedures and functions are not provided for synthesis approach but for testben
 			<hb:FigureDesc />
 			<hb:Figure />
 		</hb:RuleDesc>
-	</hb:Rule><hb:Rule UID="STD_07200">
+	</hb:Rule>
+	
+	<hb:Rule UID="STD_07200">
 		<hb:RuleUID>STD_07200</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>3</hb:Version>
+			<hb:Version>4</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity
-				V3 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Use of procedures and functions in testbenches</hb:Name>
@@ -3365,10 +2991,10 @@ Moreover, the testbench is more compact because identical instructions aren't re
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Info</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc />
@@ -3384,16 +3010,10 @@ Moreover, the testbench is more compact because identical instructions aren't re
 		<hb:RuleUID>STD_07300</hb:RuleUID>
 		<hb:RuleHist>
 			<hb:Status>Validated</hb:Status>
-			<hb:Version>5</hb:Version>
+			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
-			<hb:Modified>2017-11-24</hb:Modified>
-			<hb:Revision>
-				V1 : 2014-09-30 : Creation
-				V2 : 2014-12-01 : Technology ; Severity ; Rationale ; LongDesc ; GoodExDesc ; BadExDesc
-				V3 : 2015-02-17 : Rationale ; ShortDesc
-				V4 : 2015-07-16 : GoodExample ; GoodExDesc
-				V5 : 2017-11-24 : Sonarqube
-			</hb:Revision>
+			<hb:Modified>2020-04-23</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
 			<hb:Name>Use of wait statement in testbenches</hb:Name>
@@ -3411,10 +3031,10 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:LongDesc>No additional information.</hb:LongDesc>
 		</hb:RuleContent>
 		<hb:Sonarqube>
-			<hb:SonarType>TBD</hb:SonarType>
-			<hb:SonarSeverity>TBD</hb:SonarSeverity>
-			<hb:RemediationEffort>TBD</hb:RemediationEffort>
-			<hb:SonarTag>TBD</hb:SonarTag>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Info</hb:SonarSeverity>
+			<hb:RemediationEffort>Medium</hb:RemediationEffort>
+			<hb:SonarTag>Bad-practice</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_07300_good.vhd</hb:GoodExDesc>
@@ -3425,21 +3045,7 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	<hb:RuleSetHist>
 		<hb:Version>6</hb:Version>
 		<hb:Creation>2014-09-30</hb:Creation>
@@ -3450,7 +3056,7 @@ V3   : 2015-02-17 : Update of rules with remarks from partners about V2 revision
 V4   : 2015-07-16 : Update of rules with examples
 V4.1 : 2015-11-18 : Correct several data from remarks
 V5   : 2017-11-24 : Creation of Sonarqube data and update of some status
-V6   : 2020-04-23 : Put implmented status for rules in software
+V6   : 2020-04-23 : Put implemented status for rules in software, remove revision for rules, complete Sonarqube fields.
 		</hb:Revision>
 	</hb:RuleSetHist>	
 </hb:RuleSet>
