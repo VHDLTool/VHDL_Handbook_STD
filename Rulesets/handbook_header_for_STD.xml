@@ -4,7 +4,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	
 	<hb:RuleSetHist>
-		<hb:Version>2</hb:Version>
+		<hb:Version>2.1</hb:Version>
 		<hb:Creation>2015-03-04</hb:Creation>
 		<hb:Modified>2020-05-07</hb:Modified>
 		<hb:Revision>
@@ -12,7 +12,7 @@
 			V1.1RC1 : 2015-07-16 : Update with examples, based on STD rule set V4 (2015-07-16)
 			V1.1    : 2015-12-01 : Final release for handbook version 1.1 
 			V2      : 2017-11-24 : Update with sonarqube replacing RuleDebt. Set of implemented rules to Active.
-			V3      : 2020-05-07 : update implemented status for rules checked by software. Added parameter for the software.
+			V2.1    : 2020-05-07 : update implemented status for rules checked by software. Added parameter for the software.
 		</hb:Revision>
 	</hb:RuleSetHist>
 	
