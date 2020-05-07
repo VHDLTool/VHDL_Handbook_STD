@@ -2816,8 +2816,7 @@ For a down counter, use the less than or equal (&lt;=) comparison sign instead o
 			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
 		</hb:RuleHist>
 		<hb:RuleContent>
-			<hb:Name>Unsuitability of signal initialization in declaration
-				section</hb:Name>
+			<hb:Name>Unsuitability of signal initialization in declaration section</hb:Name>
 			<hb:IsParent>false</hb:IsParent>
 			<hb:IsSon>false</hb:IsSon>
 			<hb:ParentUID xsi:nil="true" />
