@@ -50,24 +50,30 @@ use IEEE.numeric_std.all;
 
 entity STD_05200_bad is
    port (
+      --system signals
       i_clk     : in  std_logic;
       i_rst_n   : in std_logic;
+
+      --input stims
       i_signal1 : in  std_logic;         --input dummy signal number 1
       i_signal2 : in  std_logic;         --input dummy signal number 2
-      o_error_ex1 : out std_logic;      --error trigger example : input directly to output
-      o_error_ex2 : out std_logic;      --error trigger example : And  combinatorial
-      o_error_ex3 : out std_logic;      --error trigger example : xor  combinatorial
-      o_error_ex4 : out std_logic;      --error trigger example : not  combinatorial
-      o_error_ex5 : out std_logic;      --error trigger example : or  combinatorial
-      o_error_ex6 : out std_logic;      --error trigger example : mux  
-      o_error_ex7 : out std_logic;      --error trigger example : 'static' mux
-      o_OK_ex1 : out std_logic;         -- coorect output signal 
-      o_OK_ex2 : out std_logic         -- coorect output signal  
+
+      ---Rules results
+      o_Rule_Violation : out std_logic_vector(5 downto 0); --examples supposed to trigger a violation of the rule and then an error in sonarqube
+                                                           -- the signal value itself gives no information whatsoever about the error
+                                                           -- only count the datapath for this output
+      o_Rule_Compliance :out std_logic_vector(2 downto 0); --examples supposed to be compliant to the rule and therfore not trigger any error in sonarqube 
+                                                           -- the signal value itself gives no information whatsoever about the error
+                                                           -- only count the datapath for this output
+      o_Rule_Limitation :out std_logic_vector(1 downto 0) --examples that are not supported by the rule detector or with a situation worth considering
+                                                          -- the signal value itself gives no information whatsoever about the error
+                                                          -- only count the datapath for this output
       );
 end STD_05200_bad;
 
 architecture Behavioral of STD_05200_bad is
-   signal signal1_r1,signal2_r1 : std_logic;                
+   signal signal1_r1,signal2_r1 : std_logic; 
+                  
 begin
 
 
@@ -85,28 +91,59 @@ begin
       end if;
    end process;
    
-   --error trigger example : input directly to output
-   o_error_ex1<=i_signal1;
-   --error trigger example : And  combinatorial
-   o_error_ex2<=signal1_r1 and signal2_r1;
-   --error trigger example : xor  combinatorial
-   o_error_ex3<=signal1_r1 xor signal2_r1;
-   --error trigger example : not  combinatorial
-   o_error_ex4<=not(signal1_r1);
-   --error trigger example : or  combinatorial
-   o_error_ex5<=signal1_r1 or signal2_r1;
-   --error trigger example : Mux  
-   o_error_ex6<=signal1_r1 when signal1_r1='0' and signal2_r1= '0' else
+------------------------------------------------
+--           Rule Violation examples          --
+------------------------------------------------
+-- These examples are supposed to trigger the 
+-- rule dection algorithm
+------------------------------------------------
+   
+-- And  combinatorial on output path
+o_Rule_Violation(0)<=signal1_r1 and signal2_r1;
+-- xor  combinatorial on output path
+o_Rule_Violation(1)<=signal1_r1 xor signal2_r1;
+-- not  combinatorial on output path
+o_Rule_Violation(2)<=not(signal1_r1);
+-- or  combinatorial on output path
+o_Rule_Violation(3)<=signal1_r1 or signal2_r1;
+--Mux combinatorial on output path
+o_Rule_Violation(4)<=signal1_r1 when signal1_r1='0' and signal2_r1= '0' else
                 signal1_r1 when signal1_r1='0' and signal2_r1= '1' else 
                 signal2_r1 when signal1_r1='1' and signal2_r1= '1' else  
                 signal2_r1;
-    --error trigger example : 'static' mux  
-      o_error_ex7<='0' when signal1_r1='0' and signal2_r1= '0' else
+--'static' mux  combinatorial on output path
+o_Rule_Violation(5)<='0' when signal1_r1='0' and signal2_r1= '0' else
                    '1' when signal1_r1='0' and signal2_r1= '1' else 
                    '0' when signal1_r1='1' and signal2_r1= '1' else  
                    '1';
 
-   --correct output signals
-   o_OK_ex1<=signal1_r1;
-   o_OK_ex2<=signal2_r1;
+
+------------------------------------------------
+--           Rule compliance examples         --
+------------------------------------------------
+-- These examples are supposed NOT to trigger  
+-- the rule dection algorithm
+------------------------------------------------
+
+-- direct output from flip flop for a single signal
+o_Rule_Compliance(0)<=signal1_r1;
+--direct ouput from flip-flop for an "combinatorial" signal
+o_Rule_Compliance(1)<=signal2_r1;
+--input directly to output    
+   -- Even, it is true there is no combinatorial path on this example output
+   -- this should be detected by an other rule as this behavior is not recommended 
+o_Rule_Compliance(2)<=i_signal1;  
+
+
+------------------------------------------------
+--           Rule Limitation examples          --
+------------------------------------------------
+-- These examples were supposed to trigger the rule 
+-- but for some reason (algorithm, engine) it doesn't
+------------------------------------------------
+--test for a vector mixing compliant rule and violation
+-- => The whole vector is considered in violation instead of isolating bits between the violation and the compliance   
+o_Rule_Limitation(0)<=signal1_r1 and signal2_r1; --violation example
+o_Rule_Limitation(1)<=signal2_r1; --compliant example
+
 end Behavioral;
