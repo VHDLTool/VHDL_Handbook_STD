@@ -2221,8 +2221,8 @@ signals generated without clock and signals generated in another time domain.</h
 	<hb:Rule UID="STD_05200">
 		<hb:RuleUID>STD_05200</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
-			<hb:Engine>None</hb:Engine>
+			<hb:Status>Implemented</hb:Status>
+			<hb:Engine>Yosys-ghdl</hb:Engine>
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2020-04-23</hb:Modified>
