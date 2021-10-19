@@ -2398,7 +2398,7 @@ Do not hesitate to pipeline the structure according to the targeted clock freque
 		<hb:RuleUID>STD_05500</hb:RuleUID>
 		<hb:RuleHist>
             <hb:Status>Implemented</hb:Status>
-			<hb:Engine>None</hb:Engine>
+			<hb:Engine>Yosys-ghdl</hb:Engine>
 			<hb:Version>7</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
 			<hb:Modified>2021-10-14</hb:Modified>
