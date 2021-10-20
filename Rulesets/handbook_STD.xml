@@ -1412,7 +1412,7 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 			<hb:SonarType>Bug</hb:SonarType>
 			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
 			<hb:RemediationEffort>Medium</hb:RemediationEffort>
-			<hb:SonarTag>Pittfall</hb:SonarTag>
+			<hb:SonarTag>Pitfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03200_good.vhd</hb:GoodExDesc>
@@ -1453,7 +1453,7 @@ Manufacturers of synthesis software do not recommend "buffer" type usage because
 			<hb:SonarType>Bug</hb:SonarType>
 			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
 			<hb:RemediationEffort>Medium</hb:RemediationEffort>
-			<hb:SonarTag>Pittfall</hb:SonarTag>
+			<hb:SonarTag>Pitfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_03300_good.vhd</hb:GoodExDesc>
@@ -2247,7 +2247,7 @@ signals generated without clock and signals generated in another time domain.</h
 			<hb:SonarType>Bug</hb:SonarType>
 			<hb:SonarSeverity>Blocker</hb:SonarSeverity>
 			<hb:RemediationEffort>Major</hb:RemediationEffort>
-			<hb:SonarTag>Pittfall</hb:SonarTag>
+			<hb:SonarTag>Pitfall</hb:SonarTag>
 		</hb:Sonarqube>
 		<hb:RuleDesc>
 			<hb:GoodExDesc>Extracted from STD_05100_good.vhd</hb:GoodExDesc>
@@ -3167,11 +3167,53 @@ The testbench instructions inside a process are then sequential which is coheren
 			<hb:Figure />
 		</hb:RuleDesc>
 	</hb:Rule>
-
+	
+	<hb:Rule UID="STD_08000">
+		<hb:RuleUID>STD_08000</hb:RuleUID>
+		<hb:RuleHist>
+			<hb:Status>Validated</hb:Status>
+			<hb:Engine>None</hb:Engine>
+			<hb:Version>6</hb:Version>
+			<hb:Creation>2021-10-21</hb:Creation>
+			<hb:Modified>2021-10-21</hb:Modified>
+			<hb:Revision>Not used anymore.See Git logs.</hb:Revision>
+		</hb:RuleHist>
+		<hb:RuleContent>
+			<hb:Name>Analyze correctness of VHDL</hb:Name>
+			<hb:IsParent>true</hb:IsParent>
+			<hb:IsSon>false</hb:IsSon>
+			<hb:ParentUID xsi:nil="true" />
+			<hb:Technology>VLSI</hb:Technology>
+			<hb:ApplicationFields>General</hb:ApplicationFields>
+			<hb:Category>Implementation</hb:Category>
+			<hb:SubCategory>Analysis</hb:SubCategory>
+			<hb:Severity>Minor</hb:Severity>
+			<hb:Rationale>Use of VHDL language analyzer (a parser,linter, simulator ...) allows an early detection of code errors and therefore anticipate potential future issues.
+			By doing so as early as possible in the design (prior to synthesis which might be long) correction can be made when writing the code.</hb:Rationale>
+			<hb:ShortDesc>VHDL files have to be compliant with the VHDL standard.</hb:ShortDesc>
+			<hb:LongDesc>Some IDE like Xilinx or Intel, provide live automatic VHDL syntax analysis. VHDL correctness (with regard to the standard IEEE) can also controlled by simulator (Modelsim, GHDL) during analysis phase of the code.
+			This allows the code that is being written to be free of any error (with regard to the VHDL language) early in the development.
+			 </hb:LongDesc>
+		</hb:RuleContent>
+		<hb:Sonarqube>
+			<hb:SonarType>Code_Smell</hb:SonarType>
+			<hb:SonarSeverity>Minor</hb:SonarSeverity>
+			<hb:RemediationEffort>Easy</hb:RemediationEffort>
+			<hb:SonarTag>Pitfall</hb:SonarTag>
+		</hb:Sonarqube>
+		<hb:RuleDesc>
+			<hb:GoodExDesc></hb:GoodExDesc>
+			<hb:GoodExample> </hb:GoodExample>
+			<hb:BadExDesc></hb:BadExDesc>
+			<hb:BadExample ></hb:BadExample>
+			<hb:FigureDesc />
+			<hb:Figure />
+		</hb:RuleDesc>
+	</hb:Rule>
 	<hb:RuleSetHist>
-		<hb:Version>7</hb:Version>
+		<hb:Version>8</hb:Version>
 		<hb:Creation>2014-09-30</hb:Creation>
-		<hb:Modified>2020-07-23</hb:Modified>
+		<hb:Modified>2021-10-20</hb:Modified>
 		<hb:Revision>V1 : 2014-11-13 : Creation.
 V2   : 2014-12-01 : Update of rules with remarks from partners about V1 revision, rules have been transferred to CNES handbook.
 V3   : 2015-02-17 : Update of rules with remarks from partners about V2 revision
@@ -3180,6 +3222,7 @@ V4.1 : 2015-11-18 : Correct several data from remarks
 V5   : 2017-11-24 : Creation of Sonarqube data and update of some status
 V6   : 2020-04-23 : Put implemented status for rules in software, remove revision for rules, complete Sonarqube fields.
 V7   : 2020-07-23 : update engine feature
+V8 : 2021-10-20 : add STD_08000.
 		</hb:Revision>
 	</hb:RuleSetHist>	
 </hb:RuleSet>
