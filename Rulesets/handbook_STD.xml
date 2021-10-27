@@ -1180,7 +1180,7 @@ Nevertheless, never mix these two library families.</hb:LongDesc>
 	<hb:Rule UID="STD_02700">
 		<hb:RuleUID>STD_02700</hb:RuleUID>
 		<hb:RuleHist>
-			<hb:Status>Validated</hb:Status>
+			<hb:Status>Implemented</hb:Status>
 			<hb:Engine>Java</hb:Engine>
 			<hb:Version>6</hb:Version>
 			<hb:Creation>2014-09-30</hb:Creation>
@@ -3222,7 +3222,8 @@ V4.1 : 2015-11-18 : Correct several data from remarks
 V5   : 2017-11-24 : Creation of Sonarqube data and update of some status
 V6   : 2020-04-23 : Put implemented status for rules in software, remove revision for rules, complete Sonarqube fields.
 V7   : 2020-07-23 : update engine feature
-V8 : 2021-10-20 : add STD_08000.
+V8   : 2021-10-20 : add STD_08000.
+V8.1 : 2021-10-27 : add STD_02700 as implemented			
 		</hb:Revision>
 	</hb:RuleSetHist>	
 </hb:RuleSet>
