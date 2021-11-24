@@ -8,16 +8,17 @@
 -- Version history :
 --    V1   : 2021-11-1=23 : FM (CNES): Creation
 -------------------------------------------------------------------------------------------------
--- File name          : STD_04400_good.vhd
+-- File name          : top.vhd
 -- File Creation date :  2021-11-1=2
 -- Project name       : VHDL Handbook rules examples
 -------------------------------------------------------------------------------------------------
 -- Softwares             :  Microsoft Windows (Windows 10) - Editor (Vscode)
 -------------------------------------------------------------------------------------------------
--- Description : code example for clock management module
+-- Description : This entity  implmeent a clock managemet module which create 2 clocks out of main 
+--               one
 --
--- Limitations : This file is an example of the VHDL handbook made by CNES for rule 004400. 
---               In this example reset is not resynchronized within each clock domain.
+-- Limitations : This file is an example of the VHDL handbook made by CNES.
+--               IT is not meant tobe used in a real project.
 --
 -------------------------------------------------------------------------------------------------
 -- Naming conventions:
@@ -71,6 +72,7 @@ component clkmngt
 end component;
 begin
 
+   --@NOISSUE : clocks are generated inside a dedicated module
    P_CLKMNGT: clkmngt port  map(
       i_Clock  => i_Clock,
       o_clk1   => clk1,

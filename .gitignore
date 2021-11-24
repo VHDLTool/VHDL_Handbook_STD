@@ -4,8 +4,8 @@ lib/
 output/
 stylesheets/docbook-xsl-ns-1.78.1/
 
-*/.scannerwork/
-*/build_dir/
+*.scannerwork/
+*build_dir/
 *cachedir/
 *__pycache__/
 Extras/Sonarqube/SonarQubeAccessToken
