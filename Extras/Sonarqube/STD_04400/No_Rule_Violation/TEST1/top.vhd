@@ -72,7 +72,7 @@ component clkmngt
 end component;
 begin
 
-   --@NOISSUE : clocks are generated inside a dedicated module
+   --@NOISSUE: clocks are generated inside a dedicated module
    P_CLKMNGT: clkmngt port  map(
       i_Clock  => i_Clock,
       o_clk1   => clk1,
