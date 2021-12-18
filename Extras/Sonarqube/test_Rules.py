@@ -1,7 +1,11 @@
 #to run this file install pytest and run pytest in the folder
 #install python-sonarqube-api see https://python-sonarqube-api.readthedocs.io/en/latest/index.html
 
+#this analysis is configure for a vhdlrc only plugin configuration
+
 import os
+import re
+from pathlib import Path
 from sonarqube import SonarQubeClient
 import time
 import pprint
@@ -24,8 +28,15 @@ FOLDER_NRV="No_Rule_Violation"
 FOLDER_RV="Rule_Violation"
 #folder name for known limitation tests
 FOLDER_KL="Known_Limitation"
+#Error Tag in vHDL
+VHDL_TAG_ERROR="--@ISSUE"
 
-
+##########################################
+####### Sonar_Analyse_project
+#This fonction create a sonarqube project name : ProjID
+# It run a sonarqube analysis with folder origin located at : SRCFolder
+# It return the number of errors detected by the analysis for rule : RuleID 
+##########################################
 def Sonar_Analyse_project(ProjID,SRCFolder,RuleID):
     #change folder to proejct one
     retval = os.getcwd() #save current path
@@ -53,8 +64,9 @@ def Sonar_Analyse_project(ProjID,SRCFolder,RuleID):
     while tasks['tasks']!= []:
         tasks = sonar.ce.search_tasks(status="FAILED,CANCELED,PENDING,IN_PROGRESS")
         time.sleep( 1 )
-        print("scan ongoing. Please Wait...")
-        pprint.pprint(tasks)
+        #for debug
+        #print("scan ongoing. Please Wait...")
+        #pprint.pprint(tasks)
 
     #check project existence
     projects = list(sonar.projects.search_projects())
@@ -75,6 +87,7 @@ def Sonar_Analyse_project(ProjID,SRCFolder,RuleID):
         if issue['rule'] == "vhdlrc-repository:"+RuleID :
             rules_issues.append(issue)
     
+    #for debug purpose
     pprint.pprint(rules_issues)
 
     #return to oritginal path
@@ -83,64 +96,86 @@ def Sonar_Analyse_project(ProjID,SRCFolder,RuleID):
     #return number of issue raised
     return len(rules_issues)
 
-####### STD_04400 Rule ############
+#####################
+## generate_parameters
+##
+## This function creat a list of paramters for Sonar_Analyse_project function
+## The folders have to be structured as : RULEUID/ Type of test ()
+##
+##
+##
+##
 
-#parametrize element to be evaluated
-#@pytest.mark.parametrize("a,b,expected", testdata, ids=idfn)
-#def test_timedistance_v2(a, b, expected):
+def generate_parameters():
+#list all the rule folder
+    Tests_Parameters=[]
 
-#def generate_parameters():
-    #list all the rule folder
-
-    #for all rules manage NRV, RV and KL folder
-
+    ## get all folders  in the current directory
+    folders=next(os.walk('./'))[1] 
+    ##extract only STD and CNE trule folders
+    RulesFolders =[]
+    for folder in folders:
+        if folder.startswith('CNE') or folder.startswith('STD'):
+            RulesFolders.append(folder)
+    
+    #for all rules manage NRV, RV and KL folder 
+    RulesFoldersType=[]
+    for folder in RulesFolders:
+        ## get all folders  in the current directory
+        folder_type=next(os.walk(folder))[1]
+        for folder_type_elmt in folder_type:
+            RulesFoldersType.append('./'+folder+'/'+folder_type_elmt+'/')
+    
     #for all these folders search for all test folder
-
+    RulesFoldersTypeTests=[]
+    for folder in RulesFoldersType:
+        ListFolderTest=next(os.walk(folder))[1]
+        for TestFolder in ListFolderTest:
+            RulesFoldersTypeTests.append(folder+TestFolder+'/')
+      
     #evalaute --@ISSUE tag in the files to determne the number of errors
+    ##list all VHDL file in test folder
+    for folder in RulesFoldersTypeTests:
+        ###get all files for a test
+        filenames = next(os.walk(folder))[2]
 
-    #pack the parameters
-    #Rule ID, Type of test (NRV,RV,KL), number of foreseen error
+        ###gest only VHDL files
+        vhdlfilenames=[]
+        for filename in filenames:
+            if filename.endswith('.vhd') :
+                vhdlfilenames.append(folder+filename)
+
+        ### search of error TAG
+        IssueNumber=0
+        for filename in vhdlfilenames:
+            textfile = open(filename, 'r')
+            filetext = textfile.read()
+            textfile.close()
+            matches = re.findall(VHDL_TAG_ERROR, filetext)
+            IssueNumber=IssueNumber+len(matches)
+
+        ### pack test parameters: sonarqube project ID, folder path, issue to be checked , number of errors to be reported
+        
+        #### extract Rules ID which is the first folder in the test path
+        ruleUID = Path(folder).parts[0]
+        #create sonarqube project ID (join test path with _)
+        sonarproject="_".join(Path(folder).parts)
+        print(sonarproject)
+        Tests_Parameters.append([sonarproject,folder,ruleUID,IssueNumber])
+
+    return Tests_Parameters
+
 
 #affect parameters to a constant
+PytestData=generate_parameters()
 
+#do sonarqube analysis based on test parameters
+@pytest.mark.parametrize("ProjectID,TestFolder,RuleID,errors", PytestData)
+def test_Rules(ProjectID,TestFolder,RuleID,errors):
+    assert Sonar_Analyse_project(ProjectID,TestFolder,RuleID) == errors
 
-##test no rule violation
-@pytest.mark.xfail
-def test_STD_04400_NRV():
-    #set Rule ID
-    RULEID="STD_04400"
-    #set main rule folder folder path
-    main_path="./"+RULEID+"/"+FOLDER_NRV+"/"
-
-    #list all available folder in no rule location
-    folder_list=next(os.walk(main_path))[1]
-
-    for folder in folder_list:
-        #evaluate each test folders
-        #as it is no rule vilation, result should be zero
-        assert Sonar_Analyse_project(RULEID+'_NRV_'+folder,main_path+folder+"/",RULEID) == 0
-        
-##test rule violation  
-@pytest.mark.xfail
-def test_STD_04400_RV():
-    #set Rule ID
-    RULEID="STD_04400"
-    #set main rule folder folder path
-    main_path="./"+RULEID+"/"+FOLDER_RV+"/"
-
-    #list all available folder in no rule location
-    folder_list=next(os.walk(main_path))[1]
-
-    for folder in folder_list:
-        #evaluate each test folders
-        #FIXME: need to add the evaluation of --@ISSUE tag in the vhdl file to determine the number 
-        #on issues to be detected
-        assert Sonar_Analyse_project(RULEID+'_RV_'+folder,main_path+folder+"/",RULEID) == 2
-
-### test Known limitation
 
 
 #warning
 print('please source /opt/oss-cad-suite/environment file prior to execute this script')
-
-
+pprint.pprint(PytestData)

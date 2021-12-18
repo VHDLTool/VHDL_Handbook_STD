@@ -9,3 +9,4 @@ stylesheets/docbook-xsl-ns-1.78.1/
 *cachedir/
 *__pycache__/
 Extras/Sonarqube/SonarQubeAccessToken
+Extras/Sonarqube/readme_test_setup.md
