@@ -3,6 +3,8 @@
 
 #this analysis is configure for a vhdlrc only plugin configuration
 
+#TODO : add docker environnement for sonarqube server and sonarqube scanner so it can run automatically on Github
+
 import os
 import re
 from pathlib import Path
@@ -22,12 +24,6 @@ SONAR_SERVER_ADDR="http://localhost:9000"
 #sonar.vhdlrc.workdir Ghdl working directory, relative to the project directory. Needed to execute yosys and GHDL
 SONAR_VHDLRC_WORKDIR="build_dir"
 
-#folder name for no rule violation tests
-FOLDER_NRV="No_Rule_Violation"
-#folder name for  rule violation tests
-FOLDER_RV="Rule_Violation"
-#folder name for known limitation tests
-FOLDER_KL="Known_Limitation"
 #Error Tag in vHDL
 VHDL_TAG_ERROR="--@ISSUE"
 
@@ -100,9 +96,15 @@ def Sonar_Analyse_project(ProjID,SRCFolder,RuleID):
 ## generate_parameters
 ##
 ## This function creat a list of paramters for Sonar_Analyse_project function
-## The folders have to be structured as : RULEUID/ Type of test ()
+## The folders have to be structured as : RULEUID/ TYPE_OF_TEST / TEST_FOLDER_NAME
 ##
-##
+## the function walk trough folders to determine every path to TEST_FOLDER_NAME
+## in these folders it look into vhdl example files to get the number of issues identified by VHDL_TAG_ERROR
+## It pack everything in a list parameter as:
+##      [Sonarqube project ID (based on the path to the test),
+##       Test folder path (relative path to the project to be scanned by sonarqube)
+##       RuleUID (name of the handbook rule to be checked (for now only STD and CNE)
+##       Number of rules errors to be reported (this number is extract from vhdl files error tag occurrences)   ] 
 ##
 ##
 
