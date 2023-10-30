@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Mon Oct 30 16:52:27 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3239014
+////////////////////////////////////////////////////////////////////////////////
+
+16:52:28:info     |   ----------------------------------------------
+16:52:28:info     |   - Register Instances processing              -
+16:52:28:info     |   ----------------------------------------------
+16:52:28:info     |     DFF data_reg[0] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[1] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[2] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[3] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[4] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[5] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[6] has INITIAL Value: 0
+16:52:28:info     |     DFF data_reg[7] has INITIAL Value: 0
+16:52:28:info     |     HDL Init on data_reg[7]
+16:52:28:info     |     HDL Init on data_reg[6]
+16:52:28:info     |     HDL Init on data_reg[5]
+16:52:28:info     |     HDL Init on data_reg[4]
+16:52:28:info     |     HDL Init on data_reg[3]
+16:52:28:info     |     HDL Init on data_reg[2]
+16:52:28:info     |     HDL Init on data_reg[1]
+16:52:28:info     |     HDL Init on data_reg[0]
+16:52:28:info     |     No Reset on data_reg[7]
+16:52:28:info     |     No Reset on data_reg[6]
+16:52:28:info     |     No Reset on data_reg[5]
+16:52:28:info     |     No Reset on data_reg[4]
+16:52:28:info     |     No Reset on data_reg[3]
+16:52:28:info     |     No Reset on data_reg[2]
+16:52:28:info     |     No Reset on data_reg[1]
+16:52:28:info     |     No Reset on data_reg[0]
+16:52:28:info     |     
+16:52:28:info     |     
+16:52:28:info     |     Register usage summary
+16:52:28:info     |     
+16:52:28:info     |     	HDL Init info on DFF: 8 / 8 Total
+16:52:28:info     |     	Reset Unused  on DFF: 8 / 8 Total
+16:52:28:info     | ////////////////////////////////////////////////////////////////////////////////
+16:52:28:info     | // Mapped Data
+16:52:28:info     | ////////////////////////////////////////////////////////////////////////////////
+16:52:28:info     | Synthesized Registers : 
+16:52:28:info     | There are 8DFFs
+16:52:28:info     | No Resets : 8
+16:52:28:info     | HDL Init : 8
+16:52:28:info     | Dff : data_reg[7] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[6] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[5] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[4] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[3] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[2] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[1] : HDL Init No Reset
+16:52:28:info     | Dff : data_reg[0] : HDL Init No Reset

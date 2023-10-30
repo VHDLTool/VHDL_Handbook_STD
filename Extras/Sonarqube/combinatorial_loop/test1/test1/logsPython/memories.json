@@ -1,0 +1,146 @@
+{
+    "m_header": {
+        "appDistrib": "Ubuntu 22.04.3 LTS",
+        "appName": "NXpython",
+        "appVersion": "v23.3.0.2",
+        "buildDate": "2023-09-29 15:22:00",
+        "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
+        "executionDate": "Mon Oct 30 16:52:27 2023",
+        "pid": 3239014,
+        "revision": "branch HEAD - hash c27499706...",
+        "ui": {
+            "#HeaderData": {
+                "appDistrib": "#Value",
+                "appName": "#Value",
+                "appVersion": "#Value",
+                "buildDate": "#Value",
+                "commandLine": "#Value",
+                "executionDate": "#Value",
+                "pid": "#Value",
+                "revision": "#Value",
+                "ui": "#Value"
+            },
+            "#MemImplReport": {
+                "depth": "#Value",
+                "elementAmount": "#Value",
+                "elementType": "#Value",
+                "numDepth": "#Value",
+                "numSub": "#Value",
+                "numWidth": "#Value",
+                "ramDepth": "#Value",
+                "ramSlice": "#Value",
+                "ramWidth": "#Value",
+                "width": "#Value"
+            },
+            "#MemMappedReport": {
+                "analysisName": "#Value",
+                "feedback": "#Value",
+                "implementation": "#MemImplReport",
+                "name": "#Value",
+                "type": "#Value"
+            },
+            "#MemReport": {
+                "depth": "#Value",
+                "feedback": "#Value",
+                "initValue": "#Value",
+                "instanceName": "#Value",
+                "isAsync": "#Value",
+                "isGenerated": "#Value",
+                "name": "#Value",
+                "ports": "#List#PortReport",
+                "readType": "#Value",
+                "type": "#Value",
+                "width": "#Value"
+            },
+            "#MemoriesReport": {
+                "m_header": "#HeaderData",
+                "m_memCollection": "#List#MemReport",
+                "m_memMappedCollection": "#List#MemMappedReport",
+                "m_notificationCollection": "#List#NotificationReport",
+                "m_ramToDff": "#List#Value"
+            },
+            "#NotificationReport": {
+                "message": "#Value",
+                "notificationType": "#Value"
+            },
+            "#PortReport": {
+                "addrSize": "#Value",
+                "dinSize": "#Value",
+                "doutSize": "#Value",
+                "doutType": "#Value",
+                "id": "#Value",
+                "isWr": "#Value",
+                "slcSize": "#Value"
+            },
+            "root": "#MemoriesReport",
+            "style": {
+                "#HeaderData": {
+                    "hidden": true
+                },
+                "#MemMappedReport": {
+                    "order": [
+                        "analysisName",
+                        "type",
+                        "implementation",
+                        "name"
+                    ]
+                },
+                "#MemMappedReport.feedback": {
+                    "hidden": true
+                },
+                "#MemReport": {
+                    "order": [
+                        "name",
+                        "type",
+                        "depth",
+                        "width",
+                        "instanceName",
+                        "readType",
+                        "isAsync"
+                    ]
+                },
+                "#MemReport.feedback": {
+                    "hidden": true
+                },
+                "#MemReport.initValue": {
+                    "hidden": true
+                },
+                "#MemReport.isAsync": {
+                    "name": "Async"
+                },
+                "#MemReport.isGenerated": {
+                    "name": "Generated"
+                },
+                "#MemoriesReport.m_feedbacks": {
+                    "hidden": true
+                },
+                "#MemoriesReport.m_memCollection": {
+                    "name": "Mem"
+                },
+                "#MemoriesReport.m_memMappedCollection": {
+                    "name": "Mem Mapped"
+                },
+                "#NotificationReport": {
+                    "name": "Notifications",
+                    "order": [
+                        "notificationType",
+                        "message"
+                    ]
+                },
+                "#NotificationReport.notificationType": {
+                    "name": "Type of Messages"
+                },
+                "#PortReport.isWr": {
+                    "name": "Wr"
+                },
+                "#PortReport.slcSize": {
+                    "hidden": true
+                }
+            }
+        }
+    },
+    "m_memCollection": [],
+    "m_memMappedCollection": [],
+    "m_notificationCollection": [],
+    "m_ramToDff": []
+}

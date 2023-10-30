@@ -1,0 +1,22 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Mon Oct 30 16:52:33 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3239014
+////////////////////////////////////////////////////////////////////////////////
+
+16:52:34:info     |   Site of managers:
+16:52:34:info     |     <ITC "ITC[{~}:ITC~cle[4:1]]" Passive Useful Manager Locked> @ <HMFence "FENCE[8xB]" FOCUS[?x?] 2>
+16:52:34:info     |     <OTC "OTC[{~}:OTC~cle[4:2]]" Passive Useful Manager Locked> @ <VMFence "FENCE[Rx11]" FOCUS[?x?] 2 LOC[4]>
+16:52:34:info     |     <FCI "FCI[{~}:CI~sec[6:2]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <VMFence "FENCE[Rx11]" FOCUS[?x?] 2 LOC[4]>
+16:52:34:info     |     <FCO "FCO[{~}:CO~sec[6:1]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[8xB]" FOCUS[?x?] 2>
+16:52:34:info     |     <IP "IP[{~}:rts]" Native Active Useful Manager Locked 1> @ <HBank "IOB6" FOCUS[?x?] 3>
+16:52:34:info     |     <OP "OP[{~}:cts]" Native Active Useful Manager Locked 2> @ <RBank "IOB15" FOCUS[?x?] 3>
+16:52:34:info     |     <BFR "BFR[{~}:buf_c_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB6" FOCUS[?x?] 3>
+16:52:34:info     |     <BFR "BFR[{~}:buf_o_cts]" Native Passive Useful Manager Locked> @ <RBank "IOB15" FOCUS[?x?] 3>
+16:52:34:info     |     <BFR "BFR[{~}:buf_i_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB6" FOCUS[?x?] 3>
+16:52:34:info     |     <BFR "BFR[{~}:buf_c_cts]" Native Passive Useful Manager Locked> @ <RBank "IOB15" FOCUS[?x?] 3>

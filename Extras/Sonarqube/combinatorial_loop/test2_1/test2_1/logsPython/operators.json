@@ -1,0 +1,158 @@
+{
+    "m_header": {
+        "appDistrib": "Ubuntu 22.04.3 LTS",
+        "appName": "NXpython",
+        "appVersion": "v23.3.0.2",
+        "buildDate": "2023-09-29 15:22:00",
+        "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
+        "executionDate": "Mon Oct 30 16:52:33 2023",
+        "pid": 3239014,
+        "revision": "branch HEAD - hash c27499706...",
+        "ui": {
+            "#HeaderData": {
+                "appDistrib": "#Value",
+                "appName": "#Value",
+                "appVersion": "#Value",
+                "buildDate": "#Value",
+                "commandLine": "#Value",
+                "executionDate": "#Value",
+                "pid": "#Value",
+                "revision": "#Value",
+                "ui": "#Value"
+            },
+            "#NotificationReport": {
+                "message": "#Value",
+                "notificationType": "#Value"
+            },
+            "#OperatorInstance": {
+                "fileOrigin": "#Value",
+                "lineOrigin": "#Value",
+                "name": "#Value"
+            },
+            "#OperatorMappedReport": {
+                "analysisName": "#Value",
+                "cyCount": "#Value",
+                "dspCount": "#Value",
+                "feCount": "#Value",
+                "generationFeedback": "#Value",
+                "isForced": "#Value",
+                "name": "#Value",
+                "operatorType": "#Value"
+            },
+            "#OperatorReport": {
+                "instances": "#List#OperatorInstance",
+                "name": "#Value"
+            },
+            "#OperatorsReport": {
+                "m_header": "#HeaderData",
+                "m_notificationCollection": "#List#NotificationReport",
+                "m_operatorCollection": "#List#OperatorReport",
+                "m_operatorMappedCollection": "#List#OperatorMappedReport"
+            },
+            "root": "#OperatorsReport",
+            "style": {
+                "#HeaderData": {
+                    "hidden": true
+                },
+                "#NotificationReport": {
+                    "name": "Notifications",
+                    "order": [
+                        "notificationType",
+                        "message"
+                    ]
+                },
+                "#NotificationReport.notificationType": {
+                    "name": "Type of Messages"
+                },
+                "#OperatorInstance": {
+                    "order": [
+                        "name",
+                        "fileOrigin"
+                    ]
+                },
+                "#OperatorMappedReport": {
+                    "name": "Operators Mapping",
+                    "order": [
+                        "operatorType",
+                        "analysisName",
+                        "feCount",
+                        "cyCount",
+                        "dspCount",
+                        "isForced",
+                        "generationFeedback"
+                    ]
+                },
+                "#OperatorMappedReport.cyCount": {
+                    "name": "CY"
+                },
+                "#OperatorMappedReport.dspCount": {
+                    "name": "DSP"
+                },
+                "#OperatorMappedReport.feCount": {
+                    "name": "FE"
+                },
+                "#OperatorMappedReport.generationFeedback": {
+                    "name": "Mapping"
+                },
+                "#OperatorMappedReport.isForced": {
+                    "name": "Forced"
+                },
+                "#OperatorMappedReport.operatorType": {
+                    "name": "Type"
+                },
+                "#OperatorMappedReport.operatorType.%Adder": {
+                    "icon": "adder"
+                },
+                "#OperatorMappedReport.operatorType.%LessThan": {
+                    "icon": "lessThan"
+                },
+                "#OperatorMappedReport.operatorType.%Multiplier": {
+                    "icon": "multiplier"
+                },
+                "#OperatorReport": {
+                    "name": "Operators"
+                },
+                "#OperatorReport.name.%LessThan": {
+                    "icon": "lessThan"
+                },
+                "#OperatorReport.name.%add": {
+                    "icon": "adder"
+                },
+                "#OperatorReport.name.%mul": {
+                    "icon": "multiplier"
+                },
+                "#OperatorsReport": {
+                    "order": [
+                        "m_operatorCollection",
+                        "m_operatorMappedCollection"
+                    ]
+                }
+            }
+        }
+    },
+    "m_notificationCollection": [],
+    "m_operatorCollection": [
+        {
+            "instances": [
+                {
+                    "fileOrigin": "../test1.vhd",
+                    "lineOrigin": 103,
+                    "name": "add_datao"
+                }
+            ],
+            "name": "add_8u_8u"
+        }
+    ],
+    "m_operatorMappedCollection": [
+        {
+            "analysisName": "add_8u_8u",
+            "cyCount": 2,
+            "dspCount": 0,
+            "feCount": 0,
+            "generationFeedback": "Will be mapped into a CY  chain",
+            "isForced": false,
+            "name": "add_datao",
+            "operatorType": "Adder"
+        }
+    ]
+}
