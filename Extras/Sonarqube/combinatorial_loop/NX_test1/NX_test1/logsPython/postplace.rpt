@@ -4,154 +4,154 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:25:42 2023
+// Execution date:       Tue Oct 31 10:37:13 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:25:45:info     |   Site of managers:
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:11]]" Passive Useful Manager Locked> @ <HMFence "FENCE[78xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:12]]" Passive Useful Manager Locked> @ <HNFence "FENCE[1xL]" FOCUS[1x36] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:13]]" Passive Useful Manager Locked> @ <HNFence "FENCE[91xU]" FOCUS[91x26] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:14]]" Passive Useful Manager Locked> @ <HMFence "FENCE[63xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:15]]" Passive Useful Manager Locked> @ <HMFence "FENCE[86xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:16]]" Passive Useful Manager Locked> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:17]]" Passive Useful Manager Locked> @ <HMFence "FENCE[20xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <ITC "ITC[{~}:ITC~cle[4:18]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
-09:25:45:info     |     <ITS "ITS[{~}:ITS~cle[4:10]]" Passive Useful Manager Locked> @ <HCFence "FENCE[B5]" FOCUS[?x?] 1 5>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:1]]" Passive Useful Manager Locked> @ <HMFence "FENCE[70xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:2]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:3]]" Passive Useful Manager Locked> @ <HMFence "FENCE[88xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:4]]" Passive Useful Manager Locked> @ <HMFence "FENCE[82xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:5]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:6]]" Passive Useful Manager Locked> @ <HMFence "FENCE[19xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:7]]" Passive Useful Manager Locked> @ <HMFence "FENCE[79xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:8]]" Passive Useful Manager Locked> @ <HMFence "FENCE[29xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <OTC "OTC[{~}:OTC~cle[4:9]]" Passive Useful Manager Locked> @ <HMFence "FENCE[5xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:18]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[70xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:20]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:22]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[88xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:24]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[82xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:26]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[9xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:28]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[19xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:30]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[79xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:32]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[29xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCI "FCI[{~}:CI~sec[6:34]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[5xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:1]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[78xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:3]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HNFence "FENCE[1xL]" FOCUS[1x36] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:5]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HNFence "FENCE[91xU]" FOCUS[91x26] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:7]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[63xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:9]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[86xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:11]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:13]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[20xB]" FOCUS[?x?] 2>
-09:25:45:info     |     <FCO "FCO[{~}:CO~sec[6:15]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:2]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:4]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:6]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:8]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:10]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:12]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:14]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCI "TCI[{~}:CI~sec[6:16]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:17]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:19]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:21]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:23]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:25]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:27]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:29]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:31]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TCO "TCO[{~}:CO~sec[6:33]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <TSI "TSI[{~}:SI~sec[6:35]]" Passive Useful Manager System Incoming> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:LOGIC|lut_0]" Native Active Useful Slave 0x5555 Singular Prime> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage1[B1]]" Passive Useful Slave GROUP[1] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage1[B2]]" Passive Useful Slave GROUP[4] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage1[B3]]" Passive Useful Slave GROUP[2] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage1[B4]]" Passive Useful Slave GROUP[3] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage2[B1]]" Passive Useful Slave GROUP[1] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage2[B2]]" Passive Useful Slave GROUP[4] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage2[B3]]" Passive Useful Slave GROUP[2] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:add_datao_stage2[B4]]" Passive Useful Slave GROUP[3] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[1][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[3][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[7][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[2][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[0][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[6][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[4][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <LUT "LUT[{~}:data_reg[5][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[1]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[3]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[7]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[2]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[0]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[6]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[4]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <DFF "DFF[{~}:data_reg[5]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:LOGIC|lut_0[D]]" Passive Useful Manager> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage1[S1]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage1[S2]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage1[S3]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage1[S4]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage2[S1]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage2[S2]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage2[S3]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <BFF "BFF[{~}:add_datao_stage2[S4]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <CY "CY[{~}:add_datao_stage1]" Native Active Useful Manager First> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <CY "CY[{~}:add_datao_stage2]" Native Active Useful Leader Last> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
-09:25:45:info     |     <IP "IP[{~}:i_data[5]]" Native Active Useful Manager Locked 1> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_data[2]]" Native Active Useful Manager Locked 1> @ <NBank "IOB7" FOCUS[?x?] 3>
-09:25:45:info     |     <IP "IP[{~}:i_data[1]]" Native Active Useful Manager Locked 1> @ <NBank "IOB1" FOCUS[?x?] 3>
-09:25:45:info     |     <IP "IP[{~}:i_data[6]]" Native Active Useful Manager Locked 1> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_data[0]]" Native Active Useful Manager Locked 1> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_data[3]]" Native Active Useful Manager Locked 1> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_data[7]]" Native Active Useful Manager Locked 1> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_clk]" Native Active Useful Manager Locked 0> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <IP "IP[{~}:i_data[4]]" Native Active Useful Manager Locked 1> @ <HBank "IOB5" FOCUS[?x?] 3>
-09:25:45:info     |     <OP "OP[{~}:o_data[6]]" Native Active Useful Manager Locked 2> @ <HBank "IOB11" FOCUS[?x?] 3>
-09:25:45:info     |     <OP "OP[{~}:o_data[3]]" Native Active Useful Manager Locked 2> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[0]]" Native Active Useful Manager Locked 2> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[4]]" Native Active Useful Manager Locked 2> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[5]]" Native Active Useful Manager Locked 2> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[7]]" Native Active Useful Manager Locked 2> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[1]]" Native Active Useful Manager Locked 2> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_data[2]]" Native Active Useful Manager Locked 2> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <OP "OP[{~}:o_A]" Native Active Useful Manager Locked 2> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <IOM "IOM[{~}:i_clk~iom]" Active Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_A]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[2]]" Native Passive Useful Manager Locked> @ <NBank "IOB7" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_clk]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB5" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB5" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_A]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[2]]" Native Passive Useful Manager Locked> @ <NBank "IOB7" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[1]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[2]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_i_data[1]]" Native Passive Useful Manager Locked> @ <NBank "IOB1" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[1]]" Native Passive Useful Manager Locked> @ <NBank "IOB1" FOCUS[?x?] 3>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[1]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_o_o_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_i_i_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
-09:25:45:info     |     <BFR "BFR[{~}:buf_c_o_data[2]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
-09:25:45:info     |     <WFB "WFB[{~}:wfg_B_i_clk]" Native Passive Useful Manager Locked> @ <CKG "CKG4" FOCUS[?x?] 1>
-09:25:45:info     |     <GCK "GCK@SSC[{~}:ITS~cle[4:10]~nee[4:1]]" Passive Useful Manager Locked SSC> @ <Tube "TUBE" FOCUS[?x?] 1>
+10:37:18:info     |   Site of managers:
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:11]]" Passive Useful Manager Locked> @ <HMFence "FENCE[78xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:12]]" Passive Useful Manager Locked> @ <HNFence "FENCE[1xL]" FOCUS[1x36] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:13]]" Passive Useful Manager Locked> @ <HNFence "FENCE[91xU]" FOCUS[91x26] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:14]]" Passive Useful Manager Locked> @ <HMFence "FENCE[63xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:15]]" Passive Useful Manager Locked> @ <HMFence "FENCE[86xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:16]]" Passive Useful Manager Locked> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:17]]" Passive Useful Manager Locked> @ <HMFence "FENCE[20xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <ITC "ITC[{~}:ITC~cle[4:18]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
+10:37:18:info     |     <ITS "ITS[{~}:ITS~cle[4:10]]" Passive Useful Manager Locked> @ <HCFence "FENCE[B5]" FOCUS[?x?] 1 5>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:1]]" Passive Useful Manager Locked> @ <HMFence "FENCE[70xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:2]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:3]]" Passive Useful Manager Locked> @ <HMFence "FENCE[88xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:4]]" Passive Useful Manager Locked> @ <HMFence "FENCE[82xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:5]]" Passive Useful Manager Locked> @ <HMFence "FENCE[9xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:6]]" Passive Useful Manager Locked> @ <HMFence "FENCE[19xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:7]]" Passive Useful Manager Locked> @ <HMFence "FENCE[79xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:8]]" Passive Useful Manager Locked> @ <HMFence "FENCE[29xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <OTC "OTC[{~}:OTC~cle[4:9]]" Passive Useful Manager Locked> @ <HMFence "FENCE[5xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:18]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[70xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:20]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:22]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[88xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:24]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[82xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:26]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[9xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:28]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[19xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:30]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[79xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:32]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[29xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCI "FCI[{~}:CI~sec[6:34]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[5xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:1]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[78xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:3]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HNFence "FENCE[1xL]" FOCUS[1x36] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:5]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HNFence "FENCE[91xU]" FOCUS[91x26] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:7]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[63xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:9]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[86xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:11]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:13]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[20xB]" FOCUS[?x?] 2>
+10:37:18:info     |     <FCO "FCO[{~}:CO~sec[6:15]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[9xB]" FOCUS[?x?] 4>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:2]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:4]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:6]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:8]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:10]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:12]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:14]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCI "TCI[{~}:CI~sec[6:16]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:17]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:19]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:21]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:23]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:25]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:27]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:29]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:31]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TCO "TCO[{~}:CO~sec[6:33]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <TSI "TSI[{~}:SI~sec[6:35]]" Passive Useful Manager System Incoming> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:LOGIC|lut_0]" Native Active Useful Slave 0x5555 Singular Prime> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage1[B1]]" Passive Useful Slave GROUP[1] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage1[B2]]" Passive Useful Slave GROUP[4] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage1[B3]]" Passive Useful Slave GROUP[2] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage1[B4]]" Passive Useful Slave GROUP[3] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage1]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage2[B1]]" Passive Useful Slave GROUP[1] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage2[B2]]" Passive Useful Slave GROUP[4] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage2[B3]]" Passive Useful Slave GROUP[2] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:add_datao_stage2[B4]]" Passive Useful Slave GROUP[3] 0xaaaa Singular Prime Fifth:CY[{~}:add_datao_stage2]> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[1][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[3][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[7][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[2][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[0][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[6][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[4][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <LUT "LUT[{~}:data_reg[5][I]]" Passive Useful Slave 0xaaaa Singular Prime> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[1]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[3]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[7]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[2]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[0]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[6]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[4]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <DFF "DFF[{~}:data_reg[5]]" Native Active Useful Manager> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:LOGIC|lut_0[D]]" Passive Useful Manager> @ <Tile "TILE[70x2]" FOCUS[70x2] 3 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage1[S1]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage1[S2]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage1[S3]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage1[S4]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage2[S1]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage2[S2]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage2[S3]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <BFF "BFF[{~}:add_datao_stage2[S4]]" Passive Useful Slave> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <CY "CY[{~}:add_datao_stage1]" Native Active Useful Manager First> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <CY "CY[{~}:add_datao_stage2]" Native Active Useful Leader Last> @ <Tile "TILE[48x20]" FOCUS[48x20] 51 Exposed>
+10:37:18:info     |     <IP "IP[{~}:i_data[5]]" Native Active Useful Manager Locked 1> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_data[2]]" Native Active Useful Manager Locked 1> @ <NBank "IOB7" FOCUS[?x?] 3>
+10:37:18:info     |     <IP "IP[{~}:i_data[1]]" Native Active Useful Manager Locked 1> @ <NBank "IOB1" FOCUS[?x?] 3>
+10:37:18:info     |     <IP "IP[{~}:i_data[6]]" Native Active Useful Manager Locked 1> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_data[0]]" Native Active Useful Manager Locked 1> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_data[3]]" Native Active Useful Manager Locked 1> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_data[7]]" Native Active Useful Manager Locked 1> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_clk]" Native Active Useful Manager Locked 0> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <IP "IP[{~}:i_data[4]]" Native Active Useful Manager Locked 1> @ <HBank "IOB5" FOCUS[?x?] 3>
+10:37:18:info     |     <OP "OP[{~}:o_data[6]]" Native Active Useful Manager Locked 2> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:18:info     |     <OP "OP[{~}:o_data[3]]" Native Active Useful Manager Locked 2> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[0]]" Native Active Useful Manager Locked 2> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[4]]" Native Active Useful Manager Locked 2> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[5]]" Native Active Useful Manager Locked 2> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[7]]" Native Active Useful Manager Locked 2> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[1]]" Native Active Useful Manager Locked 2> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_data[2]]" Native Active Useful Manager Locked 2> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <OP "OP[{~}:o_A]" Native Active Useful Manager Locked 2> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <IOM "IOM[{~}:i_clk~iom]" Active Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_A]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[2]]" Native Passive Useful Manager Locked> @ <NBank "IOB7" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_clk]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB5" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB5" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_A]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[2]]" Native Passive Useful Manager Locked> @ <NBank "IOB7" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB4" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB13" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[5]]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[1]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[7]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[2]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[0]]" Native Passive Useful Manager Locked> @ <HBank "IOB2" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_i_data[1]]" Native Passive Useful Manager Locked> @ <NBank "IOB1" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[1]]" Native Passive Useful Manager Locked> @ <NBank "IOB1" FOCUS[?x?] 3>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[6]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[1]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_o_o_data[4]]" Native Passive Useful Manager Locked> @ <HBank "IOB3" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_i_i_data[3]]" Native Passive Useful Manager Locked> @ <HBank "IOB10" FOCUS[?x?] 6>
+10:37:18:info     |     <BFR "BFR[{~}:buf_c_o_data[2]]" Native Passive Useful Manager Locked> @ <HBank "IOB8" FOCUS[?x?] 6>
+10:37:18:info     |     <WFB "WFB[{~}:wfg_B_i_clk]" Native Passive Useful Manager Locked> @ <CKG "CKG4" FOCUS[?x?] 1>
+10:37:18:info     |     <GCK "GCK@SSC[{~}:ITS~cle[4:10]~nee[4:1]]" Passive Useful Manager Locked SSC> @ <Tube "TUBE" FOCUS[?x?] 1>

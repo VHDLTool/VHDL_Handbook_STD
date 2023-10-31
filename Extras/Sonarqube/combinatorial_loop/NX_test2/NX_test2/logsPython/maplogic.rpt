@@ -4,31 +4,31 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:26:20 2023
+// Execution date:       Tue Oct 31 10:37:57 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:26:22:info     |   ----------------------------------------------
-09:26:22:info     |   - Standard Logic processing                  -
-09:26:22:info     |   ----------------------------------------------
-09:26:22:info     |   Flattening Design
-09:26:22:info     |     Destroying internal cells ...
-09:26:22:info     |     Purging: test2
-09:26:22:info     |   Analyzing LUT-based Adders
-09:26:22:info     |   Analyzing Memory
-09:26:22:info     |   Flattening Design
-09:26:22:info     |     Destroying internal cells ...
-09:26:22:info     |     Purging: test2
-09:26:22:info     |     Removed 1 net (invisible)
-09:26:22:info     |   Analyzing Dsp
-09:26:22:info     |   Flattening Design
-09:26:22:info     |     Destroying internal cells ...
-09:26:22:info     |     Purging: test2
-09:26:22:info     |     Destroying internal cells ...
-09:26:22:info     |     Purging: test2
-09:26:22:info     |   Checking logic cycles
-09:26:22:info     |     Optimizing #Luts ...
-09:26:22:info     |     step 1 :
-09:26:22:info     |     final step
-09:26:22:info     |             lut = 9
+10:37:59:info     |   ----------------------------------------------
+10:37:59:info     |   - Standard Logic processing                  -
+10:37:59:info     |   ----------------------------------------------
+10:37:59:info     |   Flattening Design
+10:37:59:info     |     Destroying internal cells ...
+10:37:59:info     |     Purging: test2
+10:37:59:info     |   Analyzing LUT-based Adders
+10:37:59:info     |   Analyzing Memory
+10:37:59:info     |   Flattening Design
+10:37:59:info     |     Destroying internal cells ...
+10:37:59:info     |     Purging: test2
+10:37:59:info     |     Removed 1 net (invisible)
+10:37:59:info     |   Analyzing Dsp
+10:37:59:info     |   Flattening Design
+10:37:59:info     |     Destroying internal cells ...
+10:37:59:info     |     Purging: test2
+10:37:59:info     |     Destroying internal cells ...
+10:37:59:info     |     Purging: test2
+10:37:59:info     |   Checking logic cycles
+10:37:59:info     |     Optimizing #Luts ...
+10:37:59:info     |     step 1 :
+10:37:59:info     |     final step
+10:37:59:info     |             lut = 9

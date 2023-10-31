@@ -4,22 +4,22 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:25:42 2023
+// Execution date:       Tue Oct 31 10:37:13 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:25:45:info     |     
-09:25:45:info     |     Reporting ports at state 'Prepared':
-09:25:45:info     |     Ports used in current design.
-09:25:45:info     |     +-------------------------+
+10:37:17:info     |     
+10:37:17:info     |     Reporting ports at state 'Prepared':
+10:37:17:info     |     Ports used in current design.
+10:37:17:info     |     +-------------------------+
                   |     |           IOs           |
                   |     | Input | Output | In/Out |
                   |     +-------+--------+--------+
                   |     | 9     | 9      | 0      |
                   |     +-------+--------+--------+
                   |     
-09:25:45:info     |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+10:37:17:info     |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
                   |     |   Name    | I/O  |    Location    | Standard | Voltage | Drive |     Termination      | SlewRate |   DelayLine   | Differential | Turbo |  Registered   |
                   |     |           |      |                |          |         |       | R / Weak / Reference |          |   In / Out    |              |       | Asked:Applied |
                   |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
@@ -43,6 +43,6 @@
                   |     | o_A       | Out  | IOB10_D00P (!) | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
                   |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
                   |     
-09:25:45:info     |     Note: the table above only displays the ports that are used in the current design.
-09:25:45:info     |     Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
-09:25:45:info     |     Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.
+10:37:17:info     |     Note: the table above only displays the ports that are used in the current design.
+10:37:17:info     |     Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
+10:37:17:info     |     Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.

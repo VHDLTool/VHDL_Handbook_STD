@@ -1,5 +1,5 @@
 --DESIGN "test2_1"
---DATE "Tue Oct 31 09:26:06 2023"
+--DATE "Tue Oct 31 10:37:42 2023"
 --VENDOR "NanoXplore"
 --PROGRAM "Impulse"
 --VERSION "v23.3.0.2"

@@ -4,23 +4,23 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:24:47 2023
+// Execution date:       Tue Oct 31 10:32:11 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3333634
+// Process ID:           3365233
 ////////////////////////////////////////////////////////////////////////////////
 
-09:24:48:info     |   ----------------------------------------------
-09:24:48:info     |   - Register Instances processing              -
-09:24:48:info     |   ----------------------------------------------
-09:24:49:info     |     
-09:24:49:info     |     Register usage summary
-09:24:49:info     |     
-09:24:49:info     |     	HDL Init info on DFF: 0 / 0 Total
-09:24:49:info     |     	Reset Unused  on DFF: 0 / 0 Total
-09:24:49:info     | ////////////////////////////////////////////////////////////////////////////////
-09:24:49:info     | // Mapped Data
-09:24:49:info     | ////////////////////////////////////////////////////////////////////////////////
-09:24:49:info     | Synthesized Registers : 
-09:24:49:info     | There are 0DFFs
-09:24:49:info     | No Resets : 0
-09:24:49:info     | HDL Init : 0
+10:32:12:info     |   ----------------------------------------------
+10:32:12:info     |   - Register Instances processing              -
+10:32:12:info     |   ----------------------------------------------
+10:32:12:info     |     
+10:32:12:info     |     Register usage summary
+10:32:12:info     |     
+10:32:12:info     |     	HDL Init info on DFF: 0 / 0 Total
+10:32:12:info     |     	Reset Unused  on DFF: 0 / 0 Total
+10:32:12:info     | ////////////////////////////////////////////////////////////////////////////////
+10:32:12:info     | // Mapped Data
+10:32:12:info     | ////////////////////////////////////////////////////////////////////////////////
+10:32:12:info     | Synthesized Registers : 
+10:32:12:info     | There are 0DFFs
+10:32:12:info     | No Resets : 0
+10:32:12:info     | HDL Init : 0

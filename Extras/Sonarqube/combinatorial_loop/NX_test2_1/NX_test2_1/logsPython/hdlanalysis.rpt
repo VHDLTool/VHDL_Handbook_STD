@@ -4,21 +4,21 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:26:01 2023
+// Execution date:       Tue Oct 31 10:37:35 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:26:02:info     |   ----------------------------------------------
-09:26:02:info     |   - HDL Source code analysis                   -
-09:26:02:info     |   ----------------------------------------------
-09:26:02:info     |     (0): VHDL library search path for library "std" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/std"
-09:26:02:info     |     (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/ieee"
-09:26:02:info     |     (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/synopsys"
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(12): analyzing package 'nxpackage'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
-09:26:02:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'
+10:37:36:info     |   ----------------------------------------------
+10:37:36:info     |   - HDL Source code analysis                   -
+10:37:36:info     |   ----------------------------------------------
+10:37:36:info     |     (0): VHDL library search path for library "std" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/std"
+10:37:36:info     |     (0): VHDL library search path for library "ieee" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/ieee"
+10:37:36:info     |     (0): VHDL library search path for library "synopsys" is now "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/vhdl/synopsys"
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(12): analyzing package 'nxpackage'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(35234): analyzing package 'regfile_cdc_l_pkg'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(35271): analyzing package body 'regfile_cdc_l_pkg'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(70907): analyzing package 'regfile_cdc_u_pkg'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(70944): analyzing package body 'regfile_cdc_u_pkg'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(71809): analyzing package 'regfile_u_pkg'
+10:37:36:info     |     /opt/NanoXplore/nxmap/nxmap-23.3.0.2/share/variants/NG-ULTRA/nxLibrary.vhd(71836): analyzing package body 'regfile_u_pkg'

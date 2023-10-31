@@ -4,19 +4,19 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:26:01 2023
+// Execution date:       Tue Oct 31 10:37:35 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:26:05:info     |   Site of managers:
-09:26:05:info     |     <ITC "ITC[{~}:ITC~cle[4:1]]" Passive Useful Manager Locked> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
-09:26:05:info     |     <OTC "OTC[{~}:OTC~cle[4:2]]" Passive Useful Manager Locked> @ <HMFence "FENCE[28xT]" FOCUS[?x?] 2>
-09:26:05:info     |     <FCI "FCI[{~}:CI~sec[6:2]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[28xT]" FOCUS[?x?] 2>
-09:26:05:info     |     <FCO "FCO[{~}:CO~sec[6:1]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
-09:26:05:info     |     <IP "IP[{~}:rts]" Native Active Useful Manager Locked 1> @ <HBank "IOB9" FOCUS[?x?] 3>
-09:26:05:info     |     <OP "OP[{~}:cts]" Native Active Useful Manager Locked 2> @ <HBank "IOB11" FOCUS[?x?] 3>
-09:26:05:info     |     <BFR "BFR[{~}:buf_c_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 3>
-09:26:05:info     |     <BFR "BFR[{~}:buf_o_cts]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
-09:26:05:info     |     <BFR "BFR[{~}:buf_i_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 3>
-09:26:05:info     |     <BFR "BFR[{~}:buf_c_cts]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:40:info     |   Site of managers:
+10:37:40:info     |     <ITC "ITC[{~}:ITC~cle[4:1]]" Passive Useful Manager Locked> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
+10:37:40:info     |     <OTC "OTC[{~}:OTC~cle[4:2]]" Passive Useful Manager Locked> @ <HMFence "FENCE[28xT]" FOCUS[?x?] 2>
+10:37:40:info     |     <FCI "FCI[{~}:CI~sec[6:2]]" Passive Useful Manager Common Incoming SQUAD[?] Undefined Explodable Major:0> @ <HMFence "FENCE[28xT]" FOCUS[?x?] 2>
+10:37:40:info     |     <FCO "FCO[{~}:CO~sec[6:1]]" Passive Useful Manager Common Outgoing SQUAD[?] Undefined> @ <HMFence "FENCE[76xT]" FOCUS[?x?] 2>
+10:37:40:info     |     <IP "IP[{~}:rts]" Native Active Useful Manager Locked 1> @ <HBank "IOB9" FOCUS[?x?] 3>
+10:37:40:info     |     <OP "OP[{~}:cts]" Native Active Useful Manager Locked 2> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:40:info     |     <BFR "BFR[{~}:buf_c_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 3>
+10:37:40:info     |     <BFR "BFR[{~}:buf_o_cts]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>
+10:37:40:info     |     <BFR "BFR[{~}:buf_i_rts]" Native Passive Useful Manager Locked> @ <HBank "IOB9" FOCUS[?x?] 3>
+10:37:40:info     |     <BFR "BFR[{~}:buf_c_cts]" Native Passive Useful Manager Locked> @ <HBank "IOB11" FOCUS[?x?] 3>

@@ -4,71 +4,71 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:26:01 2023
+// Execution date:       Tue Oct 31 10:37:35 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:26:03:info     | ////////////////////////////////////////////////////////////////////////////////
-09:26:03:info     | // Mapped Data
-09:26:03:info     | ////////////////////////////////////////////////////////////////////////////////
-09:26:03:info     | 
-09:26:03:info     | ----------------------------
-09:26:03:info     | HDL Modules Hierarchy Detail
-09:26:03:info     | ----------------------------
-09:26:03:info     | 
-09:26:03:info     | ~test1 [ ~ ] 
-09:26:03:info     |  Resources:
-09:26:03:info     |    NX_LUT : 1
-09:26:03:info     |    NX_DFF : 8
-09:26:03:info     |    NX_CY : 2
-09:26:03:info     |    NX_IOB : 18
-09:26:03:info     |    NX_BFR : 35
-09:26:03:info     |    NX_WFG_U : 1
-09:26:03:info     | 
-09:26:03:info     | ////////////////////////////////////////////////////////////////////////////////
-09:26:03:info     | // Converted Data
-09:26:03:info     | ////////////////////////////////////////////////////////////////////////////////
-09:26:03:info     | Reporting Modules usage
-09:26:03:info     |   Nothing to report
-09:26:03:info     | 
-09:26:03:info     | 	Module <~> :
-09:26:03:info     |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
+10:37:37:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:37:info     | // Mapped Data
+10:37:37:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:37:info     | 
+10:37:37:info     | ----------------------------
+10:37:37:info     | HDL Modules Hierarchy Detail
+10:37:37:info     | ----------------------------
+10:37:37:info     | 
+10:37:37:info     | ~test1 [ ~ ] 
+10:37:37:info     |  Resources:
+10:37:37:info     |    NX_LUT : 1
+10:37:37:info     |    NX_DFF : 8
+10:37:37:info     |    NX_CY : 2
+10:37:37:info     |    NX_IOB : 18
+10:37:37:info     |    NX_BFR : 35
+10:37:37:info     |    NX_WFG_U : 1
+10:37:37:info     | 
+10:37:37:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:37:info     | // Converted Data
+10:37:37:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:37:info     | Reporting Modules usage
+10:37:37:info     |   Nothing to report
+10:37:37:info     | 
+10:37:37:info     | 	Module <~> :
+10:37:37:info     |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
                   |   | 4-LUT         | DFF           | XLUT         | 1 - bit Carry | Register File Block | Cross Domain Clock | Clock Buffer | Clock Switch | Digital Signal Processor | Memory Block | WFG       | PLL      | GCK        |
                   |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
                   |   | 1/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%)         | 0/2632 (0%)        | 0            | 0/5264 (0%)  | 0/1344 (0%)              | 0/672 (0%)   | 1/70 (2%) | 0/7 (0%) | 0/160 (0%) |
                   |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
                   |   
-09:26:03:info     |   Actual FE occupancy is 17/505344 (1%)
-09:26:03:info     |     
-09:26:03:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:26:03:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:26:03:info     |     The following table details the use of FEs.
-09:26:03:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
+10:37:37:info     |   Actual FE occupancy is 17/505344 (1%)
+10:37:37:info     |     
+10:37:37:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+10:37:37:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+10:37:37:info     |     The following table details the use of FEs.
+10:37:37:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     | Total FE Count |  | Used by 4-LUT | Used by DFF Buffer | Used by CY | Used by RF | Used by CDC | Used by CKS |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     | 17/505344 (1%) |  | 1             | 8                  | 8          | 0          | 0           | 0           |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     
-09:26:03:info     |     
-09:26:03:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:26:03:info     |     The following table lists the number of registers for each instance type.
-09:26:03:info     |     +----------------------+--+------------+-------------+-------------+--------------+
+10:37:37:info     |     
+10:37:37:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+10:37:37:info     |     The following table lists the number of registers for each instance type.
+10:37:37:info     |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | Total Register Count |  | Used by FE | Used by DSP | Used by RAM | Used by Pads |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | 8                    |  | 8          | 0           | 0           | 0            |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     
-09:26:03:info     | ----------------------------
-09:26:03:info     | HDL Modules Hierarchy Detail
-09:26:03:info     | ----------------------------
-09:26:03:info     | 
-09:26:03:info     | ~test1 [ ~ ] 
-09:26:03:info     |  Resources:
-09:26:03:info     |    NX_LUT : 1
-09:26:03:info     |    NX_DFF : 8
-09:26:03:info     |    NX_CY : 2
-09:26:03:info     |    NX_IOB : 18
-09:26:03:info     |    NX_BFR : 35
-09:26:03:info     |    NX_WFG_U : 1
-09:26:03:info     | 
+10:37:37:info     | ----------------------------
+10:37:37:info     | HDL Modules Hierarchy Detail
+10:37:37:info     | ----------------------------
+10:37:37:info     | 
+10:37:37:info     | ~test1 [ ~ ] 
+10:37:37:info     |  Resources:
+10:37:37:info     |    NX_LUT : 1
+10:37:37:info     |    NX_DFF : 8
+10:37:37:info     |    NX_CY : 2
+10:37:37:info     |    NX_IOB : 18
+10:37:37:info     |    NX_BFR : 35
+10:37:37:info     |    NX_WFG_U : 1
+10:37:37:info     | 

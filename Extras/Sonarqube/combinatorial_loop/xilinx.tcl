@@ -9,8 +9,12 @@ update_compile_order -fileset sources_1
 launch_runs impl_1 -jobs 16
 wait_on_runs impl_1
 open_run synth_1 -name synth_1
-write_edif ./xil_test1/comb-synth.edn
-write_verilog ./xil_test1/comb-synth.v
+write_edif ./xil_test1/comb-synth.edn -force
+write_verilog ./xil_test1/comb-synth.v -force
+write_vhdl ./xil_test1/comb-synth.vhd -force
+open_run impl_1 -name impl_1
+write_verilog -mode design  ./xil_test1/comb-ppr.v -force
+
 
 create_project comb ./xil_test2_1 -part xc7a12tcpg238-3 -force
 set_property target_language VHDL [current_project]
@@ -21,8 +25,13 @@ update_compile_order -fileset sources_1
 launch_runs impl_1 -jobs 16
 wait_on_runs impl_1
 open_run synth_1 -name synth_1
-write_edif ./xil_test2_1/comb-synth.edn
-write_verilog ./xil_test2_1/comb-synth.v
+write_edif ./xil_test2_1/comb-synth.edn -force
+write_verilog ./xil_test2_1/comb-synth.v -force
+write_vhdl ./xil_test2_1/comb-synth.vhd -force
+open_run impl_1 -name impl_1
+write_verilog -mode design  ./xil_test2_1/comb-ppr.v -force
+
+
 
 create_project comb ./xil_test2 -part xc7a12tcpg238-3 -force
 set_property target_language VHDL [current_project]
@@ -33,5 +42,8 @@ update_compile_order -fileset sources_1
 launch_runs impl_1 -jobs 16
 wait_on_runs impl_1
 open_run synth_1 -name synth_1
-write_edif ./xil_test2/comb-synth.edn
-write_verilog ./xil_test2/comb-synth.v
+write_edif ./xil_test2/comb-synth.edn -force
+write_verilog ./xil_test2/comb-synth.v -force
+write_vhdl ./xil_test2/comb-synth.vhd -force
+open_run impl_1 -name impl_1
+write_verilog -mode design  ./xil_test2/comb-ppr.v -force

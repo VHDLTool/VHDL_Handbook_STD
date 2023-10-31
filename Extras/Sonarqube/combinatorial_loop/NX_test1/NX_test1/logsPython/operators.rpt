@@ -4,41 +4,41 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:25:42 2023
+// Execution date:       Tue Oct 31 10:37:13 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:25:43:info     |   ----------------------------------------------
-09:25:43:info     |   - Operator Cells analysis                    -
-09:25:43:info     |   ----------------------------------------------
-09:25:43:info     |     
-09:25:43:info     |     Operator 'add_8u_8u'
-09:25:43:info     |     	 : add_datao	(line 103 in ../test1.vhd)
-09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
-09:25:43:info     | // Synthesized Data
-09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
-09:25:43:info     | Synthesized Operators : 
-09:25:43:info     | 
-09:25:43:info     | Operator'add_8u_8u'
-09:25:43:info     | 	 : add_datao	(line 103 in ../test1.vhd)
-09:25:43:info     |   
-09:25:43:info     |   ----------------------------------------------
-09:25:43:info     |   - Operator Instances processing              -
-09:25:43:info     |   ----------------------------------------------
-09:25:43:info     |     Adder add_datao can be mapped as:
-09:25:43:info     |     15 LUTs with a depth of 6 levels
-09:25:43:info     |     
-09:25:43:info     |       Adder add_datao
-09:25:43:info     |       	Will be mapped into a CY  chain
-09:25:43:info     |       Standard Map into CY   [ FE: 0 CY: 2 DSP: 0 ] for: add_datao
-09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
-09:25:43:info     | // Mapped Data
-09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
-09:25:43:info     | Mapped Operators : 
-09:25:43:info     | 
-09:25:43:info     | Adder add_datao
-09:25:43:info     | 	Will be mapped into a CY  chain
-09:25:43:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
-09:25:43:info     | 
-09:25:43:info     | Design instanciates [ FE: 0 CY: 2 DSP: 0 ]
+10:37:14:info     |   ----------------------------------------------
+10:37:14:info     |   - Operator Cells analysis                    -
+10:37:14:info     |   ----------------------------------------------
+10:37:14:info     |     
+10:37:14:info     |     Operator 'add_8u_8u'
+10:37:14:info     |     	 : add_datao	(line 103 in ../test1.vhd)
+10:37:14:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:14:info     | // Synthesized Data
+10:37:14:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:14:info     | Synthesized Operators : 
+10:37:14:info     | 
+10:37:14:info     | Operator'add_8u_8u'
+10:37:14:info     | 	 : add_datao	(line 103 in ../test1.vhd)
+10:37:14:info     |   
+10:37:14:info     |   ----------------------------------------------
+10:37:14:info     |   - Operator Instances processing              -
+10:37:14:info     |   ----------------------------------------------
+10:37:14:info     |     Adder add_datao can be mapped as:
+10:37:14:info     |     15 LUTs with a depth of 6 levels
+10:37:14:info     |     
+10:37:14:info     |       Adder add_datao
+10:37:14:info     |       	Will be mapped into a CY  chain
+10:37:14:info     |       Standard Map into CY   [ FE: 0 CY: 2 DSP: 0 ] for: add_datao
+10:37:14:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:14:info     | // Mapped Data
+10:37:14:info     | ////////////////////////////////////////////////////////////////////////////////
+10:37:14:info     | Mapped Operators : 
+10:37:14:info     | 
+10:37:14:info     | Adder add_datao
+10:37:14:info     | 	Will be mapped into a CY  chain
+10:37:14:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
+10:37:14:info     | 
+10:37:14:info     | Design instanciates [ FE: 0 CY: 2 DSP: 0 ]

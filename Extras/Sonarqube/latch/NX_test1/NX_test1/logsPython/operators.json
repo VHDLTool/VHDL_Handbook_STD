@@ -5,8 +5,8 @@
         "appVersion": "v23.3.0.2",
         "buildDate": "2023-09-29 15:22:00",
         "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
-        "executionDate": "Tue Oct 31 09:24:47 2023",
-        "pid": 3333634,
+        "executionDate": "Tue Oct 31 10:32:11 2023",
+        "pid": 3365233,
         "revision": "branch HEAD - hash c27499706...",
         "ui": {
             "#HeaderData": {

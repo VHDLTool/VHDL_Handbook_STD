@@ -4,14 +4,14 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:26:20 2023
+// Execution date:       Tue Oct 31 10:37:57 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:26:22:info     |   
-09:26:22:info     |   Reporting instances at state 'Synthesized':
-09:26:22:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+10:37:59:info     |   
+10:37:59:info     |   Reporting instances at state 'Synthesized':
+10:37:59:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
                   |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
                   |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
@@ -19,12 +19,12 @@
                   |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 0/70 (0%) | 0/7 (0%) | 0/160 (0%) |
                   |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:26:22:info     |   Actual FE occupancy is 25/505344 (1%)
-09:26:22:info     |     
-09:26:22:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:26:22:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:26:22:info     |     The following table details the use of FEs.
-09:26:22:info     |     +----------------++--------------------------------------+
+10:37:59:info     |   Actual FE occupancy is 25/505344 (1%)
+10:37:59:info     |     
+10:37:59:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+10:37:59:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+10:37:59:info     |     The following table details the use of FEs.
+10:37:59:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
@@ -32,10 +32,10 @@
                   |     | 25/505344 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:26:22:info     |     
-09:26:22:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:26:22:info     |     The following table lists the number of registers for each instance type.
-09:26:22:info     |     +----------++-----------------------+
+10:37:59:info     |     
+10:37:59:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+10:37:59:info     |     The following table lists the number of registers for each instance type.
+10:37:59:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |
@@ -43,9 +43,9 @@
                   |     |    8     || 8  |  0  |  0  |  0   |
                   |     +----------++----+-----+-----+------+
                   |     
-09:26:24:info     |   
-09:26:24:info     |   Reporting instances at state 'Prepared':
-09:26:24:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+10:38:02:info     |   
+10:38:02:info     |   Reporting instances at state 'Prepared':
+10:38:02:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
                   |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
                   |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
@@ -53,12 +53,12 @@
                   |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 1/160 (1%) |
                   |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:26:24:info     |   Actual FE occupancy is 17/505344 (1%)
-09:26:24:info     |     
-09:26:24:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:26:24:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:26:24:info     |     The following table details the use of FEs.
-09:26:24:info     |     +----------------++--------------------------------------+
+10:38:02:info     |   Actual FE occupancy is 17/505344 (1%)
+10:38:02:info     |     
+10:38:02:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+10:38:02:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+10:38:02:info     |     The following table details the use of FEs.
+10:38:02:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
@@ -66,10 +66,10 @@
                   |     | 17/505344 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:26:24:info     |     
-09:26:24:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:26:24:info     |     The following table lists the number of registers for each instance type.
-09:26:24:info     |     +----------++-----------------------+
+10:38:02:info     |     
+10:38:02:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+10:38:02:info     |     The following table lists the number of registers for each instance type.
+10:38:02:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |
@@ -77,9 +77,9 @@
                   |     |    8     || 8  |  0  |  0  |  0   |
                   |     +----------++----+-----+-----+------+
                   |     
-09:26:39:info     |   
-09:26:39:info     |   Reporting instances at state 'Routed':
-09:26:39:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+10:38:17:info     |   
+10:38:17:info     |   Reporting instances at state 'Routed':
+10:38:17:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
                   |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
                   |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
@@ -87,12 +87,12 @@
                   |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 1/160 (1%) |
                   |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:26:39:info     |   Actual FE occupancy is 18/505344 (1%)
-09:26:39:info     |     
-09:26:39:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:26:39:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:26:39:info     |     The following table details the use of FEs.
-09:26:39:info     |     +----------------++--------------------------------------+
+10:38:17:info     |   Actual FE occupancy is 18/505344 (1%)
+10:38:17:info     |     
+10:38:17:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+10:38:17:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+10:38:17:info     |     The following table details the use of FEs.
+10:38:17:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
@@ -100,10 +100,10 @@
                   |     | 18/505344 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:26:39:info     |     
-09:26:39:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:26:39:info     |     The following table lists the number of registers for each instance type.
-09:26:39:info     |     +----------++-----------------------+
+10:38:17:info     |     
+10:38:17:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+10:38:17:info     |     The following table lists the number of registers for each instance type.
+10:38:17:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |

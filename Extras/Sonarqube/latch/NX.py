@@ -33,6 +33,7 @@ for file_name in list_files:
         sys.exit(1)
     #p.save( 'synthesized.nym')
     p.save( 'synth.vhd')
+    p.save( 'synth.v')
 
     ############################################PROJECT PLACE###########################################
 
@@ -42,7 +43,7 @@ for file_name in list_files:
         sys.exit(1)
     #p.save( 'placed.nym')
     p.save( 'placed.vhd')
-
+    p.save( 'placed.v')
     ############################################PROJECT ROUTE###########################################
 
     if not p.route():
@@ -51,6 +52,7 @@ for file_name in list_files:
 
     #p.save( 'routed.nym')
     p.save('routed.vhd')
+    p.save('routed.v')
 
     ############################################PROJECT CLOSE##########################################
     p.destroy()

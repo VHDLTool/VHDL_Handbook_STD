@@ -4,9 +4,9 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:25:42 2023
+// Execution date:       Tue Oct 31 10:37:13 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3334006
+// Process ID:           3370707
 ////////////////////////////////////////////////////////////////////////////////
 
-09:25:43:info     |     FOUND LINK O -> A: <Instance "add_8u_8u[add_datao]">
+10:37:14:info     |     FOUND LINK O -> A: <Instance "add_8u_8u[add_datao]">
