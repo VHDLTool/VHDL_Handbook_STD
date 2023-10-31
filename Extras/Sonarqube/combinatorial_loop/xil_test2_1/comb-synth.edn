@@ -1,0 +1,79 @@
+(edif test2_1
+  (edifversion 2 0 0)
+  (edifLevel 0)
+  (keywordmap (keywordlevel 0))
+(status
+ (written
+  (timeStamp 2023 10 31 10 08 54)
+  (program "Vivado" (version "2023.1"))
+  (comment "Built on 'Sun May  7 15:04:56 MDT 2023'")
+  (comment "Built by 'xbuild'")
+ )
+)
+  (Library hdi_primitives
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell OBUF (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+        (port O (direction OUTPUT))
+        (port I (direction INPUT))
+       )
+     )
+   )
+   (cell IBUF (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface 
+        (port O (direction OUTPUT))
+        (port I (direction INPUT))
+       )
+     )
+   )
+   (cell INV (celltype GENERIC)
+     (view netlist (viewtype NETLIST)
+       (interface
+         (port I (direction INPUT))
+         (port O (direction OUTPUT))
+       )
+     )
+   )
+  )
+  (Library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+   (cell test2_1 (celltype GENERIC)
+     (view test2_1 (viewtype NETLIST)
+       (interface 
+        (port cts (direction OUTPUT))
+        (port rts (direction INPUT))
+       )
+       (contents
+         (instance cts_OBUF_inst (viewref netlist (cellref OBUF (libraryref hdi_primitives))))
+         (instance rts_IBUF_inst (viewref netlist (cellref IBUF (libraryref hdi_primitives))))
+         (net cts (joined
+          (portref O (instanceref cts_OBUF_inst))
+          (portref cts)
+          )
+         )
+         (net cts_OBUF (joined
+          (portref I (instanceref cts_OBUF_inst))
+          (portref O (instanceref rts_IBUF_inst))
+          )
+         )
+         (net rts (joined
+          (portref I (instanceref rts_IBUF_inst))
+          (portref rts)
+          )
+         )
+       )
+     )
+   )
+  )
+(comment "Reference To The Cell Of Highest Level")
+
+  (design test2_1
+    (cellref test2_1 (libraryref work))
+    (property XLNX_PROJ_DIR (string "/home/flo/FLORENT/GIT/VHDL_Handbook_STD/Extras/Sonarqube/combinatorial_loop/xil_test2_1"))
+    (property part (string "xc7a12tcpg238-3"))
+  )
+)
