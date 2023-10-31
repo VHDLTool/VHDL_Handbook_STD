@@ -1,3 +1,4 @@
+#!/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3
 #########################################LIBRARY IMPORTATION########################################
 import sys
 import traceback
@@ -15,7 +16,7 @@ for file_name in list_files:
 
     printWarning(str(file_name))
         
-    p = createProject(file_name[1])
+    p = createProject('NX_'+file_name[1])
     p.setVariantName(Variant)
     p.setTopCellName(file_name[1])
 

@@ -1,0 +1,1843 @@
+--DESIGN "test1"
+--DATE "Tue Oct 31 09:22:56 2023"
+--VENDOR "NanoXplore"
+--PROGRAM "Impulse"
+--VERSION "v23.3.0.2"
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+library NX;
+use NX.nxPackage.all;
+
+entity test1 is
+port (
+	i_clk     : in    std_logic;
+	o_A       : out   std_logic;
+	i_data    : in    std_logic_vector(7 downto 0);
+	o_data    : out   std_logic_vector(7 downto 0)
+);
+end test1;
+
+architecture Place of test1 is
+ signal a                 : std_logic;
+ signal add_datao_carry_1 : std_logic;
+ signal data_0            : std_logic;
+ signal data_1            : std_logic;
+ signal data_2            : std_logic;
+ signal data_3            : std_logic;
+ signal data_4            : std_logic;
+ signal data_5            : std_logic;
+ signal data_6            : std_logic;
+ signal data_7            : std_logic;
+ signal datao_0           : std_logic;
+ signal datao_1           : std_logic;
+ signal datao_2           : std_logic;
+ signal datao_3           : std_logic;
+ signal datao_4           : std_logic;
+ signal datao_5           : std_logic;
+ signal datao_6           : std_logic;
+ signal datao_7           : std_logic;
+ signal r_i_clk_0         : std_logic;
+ signal r_i_clk_1         : std_logic;
+ signal r_i_data_0        : std_logic;
+ signal r_i_data_1        : std_logic;
+ signal r_i_data_2        : std_logic;
+ signal r_i_data_3        : std_logic;
+ signal r_i_data_4        : std_logic;
+ signal r_i_data_5        : std_logic;
+ signal r_i_data_6        : std_logic;
+ signal r_i_data_7        : std_logic;
+
+begin
+
+i_LOGIC_lut_0 : NX_LUT
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  generic map (
+	  lut_table => b"0101010101010101"
+  )
+  port map (
+	  I1   => a,
+	  I2   => OPEN,
+	  I3   => OPEN,
+	  I4   => OPEN,
+	  O    => a
+  );
+
+i_data_reg_1 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[1]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_1,
+	  O    => data_1,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_3 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[3]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_3,
+	  O    => data_3,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_7 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[7]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_7,
+	  O    => data_7,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_2 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[2]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_2,
+	  O    => data_2,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_0 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[0]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_0,
+	  O    => data_0,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_6 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[6]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_6,
+	  O    => data_6,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_4 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[4]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_4,
+	  O    => data_4,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_data_reg_5 : NX_DFF
+  -- module:~
+  -- ../test1.vhd:71
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- O:data_reg[5]:../test1.vhd:71
+  generic map (
+	  dff_edge => '0',
+	  dff_init => '0',
+	  dff_load => '0',
+	  dff_sync => '0',
+	  dff_ctxt => '0'
+  )
+  port map (
+	  I    => r_i_data_5,
+	  O    => data_5,
+	  L    => OPEN,
+	  CK   => r_i_clk_1,
+	  R    => OPEN
+  );
+
+i_add_datao_stage1 : NX_CY
+  -- module:~
+  -- ../test1.vhd:103
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  generic map (
+	  add_carry => 0
+  )
+  port map (
+	  A1   => datao_0,
+	  A2   => datao_1,
+	  A3   => datao_2,
+	  A4   => datao_3,
+	  B1   => data_0,
+	  B2   => data_1,
+	  B3   => data_2,
+	  B4   => data_3,
+	  S1   => datao_0,
+	  S2   => datao_1,
+	  S3   => datao_2,
+	  S4   => datao_3,
+	  CI   => '0',
+	  CO   => add_datao_carry_1
+  );
+
+i_add_datao_stage2 : NX_CY
+  -- module:~
+  -- ../test1.vhd:103
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  generic map (
+	  add_carry => 2
+  )
+  port map (
+	  A1   => datao_4,
+	  A2   => datao_5,
+	  A3   => datao_6,
+	  A4   => datao_7,
+	  B1   => data_4,
+	  B2   => data_5,
+	  B3   => data_6,
+	  B4   => data_7,
+	  S1   => datao_4,
+	  S2   => datao_5,
+	  S3   => datao_6,
+	  S4   => datao_7,
+	  CI   => add_datao_carry_1,
+	  CO   => OPEN
+  );
+
+i_i_data_5_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[5]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB6_D15N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_5,
+	  C    => '0',
+	  IO   => i_data(5)
+  );
+
+i_i_data_2_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[2]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB12_D10P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_2,
+	  C    => '0',
+	  IO   => i_data(2)
+  );
+
+i_i_data_1_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[1]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB4_D08P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_1,
+	  C    => '0',
+	  IO   => i_data(1)
+  );
+
+i_i_data_6_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[6]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB10_D06N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_6,
+	  C    => '0',
+	  IO   => i_data(6)
+  );
+
+i_i_data_0_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[0]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB1_D07P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_0,
+	  C    => '0',
+	  IO   => i_data(0)
+  );
+
+i_i_data_3_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[3]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB20_D16N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_3,
+	  C    => '0',
+	  IO   => i_data(3)
+  );
+
+i_i_data_7_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[7]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB7_D13N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_7,
+	  C    => '0',
+	  IO   => i_data(7)
+  );
+
+i_i_clk_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_clk"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB6_D10P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_clk_0,
+	  C    => '0',
+	  IO   => i_clk
+  );
+
+i_i_data_4_iob : NX_IOB_I
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£i_data[4]"
+  -- alias_vhdl => "NX_IOB_I"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB21_D04P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 1,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  O    => r_i_data_4,
+	  C    => '0',
+	  IO   => i_data(4)
+  );
+
+i_o_data_6_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[6]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB15_D10N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_6,
+	  C    => '1',
+	  IO   => o_data(6)
+  );
+
+i_o_data_3_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[3]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB18_D06P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_3,
+	  C    => '1',
+	  IO   => o_data(3)
+  );
+
+i_o_data_0_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[0]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB6_D08P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_0,
+	  C    => '1',
+	  IO   => o_data(0)
+  );
+
+i_o_data_4_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[4]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB8_D13N",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_4,
+	  C    => '1',
+	  IO   => o_data(4)
+  );
+
+i_o_data_5_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[5]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB7_D07P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_5,
+	  C    => '1',
+	  IO   => o_data(5)
+  );
+
+i_o_data_7_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[7]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB7_D09P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_7,
+	  C    => '1',
+	  IO   => o_data(7)
+  );
+
+i_o_data_1_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[1]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB19_D14P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_1,
+	  C    => '1',
+	  IO   => o_data(1)
+  );
+
+i_o_data_2_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_data[2]"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB20_D13P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => datao_2,
+	  C    => '1',
+	  IO   => o_data(2)
+  );
+
+i_o_A_iob : NX_IOB_O
+  -- module:~
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  -- map_hdlports => "IO£o_A"
+  -- alias_vhdl => "NX_IOB_O"
+  -- alias_vlog => ""
+  generic map (
+	  location => "IOB12_D04P",
+	  differential => "",
+	  slewRate => "",
+	  termination => "",
+	  terminationReference => "",
+	  turbo => "",
+	  weakTermination => "",
+	  inputDelayLine => "",
+	  outputDelayLine => "",
+	  inputSignalSlope => "",
+	  outputCapacity => "",
+	  extra => 2,
+	  locked => '0',
+	  standard => "",
+	  drive => "",
+	  inputDelayOn => "",
+	  outputDelayOn => "",
+	  dynDrive => "",
+	  dynInput => "",
+	  dynTerm => ""
+  )
+  port map (
+	  I    => a,
+	  C    => '1',
+	  IO   => o_A
+  );
+
+i_i_clk_iom : NX_IOM_L
+  -- native => '0'
+  -- ring => 0
+  -- mandatory => '0'
+  -- protect => '0'
+  generic map (
+	  mode_side1 => 0,
+	  sel_clkw_rx1 => b"00",
+	  sel_clkr_rx1 => '0',
+	  div_tx1 => b"0000",
+	  div_rx1 => b"0000",
+	  mode_side2 => 0,
+	  sel_clkw_rx2 => b"00",
+	  sel_clkr_rx2 => '0',
+	  div_tx2 => b"0000",
+	  div_rx2 => b"0000",
+	  sel_clk_out1 => '0',
+	  sel_clk_out2 => '0',
+	  mode_io_cal => '0',
+	  pads_dict => "",
+	  pads_path => ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+  )
+  port map (
+	  P1RI => OPEN,
+	  P1RO1 => OPEN,
+	  P1RO2 => OPEN,
+	  P1RO3 => OPEN,
+	  P1RO4 => OPEN,
+	  P1RO5 => OPEN,
+	  P1RL => OPEN,
+	  P1RR => OPEN,
+	  P1EO => OPEN,
+	  P1EI1 => OPEN,
+	  P1EI2 => OPEN,
+	  P1EI3 => OPEN,
+	  P1EI4 => OPEN,
+	  P1EI5 => OPEN,
+	  P1ER => OPEN,
+	  P1EL => OPEN,
+	  P1CO => OPEN,
+	  P1CI1 => OPEN,
+	  P1CR => OPEN,
+	  P1CL => OPEN,
+	  P1CTO => OPEN,
+	  P1CTI => OPEN,
+	  P2RI => OPEN,
+	  P2RO1 => OPEN,
+	  P2RO2 => OPEN,
+	  P2RO3 => OPEN,
+	  P2RO4 => OPEN,
+	  P2RO5 => OPEN,
+	  P2RL => OPEN,
+	  P2RR => OPEN,
+	  P2EO => OPEN,
+	  P2EI1 => OPEN,
+	  P2EI2 => OPEN,
+	  P2EI3 => OPEN,
+	  P2EI4 => OPEN,
+	  P2EI5 => OPEN,
+	  P2ER => OPEN,
+	  P2EL => OPEN,
+	  P2CO => OPEN,
+	  P2CI1 => OPEN,
+	  P2CR => OPEN,
+	  P2CL => OPEN,
+	  P2CTO => OPEN,
+	  P2CTI => OPEN,
+	  P3RI => OPEN,
+	  P3RO1 => OPEN,
+	  P3RO2 => OPEN,
+	  P3RO3 => OPEN,
+	  P3RO4 => OPEN,
+	  P3RO5 => OPEN,
+	  P3RL => OPEN,
+	  P3RR => OPEN,
+	  P3EO => OPEN,
+	  P3EI1 => OPEN,
+	  P3EI2 => OPEN,
+	  P3EI3 => OPEN,
+	  P3EI4 => OPEN,
+	  P3EI5 => OPEN,
+	  P3ER => OPEN,
+	  P3EL => OPEN,
+	  P3CO => OPEN,
+	  P3CI1 => OPEN,
+	  P3CR => OPEN,
+	  P3CL => OPEN,
+	  P3CTO => OPEN,
+	  P3CTI => OPEN,
+	  P4RI => OPEN,
+	  P4RO1 => OPEN,
+	  P4RO2 => OPEN,
+	  P4RO3 => OPEN,
+	  P4RO4 => OPEN,
+	  P4RO5 => OPEN,
+	  P4RL => OPEN,
+	  P4RR => OPEN,
+	  P4EO => OPEN,
+	  P4EI1 => OPEN,
+	  P4EI2 => OPEN,
+	  P4EI3 => OPEN,
+	  P4EI4 => OPEN,
+	  P4EI5 => OPEN,
+	  P4ER => OPEN,
+	  P4EL => OPEN,
+	  P4CO => OPEN,
+	  P4CI1 => OPEN,
+	  P4CR => OPEN,
+	  P4CL => OPEN,
+	  P4CTO => OPEN,
+	  P4CTI => OPEN,
+	  P5RI => OPEN,
+	  P5RO1 => OPEN,
+	  P5RO2 => OPEN,
+	  P5RO3 => OPEN,
+	  P5RO4 => OPEN,
+	  P5RO5 => OPEN,
+	  P5RL => OPEN,
+	  P5RR => OPEN,
+	  P5EO => OPEN,
+	  P5EI1 => OPEN,
+	  P5EI2 => OPEN,
+	  P5EI3 => OPEN,
+	  P5EI4 => OPEN,
+	  P5EI5 => OPEN,
+	  P5ER => OPEN,
+	  P5EL => OPEN,
+	  P5CO => OPEN,
+	  P5CI1 => OPEN,
+	  P5CI2 => OPEN,
+	  P5CI3 => OPEN,
+	  P5CI4 => OPEN,
+	  P5CI5 => OPEN,
+	  P5CR => OPEN,
+	  P5CL => OPEN,
+	  P5CTO => OPEN,
+	  P5CTI => OPEN,
+	  P6RI => OPEN,
+	  P6RO1 => OPEN,
+	  P6RO2 => OPEN,
+	  P6RO3 => OPEN,
+	  P6RO4 => OPEN,
+	  P6RO5 => OPEN,
+	  P6RL => OPEN,
+	  P6RR => OPEN,
+	  P6EO => OPEN,
+	  P6EI1 => OPEN,
+	  P6EI2 => OPEN,
+	  P6EI3 => OPEN,
+	  P6EI4 => OPEN,
+	  P6EI5 => OPEN,
+	  P6ER => OPEN,
+	  P6EL => OPEN,
+	  P6CO => OPEN,
+	  P6CI1 => OPEN,
+	  P6CR => OPEN,
+	  P6CL => OPEN,
+	  P6CTO => OPEN,
+	  P6CTI => OPEN,
+	  P7RI => OPEN,
+	  P7RO1 => OPEN,
+	  P7RO2 => OPEN,
+	  P7RO3 => OPEN,
+	  P7RO4 => OPEN,
+	  P7RO5 => OPEN,
+	  P7RL => OPEN,
+	  P7RR => OPEN,
+	  P7EO => OPEN,
+	  P7EI1 => OPEN,
+	  P7EI2 => OPEN,
+	  P7EI3 => OPEN,
+	  P7EI4 => OPEN,
+	  P7EI5 => OPEN,
+	  P7ER => OPEN,
+	  P7EL => OPEN,
+	  P7CO => OPEN,
+	  P7CI1 => OPEN,
+	  P7CR => OPEN,
+	  P7CL => OPEN,
+	  P7CTO => OPEN,
+	  P7CTI => OPEN,
+	  P8RI => OPEN,
+	  P8RO1 => OPEN,
+	  P8RO2 => OPEN,
+	  P8RO3 => OPEN,
+	  P8RO4 => OPEN,
+	  P8RO5 => OPEN,
+	  P8RL => OPEN,
+	  P8RR => OPEN,
+	  P8EO => OPEN,
+	  P8EI1 => OPEN,
+	  P8EI2 => OPEN,
+	  P8EI3 => OPEN,
+	  P8EI4 => OPEN,
+	  P8EI5 => OPEN,
+	  P8ER => OPEN,
+	  P8EL => OPEN,
+	  P8CO => OPEN,
+	  P8CI1 => OPEN,
+	  P8CR => OPEN,
+	  P8CL => OPEN,
+	  P8CTO => OPEN,
+	  P8CTI => OPEN,
+	  P9RI => OPEN,
+	  P9RO1 => OPEN,
+	  P9RO2 => OPEN,
+	  P9RO3 => OPEN,
+	  P9RO4 => OPEN,
+	  P9RO5 => OPEN,
+	  P9RL => OPEN,
+	  P9RR => OPEN,
+	  P9EO => OPEN,
+	  P9EI1 => OPEN,
+	  P9EI2 => OPEN,
+	  P9EI3 => OPEN,
+	  P9EI4 => OPEN,
+	  P9EI5 => OPEN,
+	  P9ER => OPEN,
+	  P9EL => OPEN,
+	  P9CO => OPEN,
+	  P9CI1 => OPEN,
+	  P9CR => OPEN,
+	  P9CL => OPEN,
+	  P9CTO => OPEN,
+	  P9CTI => OPEN,
+	  P10RI => OPEN,
+	  P10RO1 => OPEN,
+	  P10RO2 => OPEN,
+	  P10RO3 => OPEN,
+	  P10RO4 => OPEN,
+	  P10RO5 => OPEN,
+	  P10RL => OPEN,
+	  P10RR => OPEN,
+	  P10EO => OPEN,
+	  P10EI1 => OPEN,
+	  P10EI2 => OPEN,
+	  P10EI3 => OPEN,
+	  P10EI4 => OPEN,
+	  P10EI5 => OPEN,
+	  P10ER => OPEN,
+	  P10EL => OPEN,
+	  P10CO => OPEN,
+	  P10CI1 => OPEN,
+	  P10CR => OPEN,
+	  P10CL => OPEN,
+	  P10CTO => OPEN,
+	  P10CTI => OPEN,
+	  P11RI => OPEN,
+	  P11RO1 => OPEN,
+	  P11RO2 => OPEN,
+	  P11RO3 => OPEN,
+	  P11RO4 => OPEN,
+	  P11RO5 => OPEN,
+	  P11RL => OPEN,
+	  P11RR => OPEN,
+	  P11EO => OPEN,
+	  P11EI1 => OPEN,
+	  P11EI2 => OPEN,
+	  P11EI3 => OPEN,
+	  P11EI4 => OPEN,
+	  P11EI5 => OPEN,
+	  P11ER => OPEN,
+	  P11EL => OPEN,
+	  P11CO => OPEN,
+	  P11CI1 => OPEN,
+	  P11CR => OPEN,
+	  P11CL => OPEN,
+	  P11CTO => OPEN,
+	  P11CTI => OPEN,
+	  P12RI => OPEN,
+	  P12RO1 => OPEN,
+	  P12RO2 => OPEN,
+	  P12RO3 => OPEN,
+	  P12RO4 => OPEN,
+	  P12RO5 => OPEN,
+	  P12RL => OPEN,
+	  P12RR => OPEN,
+	  P12EO => OPEN,
+	  P12EI1 => OPEN,
+	  P12EI2 => OPEN,
+	  P12EI3 => OPEN,
+	  P12EI4 => OPEN,
+	  P12EI5 => OPEN,
+	  P12ER => OPEN,
+	  P12EL => OPEN,
+	  P12CO => OPEN,
+	  P12CI1 => OPEN,
+	  P12CR => OPEN,
+	  P12CL => OPEN,
+	  P12CTO => OPEN,
+	  P12CTI => OPEN,
+	  P13RI => OPEN,
+	  P13RO1 => OPEN,
+	  P13RO2 => OPEN,
+	  P13RO3 => OPEN,
+	  P13RO4 => OPEN,
+	  P13RO5 => OPEN,
+	  P13RL => OPEN,
+	  P13RR => OPEN,
+	  P13EO => OPEN,
+	  P13EI1 => OPEN,
+	  P13EI2 => OPEN,
+	  P13EI3 => OPEN,
+	  P13EI4 => OPEN,
+	  P13EI5 => OPEN,
+	  P13ER => OPEN,
+	  P13EL => OPEN,
+	  P13CO => OPEN,
+	  P13CI1 => OPEN,
+	  P13CR => OPEN,
+	  P13CL => OPEN,
+	  P13CTO => OPEN,
+	  P13CTI => OPEN,
+	  P14RI => OPEN,
+	  P14RO1 => OPEN,
+	  P14RO2 => OPEN,
+	  P14RO3 => OPEN,
+	  P14RO4 => OPEN,
+	  P14RO5 => OPEN,
+	  P14RL => OPEN,
+	  P14RR => OPEN,
+	  P14EO => OPEN,
+	  P14EI1 => OPEN,
+	  P14EI2 => OPEN,
+	  P14EI3 => OPEN,
+	  P14EI4 => OPEN,
+	  P14EI5 => OPEN,
+	  P14ER => OPEN,
+	  P14EL => OPEN,
+	  P14CO => OPEN,
+	  P14CI1 => OPEN,
+	  P14CR => OPEN,
+	  P14CL => OPEN,
+	  P14CTO => OPEN,
+	  P14CTI => OPEN,
+	  P15RI => OPEN,
+	  P15RO1 => OPEN,
+	  P15RO2 => OPEN,
+	  P15RO3 => OPEN,
+	  P15RO4 => OPEN,
+	  P15RO5 => OPEN,
+	  P15RL => OPEN,
+	  P15RR => OPEN,
+	  P15EO => OPEN,
+	  P15EI1 => OPEN,
+	  P15EI2 => OPEN,
+	  P15EI3 => OPEN,
+	  P15EI4 => OPEN,
+	  P15EI5 => OPEN,
+	  P15ER => OPEN,
+	  P15EL => OPEN,
+	  P15CO => OPEN,
+	  P15CI1 => OPEN,
+	  P15CR => OPEN,
+	  P15CL => OPEN,
+	  P15CTO => OPEN,
+	  P15CTI => OPEN,
+	  P16RI => OPEN,
+	  P16RO1 => OPEN,
+	  P16RO2 => OPEN,
+	  P16RO3 => OPEN,
+	  P16RO4 => OPEN,
+	  P16RO5 => OPEN,
+	  P16RL => OPEN,
+	  P16RR => OPEN,
+	  P16EO => OPEN,
+	  P16EI1 => OPEN,
+	  P16EI2 => OPEN,
+	  P16EI3 => OPEN,
+	  P16EI4 => OPEN,
+	  P16EI5 => OPEN,
+	  P16ER => OPEN,
+	  P16EL => OPEN,
+	  P16CO => OPEN,
+	  P16CI1 => OPEN,
+	  P16CR => OPEN,
+	  P16CL => OPEN,
+	  P16CTO => OPEN,
+	  P16CTI => OPEN,
+	  P17RI => OPEN,
+	  P17RO1 => OPEN,
+	  P17RO2 => OPEN,
+	  P17RO3 => OPEN,
+	  P17RO4 => OPEN,
+	  P17RO5 => OPEN,
+	  P17RL => OPEN,
+	  P17RR => OPEN,
+	  P17EO => OPEN,
+	  P17EI1 => OPEN,
+	  P17EI2 => OPEN,
+	  P17EI3 => OPEN,
+	  P17EI4 => OPEN,
+	  P17EI5 => OPEN,
+	  P17ER => OPEN,
+	  P17EL => OPEN,
+	  P17CO => OPEN,
+	  P17CI1 => OPEN,
+	  P17CR => OPEN,
+	  P17CL => OPEN,
+	  P17CTO => OPEN,
+	  P17CTI => OPEN,
+	  P18RI => OPEN,
+	  P18RO1 => OPEN,
+	  P18RO2 => OPEN,
+	  P18RO3 => OPEN,
+	  P18RO4 => OPEN,
+	  P18RO5 => OPEN,
+	  P18RL => OPEN,
+	  P18RR => OPEN,
+	  P18EO => OPEN,
+	  P18EI1 => OPEN,
+	  P18EI2 => OPEN,
+	  P18EI3 => OPEN,
+	  P18EI4 => OPEN,
+	  P18EI5 => OPEN,
+	  P18ER => OPEN,
+	  P18EL => OPEN,
+	  P18CO => OPEN,
+	  P18CI1 => OPEN,
+	  P18CR => OPEN,
+	  P18CL => OPEN,
+	  P18CTO => OPEN,
+	  P18CTI => OPEN,
+	  P19RI => r_i_clk_0,
+	  P19RO1 => OPEN,
+	  P19RO2 => OPEN,
+	  P19RO3 => OPEN,
+	  P19RO4 => OPEN,
+	  P19RO5 => OPEN,
+	  P19RL => OPEN,
+	  P19RR => OPEN,
+	  P19EO => OPEN,
+	  P19EI1 => OPEN,
+	  P19EI2 => OPEN,
+	  P19EI3 => OPEN,
+	  P19EI4 => OPEN,
+	  P19EI5 => OPEN,
+	  P19ER => OPEN,
+	  P19EL => OPEN,
+	  P19CO => OPEN,
+	  P19CI1 => OPEN,
+	  P19CR => OPEN,
+	  P19CL => OPEN,
+	  P19CTO => OPEN,
+	  P19CTI => OPEN,
+	  P20RI => OPEN,
+	  P20RO1 => OPEN,
+	  P20RO2 => OPEN,
+	  P20RO3 => OPEN,
+	  P20RO4 => OPEN,
+	  P20RO5 => OPEN,
+	  P20RL => OPEN,
+	  P20RR => OPEN,
+	  P20EO => OPEN,
+	  P20EI1 => OPEN,
+	  P20EI2 => OPEN,
+	  P20EI3 => OPEN,
+	  P20EI4 => OPEN,
+	  P20EI5 => OPEN,
+	  P20ER => OPEN,
+	  P20EL => OPEN,
+	  P20CO => OPEN,
+	  P20CI1 => OPEN,
+	  P20CR => OPEN,
+	  P20CL => OPEN,
+	  P20CTO => OPEN,
+	  P20CTI => OPEN,
+	  P21RI => OPEN,
+	  P21RO1 => OPEN,
+	  P21RO2 => OPEN,
+	  P21RO3 => OPEN,
+	  P21RO4 => OPEN,
+	  P21RO5 => OPEN,
+	  P21RL => OPEN,
+	  P21RR => OPEN,
+	  P21EO => OPEN,
+	  P21EI1 => OPEN,
+	  P21EI2 => OPEN,
+	  P21EI3 => OPEN,
+	  P21EI4 => OPEN,
+	  P21EI5 => OPEN,
+	  P21ER => OPEN,
+	  P21EL => OPEN,
+	  P21CO => OPEN,
+	  P21CI1 => OPEN,
+	  P21CR => OPEN,
+	  P21CL => OPEN,
+	  P21CTO => OPEN,
+	  P21CTI => OPEN,
+	  P22RI => OPEN,
+	  P22RO1 => OPEN,
+	  P22RO2 => OPEN,
+	  P22RO3 => OPEN,
+	  P22RO4 => OPEN,
+	  P22RO5 => OPEN,
+	  P22RL => OPEN,
+	  P22RR => OPEN,
+	  P22EO => OPEN,
+	  P22EI1 => OPEN,
+	  P22EI2 => OPEN,
+	  P22EI3 => OPEN,
+	  P22EI4 => OPEN,
+	  P22EI5 => OPEN,
+	  P22ER => OPEN,
+	  P22EL => OPEN,
+	  P22CO => OPEN,
+	  P22CI1 => OPEN,
+	  P22CR => OPEN,
+	  P22CL => OPEN,
+	  P22CTO => OPEN,
+	  P22CTI => OPEN,
+	  P23RI => OPEN,
+	  P23RO1 => OPEN,
+	  P23RO2 => OPEN,
+	  P23RO3 => OPEN,
+	  P23RO4 => OPEN,
+	  P23RO5 => OPEN,
+	  P23RL => OPEN,
+	  P23RR => OPEN,
+	  P23EO => OPEN,
+	  P23EI1 => OPEN,
+	  P23EI2 => OPEN,
+	  P23EI3 => OPEN,
+	  P23EI4 => OPEN,
+	  P23EI5 => OPEN,
+	  P23ER => OPEN,
+	  P23EL => OPEN,
+	  P23CO => OPEN,
+	  P23CI1 => OPEN,
+	  P23CR => OPEN,
+	  P23CL => OPEN,
+	  P23CTO => OPEN,
+	  P23CTI => OPEN,
+	  P24RI => OPEN,
+	  P24RO1 => OPEN,
+	  P24RO2 => OPEN,
+	  P24RO3 => OPEN,
+	  P24RO4 => OPEN,
+	  P24RO5 => OPEN,
+	  P24RL => OPEN,
+	  P24RR => OPEN,
+	  P24EO => OPEN,
+	  P24EI1 => OPEN,
+	  P24EI2 => OPEN,
+	  P24EI3 => OPEN,
+	  P24EI4 => OPEN,
+	  P24EI5 => OPEN,
+	  P24ER => OPEN,
+	  P24EL => OPEN,
+	  P24CO => OPEN,
+	  P24CI1 => OPEN,
+	  P24CR => OPEN,
+	  P24CL => OPEN,
+	  P24CTO => OPEN,
+	  P24CTI => OPEN,
+	  P25RI => OPEN,
+	  P25RO1 => OPEN,
+	  P25RO2 => OPEN,
+	  P25RO3 => OPEN,
+	  P25RO4 => OPEN,
+	  P25RO5 => OPEN,
+	  P25RL => OPEN,
+	  P25RR => OPEN,
+	  P25EO => OPEN,
+	  P25EI1 => OPEN,
+	  P25EI2 => OPEN,
+	  P25EI3 => OPEN,
+	  P25EI4 => OPEN,
+	  P25EI5 => OPEN,
+	  P25ER => OPEN,
+	  P25EL => OPEN,
+	  P25CO => OPEN,
+	  P25CI1 => OPEN,
+	  P25CR => OPEN,
+	  P25CL => OPEN,
+	  P25CTO => OPEN,
+	  P25CTI => OPEN,
+	  P26RI => OPEN,
+	  P26RO1 => OPEN,
+	  P26RO2 => OPEN,
+	  P26RO3 => OPEN,
+	  P26RO4 => OPEN,
+	  P26RO5 => OPEN,
+	  P26RL => OPEN,
+	  P26RR => OPEN,
+	  P26EO => OPEN,
+	  P26EI1 => OPEN,
+	  P26EI2 => OPEN,
+	  P26EI3 => OPEN,
+	  P26EI4 => OPEN,
+	  P26EI5 => OPEN,
+	  P26ER => OPEN,
+	  P26EL => OPEN,
+	  P26CO => OPEN,
+	  P26CI1 => OPEN,
+	  P26CR => OPEN,
+	  P26CL => OPEN,
+	  P26CTO => OPEN,
+	  P26CTI => OPEN,
+	  P27RI => OPEN,
+	  P27RO1 => OPEN,
+	  P27RO2 => OPEN,
+	  P27RO3 => OPEN,
+	  P27RO4 => OPEN,
+	  P27RO5 => OPEN,
+	  P27RL => OPEN,
+	  P27RR => OPEN,
+	  P27EO => OPEN,
+	  P27EI1 => OPEN,
+	  P27EI2 => OPEN,
+	  P27EI3 => OPEN,
+	  P27EI4 => OPEN,
+	  P27EI5 => OPEN,
+	  P27ER => OPEN,
+	  P27EL => OPEN,
+	  P27CO => OPEN,
+	  P27CI1 => OPEN,
+	  P27CR => OPEN,
+	  P27CL => OPEN,
+	  P27CTO => OPEN,
+	  P27CTI => OPEN,
+	  P28RI => OPEN,
+	  P28RO1 => OPEN,
+	  P28RO2 => OPEN,
+	  P28RO3 => OPEN,
+	  P28RO4 => OPEN,
+	  P28RO5 => OPEN,
+	  P28RL => OPEN,
+	  P28RR => OPEN,
+	  P28EO => OPEN,
+	  P28EI1 => OPEN,
+	  P28EI2 => OPEN,
+	  P28EI3 => OPEN,
+	  P28EI4 => OPEN,
+	  P28EI5 => OPEN,
+	  P28ER => OPEN,
+	  P28EL => OPEN,
+	  P28CO => OPEN,
+	  P28CI1 => OPEN,
+	  P28CR => OPEN,
+	  P28CL => OPEN,
+	  P28CTO => OPEN,
+	  P28CTI => OPEN,
+	  P29RI => OPEN,
+	  P29RO1 => OPEN,
+	  P29RO2 => OPEN,
+	  P29RO3 => OPEN,
+	  P29RO4 => OPEN,
+	  P29RO5 => OPEN,
+	  P29RL => OPEN,
+	  P29RR => OPEN,
+	  P29EO => OPEN,
+	  P29EI1 => OPEN,
+	  P29EI2 => OPEN,
+	  P29EI3 => OPEN,
+	  P29EI4 => OPEN,
+	  P29EI5 => OPEN,
+	  P29ER => OPEN,
+	  P29EL => OPEN,
+	  P29CO => OPEN,
+	  P29CI1 => OPEN,
+	  P29CI2 => OPEN,
+	  P29CI3 => OPEN,
+	  P29CI4 => OPEN,
+	  P29CI5 => OPEN,
+	  P29CR => OPEN,
+	  P29CL => OPEN,
+	  P29CTO => OPEN,
+	  P29CTI => OPEN,
+	  P30RI => OPEN,
+	  P30RO1 => OPEN,
+	  P30RO2 => OPEN,
+	  P30RO3 => OPEN,
+	  P30RO4 => OPEN,
+	  P30RO5 => OPEN,
+	  P30RL => OPEN,
+	  P30RR => OPEN,
+	  P30EO => OPEN,
+	  P30EI1 => OPEN,
+	  P30EI2 => OPEN,
+	  P30EI3 => OPEN,
+	  P30EI4 => OPEN,
+	  P30EI5 => OPEN,
+	  P30ER => OPEN,
+	  P30EL => OPEN,
+	  P30CO => OPEN,
+	  P30CI1 => OPEN,
+	  P30CR => OPEN,
+	  P30CL => OPEN,
+	  P30CTO => OPEN,
+	  P30CTI => OPEN,
+	  P31RI => OPEN,
+	  P31RO1 => OPEN,
+	  P31RO2 => OPEN,
+	  P31RO3 => OPEN,
+	  P31RO4 => OPEN,
+	  P31RO5 => OPEN,
+	  P31RL => OPEN,
+	  P31RR => OPEN,
+	  P31EO => OPEN,
+	  P31EI1 => OPEN,
+	  P31EI2 => OPEN,
+	  P31EI3 => OPEN,
+	  P31EI4 => OPEN,
+	  P31EI5 => OPEN,
+	  P31ER => OPEN,
+	  P31EL => OPEN,
+	  P31CO => OPEN,
+	  P31CI1 => OPEN,
+	  P31CR => OPEN,
+	  P31CL => OPEN,
+	  P31CTO => OPEN,
+	  P31CTI => OPEN,
+	  P32RI => OPEN,
+	  P32RO1 => OPEN,
+	  P32RO2 => OPEN,
+	  P32RO3 => OPEN,
+	  P32RO4 => OPEN,
+	  P32RO5 => OPEN,
+	  P32RL => OPEN,
+	  P32RR => OPEN,
+	  P32EO => OPEN,
+	  P32EI1 => OPEN,
+	  P32EI2 => OPEN,
+	  P32EI3 => OPEN,
+	  P32EI4 => OPEN,
+	  P32EI5 => OPEN,
+	  P32ER => OPEN,
+	  P32EL => OPEN,
+	  P32CO => OPEN,
+	  P32CI1 => OPEN,
+	  P32CR => OPEN,
+	  P32CL => OPEN,
+	  P32CTO => OPEN,
+	  P32CTI => OPEN,
+	  P33RI => OPEN,
+	  P33RO1 => OPEN,
+	  P33RO2 => OPEN,
+	  P33RO3 => OPEN,
+	  P33RO4 => OPEN,
+	  P33RO5 => OPEN,
+	  P33RL => OPEN,
+	  P33RR => OPEN,
+	  P33EO => OPEN,
+	  P33EI1 => OPEN,
+	  P33EI2 => OPEN,
+	  P33EI3 => OPEN,
+	  P33EI4 => OPEN,
+	  P33EI5 => OPEN,
+	  P33ER => OPEN,
+	  P33EL => OPEN,
+	  P33CO => OPEN,
+	  P33CI1 => OPEN,
+	  P33CR => OPEN,
+	  P33CL => OPEN,
+	  P33CTO => OPEN,
+	  P33CTI => OPEN,
+	  P34RI => OPEN,
+	  P34RO1 => OPEN,
+	  P34RO2 => OPEN,
+	  P34RO3 => OPEN,
+	  P34RO4 => OPEN,
+	  P34RO5 => OPEN,
+	  P34RL => OPEN,
+	  P34RR => OPEN,
+	  P34EO => OPEN,
+	  P34EI1 => OPEN,
+	  P34EI2 => OPEN,
+	  P34EI3 => OPEN,
+	  P34EI4 => OPEN,
+	  P34EI5 => OPEN,
+	  P34ER => OPEN,
+	  P34EL => OPEN,
+	  P34CO => OPEN,
+	  P34CI1 => OPEN,
+	  P34CR => OPEN,
+	  P34CL => OPEN,
+	  P34CTO => OPEN,
+	  P34CTI => OPEN,
+	  RTCK1 => OPEN,
+	  RRCK1 => OPEN,
+	  WTCK1 => OPEN,
+	  WRCK1 => OPEN,
+	  RTCK2 => OPEN,
+	  RRCK2 => OPEN,
+	  WTCK2 => OPEN,
+	  WRCK2 => OPEN,
+	  CCK  => OPEN,
+	  DCK  => OPEN,
+	  CTCK => OPEN,
+	  FLD  => OPEN,
+	  FLG  => OPEN,
+	  CAL  => OPEN,
+	  C1RED => OPEN,
+	  C2RED => OPEN,
+	  DRO1 => OPEN,
+	  DRO2 => OPEN,
+	  DRO3 => OPEN,
+	  DRO4 => OPEN,
+	  DRO5 => OPEN,
+	  DRO6 => OPEN,
+	  CKO1 => OPEN,
+	  CKO2 => r_i_clk_1,
+	  C1TW => OPEN,
+	  C1TS => OPEN,
+	  C1RW1 => OPEN,
+	  C1RW2 => OPEN,
+	  C1RW3 => OPEN,
+	  C1RNE => OPEN,
+	  C1RS => OPEN,
+	  C2TW => OPEN,
+	  C2TS => OPEN,
+	  C2RW1 => OPEN,
+	  C2RW2 => OPEN,
+	  C2RW3 => OPEN,
+	  C2RNE => OPEN,
+	  C2RS => OPEN,
+	  FA1  => OPEN,
+	  FA2  => OPEN,
+	  FA3  => OPEN,
+	  FA4  => OPEN,
+	  FA5  => OPEN,
+	  FA6  => OPEN,
+	  FZ   => OPEN,
+	  DC   => OPEN,
+	  DRI1 => OPEN,
+	  DRI2 => OPEN,
+	  DRI3 => OPEN,
+	  DRI4 => OPEN,
+	  DRI5 => OPEN,
+	  DRI6 => OPEN,
+	  DRA1 => OPEN,
+	  DRA2 => OPEN,
+	  DRA3 => OPEN,
+	  DRA4 => OPEN,
+	  DRA5 => OPEN,
+	  DRA6 => OPEN,
+	  DRL  => OPEN,
+	  DOS  => OPEN,
+	  DOG  => OPEN,
+	  DIS  => OPEN,
+	  DIG  => OPEN,
+	  DPAS => OPEN,
+	  DPAG => OPEN,
+	  DQSS => OPEN,
+	  DQSG => OPEN,
+	  DS1  => OPEN,
+	  DS2  => OPEN,
+	  CAD1 => OPEN,
+	  CAD2 => OPEN,
+	  CAD3 => OPEN,
+	  CAD4 => OPEN,
+	  CAD5 => OPEN,
+	  CAD6 => OPEN,
+	  CAP1 => OPEN,
+	  CAP2 => OPEN,
+	  CAP3 => OPEN,
+	  CAP4 => OPEN,
+	  CAN1 => OPEN,
+	  CAN2 => OPEN,
+	  CAN3 => OPEN,
+	  CAN4 => OPEN,
+	  CAT1 => OPEN,
+	  CAT2 => OPEN,
+	  CAT3 => OPEN,
+	  CAT4 => OPEN
+  );
+
+end;

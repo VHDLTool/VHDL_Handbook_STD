@@ -1,0 +1,48 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Tue Oct 31 09:22:54 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3332651
+////////////////////////////////////////////////////////////////////////////////
+
+09:22:56:info     |     
+09:22:56:info     |     Reporting ports at state 'Prepared':
+09:22:56:info     |     Ports used in current design.
+09:22:56:info     |     +-------------------------+
+                  |     |           IOs           |
+                  |     | Input | Output | In/Out |
+                  |     +-------+--------+--------+
+                  |     | 9     | 9      | 0      |
+                  |     +-------+--------+--------+
+                  |     
+09:22:56:info     |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |     |   Name    | I/O  |    Location    | Standard | Voltage | Drive |     Termination      | SlewRate |   DelayLine   | Differential | Turbo |  Registered   |
+                  |     |           |      |                |          |         |       | R / Weak / Reference |          |   In / Out    |              |       | Asked:Applied |
+                  |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |     | i_data[5] | In   | IOB6_D15N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[2] | In   | IOB12_D10P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[1] | In   | IOB4_D08P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[6] | In   | IOB10_D06N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[0] | In   | IOB1_D07P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[3] | In   | IOB20_D16N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[7] | In   | IOB7_D13N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_clk     | In   | IOB6_D10P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[4] | In   | IOB21_D04P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[6] | Out  | IOB15_D10N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[3] | Out  | IOB18_D06P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[0] | Out  | IOB6_D08P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[4] | Out  | IOB8_D13N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[5] | Out  | IOB7_D07P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[7] | Out  | IOB7_D09P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[1] | Out  | IOB19_D14P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[2] | Out  | IOB20_D13P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_A       | Out  | IOB12_D04P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+                  |     
+09:22:56:info     |     Note: the table above only displays the ports that are used in the current design.
+09:22:56:info     |     Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
+09:22:56:info     |     Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.

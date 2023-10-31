@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Tue Oct 31 09:22:54 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3332651
+////////////////////////////////////////////////////////////////////////////////
+
+09:22:56:info     |   Lowskew network statistics at state: Prepared
+09:22:56:info     |     Lowskew signals: 1
+09:22:56:info     |     Total lowskew branches: 1
+09:22:56:info     |     
+09:22:56:info     |     Lowskew signals list:
+09:22:56:info     |       i_clk:	 8 receivers.
+09:22:56:info     |     
+09:22:56:info     |     Lobe occupancy:
+09:22:56:info     |       LOBE[Rx1]:	 1/12
+09:22:56:info     |     
+09:22:56:info     |     Lobe contents:
+09:22:56:info     |       Lobe: LOBE[Rx1]:
+09:22:56:info     |         Net i_clk from instance i_clk
+09:22:56:info     |   
+09:22:56:info     |   
+09:22:56:info     |   Lowskew network statistics at state: Spreaded
+09:22:56:info     |     Lowskew signals: 1
+09:22:56:info     |     Total lowskew branches: 1
+09:22:56:info     |     
+09:22:56:info     |     Lowskew signals list:
+09:22:56:info     |       i_clk:	 8 receivers.
+09:22:56:info     |     
+09:22:56:info     |     Lobe occupancy:
+09:22:56:info     |       LOBE[Rx1]:	 1/12
+09:22:56:info     |     
+09:22:56:info     |     Lobe contents:
+09:22:56:info     |       Lobe: LOBE[Rx1]:
+09:22:56:info     |         Net i_clk from instance i_clk
+09:22:56:info     |   
+09:22:56:info     |   
+09:22:56:info     |   Lowskew network statistics at state: Placed
+09:22:56:info     |     Lowskew signals: 1
+09:22:56:info     |     Total lowskew branches: 1
+09:22:56:info     |     
+09:22:56:info     |     Lowskew signals list:
+09:22:56:info     |       i_clk:	 1 receivers.
+09:22:56:info     |     
+09:22:56:info     |     Lobe occupancy:
+09:22:56:info     |       LOBE[Lx2]:	 1/12
+09:22:56:info     |     
+09:22:56:info     |     Lobe contents:
+09:22:56:info     |       Lobe: LOBE[Lx2]:
+09:22:56:info     |         Net i_clk from instance i_clk
+09:22:56:info     |   
+09:22:56:info     |   
+09:23:00:info     |   Lowskew network statistics at state: Routed
+09:23:00:info     |     Lowskew signals: 1
+09:23:00:info     |     Total lowskew branches: 1
+09:23:00:info     |     
+09:23:00:info     |     Lowskew signals list:
+09:23:00:info     |       i_clk:	 1 receivers.
+09:23:00:info     |     
+09:23:00:info     |     Lobe occupancy:
+09:23:00:info     |       LOBE[Lx2]:	 1/12
+09:23:00:info     |     
+09:23:00:info     |     Lobe contents:
+09:23:00:info     |       Lobe: LOBE[Lx2]:
+09:23:00:info     |         Net i_clk from instance i_clk
+09:23:00:info     |   
+09:23:00:info     |   

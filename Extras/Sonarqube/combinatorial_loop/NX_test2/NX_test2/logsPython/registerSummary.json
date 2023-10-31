@@ -1,0 +1,185 @@
+{
+    "m_amountInit": 8,
+    "m_amountNoRst": 8,
+    "m_busRegisterCollection": [
+        {
+            "busSize": 8,
+            "clockNet": "i_clk",
+            "detailCollection": [
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[1]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[3]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[7]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[2]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[0]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[6]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[4]",
+                    "resetMode": "",
+                    "resetNet": ""
+                },
+                {
+                    "fanOut": 2,
+                    "loadNet": "",
+                    "name": "data_reg[5]",
+                    "resetMode": "",
+                    "resetNet": ""
+                }
+            ],
+            "isBus": true,
+            "loadNet": "",
+            "maxFanout": 2,
+            "name": "data_reg: 8/[0-7]",
+            "resetMode": "",
+            "resetNet": "",
+            "sensitivity": "Rising",
+            "source": "../test2.vhd:70",
+            "type": "DFF"
+        }
+    ],
+    "m_busTotal": 1,
+    "m_clockNetTotal": 0,
+    "m_header": {
+        "appDistrib": "Ubuntu 22.04.3 LTS",
+        "appName": "NXpython",
+        "appVersion": "v23.3.0.2",
+        "buildDate": "2023-09-29 15:22:00",
+        "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
+        "executionDate": "Tue Oct 31 09:23:06 2023",
+        "pid": 3332651,
+        "revision": "branch HEAD - hash c27499706...",
+        "ui": {
+            "#BusRegisterDetailReport": {
+                "fanOut": "#Value",
+                "loadNet": "#Value",
+                "name": "#Value",
+                "resetMode": "#Value",
+                "resetNet": "#Value"
+            },
+            "#BusRegisterReport": {
+                "busSize": "#Value",
+                "clockNet": "#Value",
+                "detailCollection": "#List#BusRegisterDetailReport",
+                "isBus": "#Value",
+                "loadNet": "#Value",
+                "maxFanout": "#Value",
+                "name": "#Value",
+                "resetMode": "#Value",
+                "resetNet": "#Value",
+                "sensitivity": "#Value",
+                "source": "#Value",
+                "type": "#Value"
+            },
+            "#HeaderData": {
+                "appDistrib": "#Value",
+                "appName": "#Value",
+                "appVersion": "#Value",
+                "buildDate": "#Value",
+                "commandLine": "#Value",
+                "executionDate": "#Value",
+                "pid": "#Value",
+                "revision": "#Value",
+                "ui": "#Value"
+            },
+            "#NotificationReport": {
+                "message": "#Value",
+                "notificationType": "#Value"
+            },
+            "#RegisterSummaryReport": {
+                "m_amountInit": "#Value",
+                "m_amountNoRst": "#Value",
+                "m_busRegisterCollection": "#List#BusRegisterReport",
+                "m_busTotal": "#Value",
+                "m_clockNetTotal": "#Value",
+                "m_header": "#HeaderData",
+                "m_notificationCollection": "#List#NotificationReport",
+                "m_registerTotal": "#Value"
+            },
+            "root": "#RegisterSummaryReport",
+            "style": {
+                "#BusRegisterDetailReport": {
+                    "order": [
+                        "name",
+                        "fanOut",
+                        "loadNet",
+                        "resetNet",
+                        "resetMode"
+                    ]
+                },
+                "#BusRegisterReport": {
+                    "order": [
+                        "name",
+                        "busSize",
+                        "maxFanout",
+                        "type",
+                        "clockNet",
+                        "loadNet",
+                        "resetNet",
+                        "resetMode"
+                    ]
+                },
+                "#BusRegisterReport.detailCollection": {
+                    "name": "Detail"
+                },
+                "#BusRegisterReport.isBus": {
+                    "hidden": true
+                },
+                "#HeaderData": {
+                    "hidden": true
+                },
+                "#NotificationReport": {
+                    "name": "Notifications",
+                    "order": [
+                        "notificationType",
+                        "message"
+                    ]
+                },
+                "#NotificationReport.notificationType": {
+                    "name": "Type of Messages"
+                },
+                "#RegisterSummaryReport.m_busRegisterCollection": {
+                    "name": "Bus Register"
+                }
+            }
+        }
+    },
+    "m_notificationCollection": [],
+    "m_registerTotal": 8
+}

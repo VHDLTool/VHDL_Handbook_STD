@@ -1,0 +1,87 @@
+{
+    "m_hdlCollection": [
+        {
+            "fileName": "../test1.vhd",
+            "libName": "work"
+        },
+        {
+            "fileName": "../test2-1.vhd",
+            "libName": "work"
+        },
+        {
+            "fileName": "../test2-1.vhd",
+            "libName": "work"
+        },
+        {
+            "fileName": "../test2.vhd",
+            "libName": "work"
+        }
+    ],
+    "m_header": {
+        "appDistrib": "Ubuntu 22.04.3 LTS",
+        "appName": "NXpython",
+        "appVersion": "v23.3.0.2",
+        "buildDate": "2023-09-29 15:22:00",
+        "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
+        "executionDate": "Tue Oct 31 09:23:06 2023",
+        "pid": 3332651,
+        "revision": "branch HEAD - hash c27499706...",
+        "ui": {
+            "#HDLFileReport": {
+                "fileName": "#Value",
+                "libName": "#Value"
+            },
+            "#HDLFilesReport": {
+                "m_hdlCollection": "#List#HDLFileReport",
+                "m_header": "#HeaderData",
+                "m_notificationCollection": "#List#NotificationReport",
+                "m_topCell": "#TopCellReport"
+            },
+            "#HeaderData": {
+                "appDistrib": "#Value",
+                "appName": "#Value",
+                "appVersion": "#Value",
+                "buildDate": "#Value",
+                "commandLine": "#Value",
+                "executionDate": "#Value",
+                "pid": "#Value",
+                "revision": "#Value",
+                "ui": "#Value"
+            },
+            "#NotificationReport": {
+                "message": "#Value",
+                "notificationType": "#Value"
+            },
+            "#TopCellReport": {
+                "cellName": "#Value",
+                "fileName": "#Value",
+                "libName": "#Value"
+            },
+            "root": "#HDLFilesReport",
+            "style": {
+                "#HDLFileReport": {
+                    "name": "HDL"
+                },
+                "#HeaderData": {
+                    "hidden": true
+                },
+                "#NotificationReport": {
+                    "name": "Notifications",
+                    "order": [
+                        "notificationType",
+                        "message"
+                    ]
+                },
+                "#NotificationReport.notificationType": {
+                    "name": "Type of Messages"
+                }
+            }
+        }
+    },
+    "m_notificationCollection": [],
+    "m_topCell": {
+        "cellName": "test2",
+        "fileName": "../test2.vhd",
+        "libName": "work"
+    }
+}

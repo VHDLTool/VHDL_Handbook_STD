@@ -1,0 +1,80 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Tue Oct 31 09:23:00 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3332651
+////////////////////////////////////////////////////////////////////////////////
+
+09:23:01:info     |   
+09:23:01:info     |   Reporting instances at state 'Synthesized':
+09:23:01:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     | 0/129024 (0%) | 0/129024 (0%) | 0/8064 (0%) | 0/32256 (0%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 0/40 (0%) | 0/4 (0%) |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     
+09:23:01:info     |   Actual FE occupancy is 0/129024 (0%)
+09:23:01:info     |     Nothing to report
+09:23:01:info     |     
+09:23:01:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:23:01:info     |     The following table lists the number of registers for each instance type.
+09:23:01:info     |     +----------++-----------------------+
+                  |     |  Total   ||        Used By        |
+                  |     | Register ||    |     |     |      |
+                  |     |  Count   || FE | DSP | RAM | Pads |
+                  |     +----------++----+-----+-----+------+
+                  |     |    0     || 0  |  0  |  0  |  0   |
+                  |     +----------++----+-----+-----+------+
+                  |     
+09:23:02:info     |   
+09:23:02:info     |   Reporting instances at state 'Prepared':
+09:23:02:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     | 0/129024 (0%) | 0/129024 (0%) | 0/8064 (0%) | 0/32256 (0%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 0/40 (0%) | 0/4 (0%) |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     
+09:23:02:info     |   Actual FE occupancy is 0/129024 (0%)
+09:23:02:info     |     Nothing to report
+09:23:02:info     |     
+09:23:02:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:23:02:info     |     The following table lists the number of registers for each instance type.
+09:23:02:info     |     +----------++-----------------------+
+                  |     |  Total   ||        Used By        |
+                  |     | Register ||    |     |     |      |
+                  |     |  Count   || FE | DSP | RAM | Pads |
+                  |     +----------++----+-----+-----+------+
+                  |     |    0     || 0  |  0  |  0  |  0   |
+                  |     +----------++----+-----+-----+------+
+                  |     
+09:23:05:info     |   
+09:23:05:info     |   Reporting instances at state 'Routed':
+09:23:05:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
+                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
+                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     | 0/129024 (0%) | 0/129024 (0%) | 0/8064 (0%) | 0/32256 (0%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 0/40 (0%) | 0/4 (0%) |
+                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+                  |     
+09:23:05:info     |   Actual FE occupancy is 0/129024 (0%)
+09:23:05:info     |     Nothing to report
+09:23:05:info     |     
+09:23:05:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:23:05:info     |     The following table lists the number of registers for each instance type.
+09:23:05:info     |     +----------++-----------------------+
+                  |     |  Total   ||        Used By        |
+                  |     | Register ||    |     |     |      |
+                  |     |  Count   || FE | DSP | RAM | Pads |
+                  |     +----------++----+-----+-----+------+
+                  |     |    0     || 0  |  0  |  0  |  0   |
+                  |     +----------++----+-----+-----+------+
+                  |     
