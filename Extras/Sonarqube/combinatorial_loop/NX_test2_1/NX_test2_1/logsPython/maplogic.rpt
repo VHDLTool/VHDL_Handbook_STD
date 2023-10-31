@@ -4,27 +4,27 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:00 2023
+// Execution date:       Tue Oct 31 09:26:01 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:01:info     |   ----------------------------------------------
-09:23:01:info     |   - Standard Logic processing                  -
-09:23:01:info     |   ----------------------------------------------
-09:23:01:info     |   Flattening Design
-09:23:01:info     |     Destroying internal cells ...
-09:23:01:info     |     Purging: test2_1
-09:23:01:info     |   Analyzing LUT-based Adders
-09:23:01:info     |   Analyzing Memory
-09:23:01:info     |   Flattening Design
-09:23:01:info     |     Destroying internal cells ...
-09:23:01:info     |     Purging: test2_1
-09:23:01:info     |     Removed 2 nets (invisible)
-09:23:01:info     |   Analyzing Dsp
-09:23:01:info     |   Flattening Design
-09:23:01:info     |     Destroying internal cells ...
-09:23:01:info     |     Purging: test2_1
-09:23:01:info     |     Destroying internal cells ...
-09:23:01:info     |     Purging: test2_1
-09:23:01:info     |   Checking logic cycles
+09:26:02:info     |   ----------------------------------------------
+09:26:02:info     |   - Standard Logic processing                  -
+09:26:02:info     |   ----------------------------------------------
+09:26:02:info     |   Flattening Design
+09:26:02:info     |     Destroying internal cells ...
+09:26:02:info     |     Purging: test2_1
+09:26:02:info     |   Analyzing LUT-based Adders
+09:26:02:info     |   Analyzing Memory
+09:26:02:info     |   Flattening Design
+09:26:02:info     |     Destroying internal cells ...
+09:26:02:info     |     Purging: test2_1
+09:26:02:info     |     Removed 2 nets (invisible)
+09:26:02:info     |   Analyzing Dsp
+09:26:02:info     |   Flattening Design
+09:26:02:info     |     Destroying internal cells ...
+09:26:02:info     |     Purging: test2_1
+09:26:02:info     |     Destroying internal cells ...
+09:26:02:info     |     Purging: test2_1
+09:26:02:info     |   Checking logic cycles

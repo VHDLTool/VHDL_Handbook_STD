@@ -1,18 +1,18 @@
 {
     "m_capacity": {
-        "count1Cy": 32256,
-        "count4Lut": 129024,
+        "count1Cy": 126336,
+        "count4Lut": 505344,
         "countClockBuffer": 0,
-        "countClockSwitch": 1344,
-        "countCrossDomainClock": 672,
-        "countDff": 129024,
-        "countDsp": 384,
-        "countGck": 0,
-        "countMemBlock": 192,
-        "countPll": 4,
-        "countRegFileBlock": 672,
-        "countWfg": 40,
-        "countXLut": 8064
+        "countClockSwitch": 5264,
+        "countCrossDomainClock": 2632,
+        "countDff": 505344,
+        "countDsp": 1344,
+        "countGck": 160,
+        "countMemBlock": 672,
+        "countPll": 7,
+        "countRegFileBlock": 2632,
+        "countWfg": 70,
+        "countXLut": 31584
     },
     "m_componentCollection": [],
     "m_header": {
@@ -21,8 +21,8 @@
         "appVersion": "v23.3.0.2",
         "buildDate": "2023-09-29 15:22:00",
         "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
-        "executionDate": "Tue Oct 31 09:23:06 2023",
-        "pid": 3332651,
+        "executionDate": "Tue Oct 31 09:26:20 2023",
+        "pid": 3334006,
         "revision": "branch HEAD - hash c27499706...",
         "ui": {
             "#ComponentReport": {
@@ -301,7 +301,7 @@
                 "NX_CY : 2",
                 "NX_IOB : 18",
                 "NX_BFR : 35",
-                "NX_WFG_L : 1"
+                "NX_WFG_U : 1"
             ]
         },
         {
@@ -337,7 +337,7 @@
                 "NX_CY : 2",
                 "NX_IOB : 17",
                 "NX_BFR : 33",
-                "NX_WFG_L : 1"
+                "NX_WFG_U : 1"
             ]
         },
         {

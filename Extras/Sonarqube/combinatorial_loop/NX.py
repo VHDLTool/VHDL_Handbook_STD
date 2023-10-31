@@ -7,7 +7,7 @@ import shutil
 import glob
 from nxmap import *
 
-Variant     = 'NG-LARGE'
+Variant     = 'NG-ULTRA'
 TopCellName = 'top'
 
 list_files = [[['../test1.vhd'],'test1'],[['../test2-1.vhd'],'test2_1'],[['../test2.vhd','../test2-1.vhd'],'test2']]

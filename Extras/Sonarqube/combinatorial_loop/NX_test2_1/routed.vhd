@@ -1,5 +1,5 @@
 --DESIGN "test2_1"
---DATE "Tue Oct 31 09:23:05 2023"
+--DATE "Tue Oct 31 09:26:20 2023"
 --VENDOR "NanoXplore"
 --PROGRAM "Impulse"
 --VERSION "v23.3.0.2"
@@ -32,7 +32,7 @@ i_rts_iob : NX_IOB_I
   -- alias_vhdl => "NX_IOB_I"
   -- alias_vlog => ""
   generic map (
-	  location => "IOB6_D15P",
+	  location => "IOB9_D10P",
 	  differential => "",
 	  slewRate => "",
 	  termination => "",
@@ -69,7 +69,7 @@ i_cts_iob : NX_IOB_O
   -- alias_vhdl => "NX_IOB_O"
   -- alias_vlog => ""
   generic map (
-	  location => "IOB15_D09P",
+	  location => "IOB11_D11N",
 	  differential => "",
 	  slewRate => "",
 	  termination => "",

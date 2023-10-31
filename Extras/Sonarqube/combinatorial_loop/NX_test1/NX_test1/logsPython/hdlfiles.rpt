@@ -4,20 +4,20 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:22:54 2023
+// Execution date:       Tue Oct 31 09:25:42 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:22:55:info     | ////////////////////////////////////////////////////////////////////////////////
-09:22:55:info     | // Synthesized Data
-09:22:55:info     | ////////////////////////////////////////////////////////////////////////////////
-09:22:55:info     | ----------------------------------------------
-09:22:55:info     | - HDL Source code report                     -
-09:22:55:info     | ----------------------------------------------
-09:22:55:info     | 
-09:22:55:info     | Synthesized HDL Files : 
-09:22:55:info     | Top cell: test1 from : work:../test1.vhd
-09:22:55:info     | 
-09:22:55:info     | <Library>		:: <File>
-09:22:55:info     | work		:: ../test1.vhd
+09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
+09:25:43:info     | // Synthesized Data
+09:25:43:info     | ////////////////////////////////////////////////////////////////////////////////
+09:25:43:info     | ----------------------------------------------
+09:25:43:info     | - HDL Source code report                     -
+09:25:43:info     | ----------------------------------------------
+09:25:43:info     | 
+09:25:43:info     | Synthesized HDL Files : 
+09:25:43:info     | Top cell: test1 from : work:../test1.vhd
+09:25:43:info     | 
+09:25:43:info     | <Library>		:: <File>
+09:25:43:info     | work		:: ../test1.vhd

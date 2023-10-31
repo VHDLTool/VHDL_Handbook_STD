@@ -4,52 +4,52 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:00 2023
+// Execution date:       Tue Oct 31 09:26:01 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:02:info     |   Lowskew network statistics at state: Prepared
-09:23:02:info     |     Lowskew signals: 0
-09:23:02:info     |     Total lowskew branches: 0
-09:23:02:info     |     
-09:23:02:info     |     Lowskew signals list:
-09:23:02:info     |     
-09:23:02:info     |     Lobe occupancy:
-09:23:02:info     |     
-09:23:02:info     |     Lobe contents:
-09:23:02:info     |   
-09:23:02:info     |   
-09:23:02:info     |   Lowskew network statistics at state: Spreaded
-09:23:02:info     |     Lowskew signals: 0
-09:23:02:info     |     Total lowskew branches: 0
-09:23:02:info     |     
-09:23:02:info     |     Lowskew signals list:
-09:23:02:info     |     
-09:23:02:info     |     Lobe occupancy:
-09:23:02:info     |     
-09:23:02:info     |     Lobe contents:
-09:23:02:info     |   
-09:23:02:info     |   
-09:23:02:info     |   Lowskew network statistics at state: Placed
-09:23:02:info     |     Lowskew signals: 0
-09:23:02:info     |     Total lowskew branches: 0
-09:23:02:info     |     
-09:23:02:info     |     Lowskew signals list:
-09:23:02:info     |     
-09:23:02:info     |     Lobe occupancy:
-09:23:02:info     |     
-09:23:02:info     |     Lobe contents:
-09:23:02:info     |   
-09:23:02:info     |   
-09:23:05:info     |   Lowskew network statistics at state: Routed
-09:23:05:info     |     Lowskew signals: 0
-09:23:05:info     |     Total lowskew branches: 0
-09:23:05:info     |     
-09:23:05:info     |     Lowskew signals list:
-09:23:05:info     |     
-09:23:05:info     |     Lobe occupancy:
-09:23:05:info     |     
-09:23:05:info     |     Lobe contents:
-09:23:05:info     |   
-09:23:05:info     |   
+09:26:04:info     |   Lowskew network statistics at state: Prepared
+09:26:04:info     |     Lowskew signals: 0
+09:26:04:info     |     Total lowskew branches: 0
+09:26:04:info     |     
+09:26:04:info     |     Lowskew signals list:
+09:26:04:info     |     
+09:26:04:info     |     Lobe occupancy:
+09:26:04:info     |     
+09:26:04:info     |     Lobe contents:
+09:26:04:info     |   
+09:26:04:info     |   
+09:26:04:info     |   Lowskew network statistics at state: Spreaded
+09:26:04:info     |     Lowskew signals: 0
+09:26:04:info     |     Total lowskew branches: 0
+09:26:04:info     |     
+09:26:04:info     |     Lowskew signals list:
+09:26:04:info     |     
+09:26:04:info     |     Lobe occupancy:
+09:26:04:info     |     
+09:26:04:info     |     Lobe contents:
+09:26:04:info     |   
+09:26:04:info     |   
+09:26:05:info     |   Lowskew network statistics at state: Placed
+09:26:05:info     |     Lowskew signals: 0
+09:26:05:info     |     Total lowskew branches: 0
+09:26:05:info     |     
+09:26:05:info     |     Lowskew signals list:
+09:26:05:info     |     
+09:26:05:info     |     Lobe occupancy:
+09:26:05:info     |     
+09:26:05:info     |     Lobe contents:
+09:26:05:info     |   
+09:26:05:info     |   
+09:26:18:info     |   Lowskew network statistics at state: Routed
+09:26:18:info     |     Lowskew signals: 0
+09:26:18:info     |     Total lowskew branches: 0
+09:26:18:info     |     
+09:26:18:info     |     Lowskew signals list:
+09:26:18:info     |     
+09:26:18:info     |     Lobe occupancy:
+09:26:18:info     |     
+09:26:18:info     |     Lobe contents:
+09:26:18:info     |   
+09:26:18:info     |   

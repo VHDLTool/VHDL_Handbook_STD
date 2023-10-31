@@ -1,5 +1,5 @@
 --DESIGN "test1"
---DATE "Tue Oct 31 09:22:55 2023"
+--DATE "Tue Oct 31 09:25:45 2023"
 --VENDOR "NanoXplore"
 --PROGRAM "Impulse"
 --VERSION "v23.3.0.2"
@@ -80,6 +80,7 @@ i_data_reg_1 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -103,6 +104,7 @@ i_data_reg_3 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -126,6 +128,7 @@ i_data_reg_7 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -149,6 +152,7 @@ i_data_reg_2 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -172,6 +176,7 @@ i_data_reg_0 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -195,6 +200,7 @@ i_data_reg_6 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -218,6 +224,7 @@ i_data_reg_4 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (
@@ -241,6 +248,7 @@ i_data_reg_5 : NX_DFF
 	  dff_init => '0',
 	  dff_load => '0',
 	  dff_sync => '0',
+	  dff_type => '0',
 	  dff_ctxt => '0'
   )
   port map (

@@ -4,55 +4,55 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:06 2023
+// Execution date:       Tue Oct 31 09:26:20 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | // Mapped Data
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | 
-09:23:06:info     | ----------------------------
-09:23:06:info     | HDL Modules Hierarchy Detail
-09:23:06:info     | ----------------------------
-09:23:06:info     | 
-09:23:06:info     | ~test1 [ ~ ] 
-09:23:06:info     |  Resources:
-09:23:06:info     |    NX_LUT : 1
-09:23:06:info     |    NX_DFF : 8
-09:23:06:info     |    NX_CY : 2
-09:23:06:info     |    NX_IOB : 18
-09:23:06:info     |    NX_BFR : 35
-09:23:06:info     |    NX_WFG_L : 1
-09:23:06:info     | 
-09:23:07:info     |     
-09:23:07:info     |     Reporting instances at state 'Mapped':
-09:23:07:info     |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |       |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
-                  |       |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
-                  |       |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
-                  |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |       | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
-                  |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | // Mapped Data
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | 
+09:26:22:info     | ----------------------------
+09:26:22:info     | HDL Modules Hierarchy Detail
+09:26:22:info     | ----------------------------
+09:26:22:info     | 
+09:26:22:info     | ~test1 [ ~ ] 
+09:26:22:info     |  Resources:
+09:26:22:info     |    NX_LUT : 1
+09:26:22:info     |    NX_DFF : 8
+09:26:22:info     |    NX_CY : 2
+09:26:22:info     |    NX_IOB : 18
+09:26:22:info     |    NX_BFR : 35
+09:26:22:info     |    NX_WFG_U : 1
+09:26:22:info     | 
+09:26:22:info     |     
+09:26:22:info     |     Reporting instances at state 'Mapped':
+09:26:22:info     |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |       |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
+                  |       |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
+                  |       |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
+                  |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |       | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 0/160 (0%) |
+                  |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |       
-09:23:07:info     |     Actual FE occupancy is 25/129024 (1%)
-09:23:07:info     |       
-09:23:07:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:07:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:07:info     |       The following table details the use of FEs.
-09:23:07:info     |       +----------------++--------------------------------------+
+09:26:22:info     |     Actual FE occupancy is 25/505344 (1%)
+09:26:22:info     |       
+09:26:22:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:22:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:22:info     |       The following table details the use of FEs.
+09:26:22:info     |       +----------------++--------------------------------------+
                   |       |     Total      ||               Used By                |
                   |       |       FE       ||       |  DFF   |    |    |     |     |
                   |       |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
                   |       +----------------++-------+--------+----+----+-----+-----+
-                  |       | 25/129024 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
+                  |       | 25/505344 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
                   |       +----------------++-------+--------+----+----+-----+-----+
                   |       
-09:23:07:info     |       
-09:23:07:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:07:info     |       The following table lists the number of registers for each instance type.
-09:23:07:info     |       +----------++-----------------------+
+09:26:22:info     |       
+09:26:22:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:22:info     |       The following table lists the number of registers for each instance type.
+09:26:22:info     |       +----------++-----------------------+
                   |       |  Total   ||        Used By        |
                   |       | Register ||    |     |     |      |
                   |       |  Count   || FE | DSP | RAM | Pads |
@@ -60,77 +60,77 @@
                   |       |    8     || 8  |  0  |  0  |  0   |
                   |       +----------++----+-----+-----+------+
                   |       
-09:23:07:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:07:info     | // Converted Data
-09:23:07:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:07:info     | Reporting Modules usage
-09:23:07:info     |   Nothing to report
-09:23:07:info     | 
-09:23:07:info     | 	Module <~> :
-09:23:07:info     |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
-                  |   | 4-LUT         | DFF           | XLUT        | 1 - bit Carry | Register File Block | Cross Domain Clock | Clock Buffer | Clock Switch | Digital Signal Processor | Memory Block | WFG       | PLL      | GCK |
-                  |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
-                  |   | 1/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%)  | 0/672 (0%)          | 0/672 (0%)         | 0            | 0/1344 (0%)  | 0/384 (0%)               | 0/192 (0%)   | 1/40 (3%) | 0/4 (0%) | 0   |
-                  |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | // Converted Data
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | Reporting Modules usage
+09:26:22:info     |   Nothing to report
+09:26:22:info     | 
+09:26:22:info     | 	Module <~> :
+09:26:22:info     |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
+                  |   | 4-LUT         | DFF           | XLUT         | 1 - bit Carry | Register File Block | Cross Domain Clock | Clock Buffer | Clock Switch | Digital Signal Processor | Memory Block | WFG       | PLL      | GCK        |
+                  |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
+                  |   | 1/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%)         | 0/2632 (0%)        | 0            | 0/5264 (0%)  | 0/1344 (0%)              | 0/672 (0%)   | 1/70 (2%) | 0/7 (0%) | 0/160 (0%) |
+                  |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
                   |   
-09:23:07:info     |   Actual FE occupancy is 17/129024 (1%)
-09:23:07:info     |     
-09:23:07:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:07:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:07:info     |     The following table details the use of FEs.
-09:23:07:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
+09:26:22:info     |   Actual FE occupancy is 17/505344 (1%)
+09:26:22:info     |     
+09:26:22:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:22:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:22:info     |     The following table details the use of FEs.
+09:26:22:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     | Total FE Count |  | Used by 4-LUT | Used by DFF Buffer | Used by CY | Used by RF | Used by CDC | Used by CKS |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
-                  |     | 17/129024 (1%) |  | 1             | 8                  | 8          | 0          | 0           | 0           |
+                  |     | 17/505344 (1%) |  | 1             | 8                  | 8          | 0          | 0           | 0           |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     
-09:23:07:info     |     
-09:23:07:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:07:info     |     The following table lists the number of registers for each instance type.
-09:23:07:info     |     +----------------------+--+------------+-------------+-------------+--------------+
+09:26:22:info     |     
+09:26:22:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:22:info     |     The following table lists the number of registers for each instance type.
+09:26:22:info     |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | Total Register Count |  | Used by FE | Used by DSP | Used by RAM | Used by Pads |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | 8                    |  | 8          | 0           | 0           | 0            |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     
-09:23:07:info     | 
-09:23:07:info     | 	Module <~> :
-09:23:07:info     |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
-                  |   | 4-LUT         | DFF           | XLUT        | 1 - bit Carry | Register File Block | Cross Domain Clock | Clock Buffer | Clock Switch | Digital Signal Processor | Memory Block | WFG       | PLL      | GCK |
-                  |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
-                  |   | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%)  | 0/672 (0%)          | 0/672 (0%)         | 0            | 0/1344 (0%)  | 0/384 (0%)               | 0/192 (0%)   | 1/40 (3%) | 0/4 (0%) | 0   |
-                  |   +---------------+---------------+-------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+-----+
+09:26:22:info     | 
+09:26:22:info     | 	Module <~> :
+09:26:22:info     |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
+                  |   | 4-LUT         | DFF           | XLUT         | 1 - bit Carry | Register File Block | Cross Domain Clock | Clock Buffer | Clock Switch | Digital Signal Processor | Memory Block | WFG       | PLL      | GCK        |
+                  |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
+                  |   | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%)         | 0/2632 (0%)        | 0            | 0/5264 (0%)  | 0/1344 (0%)              | 0/672 (0%)   | 1/70 (2%) | 0/7 (0%) | 0/160 (0%) |
+                  |   +---------------+---------------+--------------+---------------+---------------------+--------------------+--------------+--------------+--------------------------+--------------+-----------+----------+------------+
                   |   
-09:23:07:info     |   Actual FE occupancy is 25/129024 (1%)
-09:23:07:info     |     
-09:23:07:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:07:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:07:info     |     The following table details the use of FEs.
-09:23:07:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
+09:26:22:info     |   Actual FE occupancy is 25/505344 (1%)
+09:26:22:info     |     
+09:26:22:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:22:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:22:info     |     The following table details the use of FEs.
+09:26:22:info     |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     | Total FE Count |  | Used by 4-LUT | Used by DFF Buffer | Used by CY | Used by RF | Used by CDC | Used by CKS |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
-                  |     | 25/129024 (1%) |  | 9             | 8                  | 8          | 0          | 0           | 0           |
+                  |     | 25/505344 (1%) |  | 9             | 8                  | 8          | 0          | 0           | 0           |
                   |     +----------------+--+---------------+--------------------+------------+------------+-------------+-------------+
                   |     
-09:23:07:info     |     
-09:23:07:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:07:info     |     The following table lists the number of registers for each instance type.
-09:23:07:info     |     +----------------------+--+------------+-------------+-------------+--------------+
+09:26:22:info     |     
+09:26:22:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:22:info     |     The following table lists the number of registers for each instance type.
+09:26:22:info     |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | Total Register Count |  | Used by FE | Used by DSP | Used by RAM | Used by Pads |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     | 8                    |  | 8          | 0           | 0           | 0            |
                   |     +----------------------+--+------------+-------------+-------------+--------------+
                   |     
-09:23:07:info     | ----------------------------
-09:23:07:info     | HDL Modules Hierarchy Detail
-09:23:07:info     | ----------------------------
-09:23:07:info     | 
-09:23:07:info     | ~test1 [ ~ ] 
-09:23:07:info     |  Resources:
-09:23:07:info     |    NX_LUT : 1
-09:23:07:info     |    NX_DFF : 8
-09:23:07:info     |    NX_CY : 2
-09:23:07:info     |    NX_IOB : 18
-09:23:07:info     |    NX_BFR : 35
-09:23:07:info     |    NX_WFG_L : 1
-09:23:07:info     | 
+09:26:22:info     | ----------------------------
+09:26:22:info     | HDL Modules Hierarchy Detail
+09:26:22:info     | ----------------------------
+09:26:22:info     | 
+09:26:22:info     | ~test1 [ ~ ] 
+09:26:22:info     |  Resources:
+09:26:22:info     |    NX_LUT : 1
+09:26:22:info     |    NX_DFF : 8
+09:26:22:info     |    NX_CY : 2
+09:26:22:info     |    NX_IOB : 18
+09:26:22:info     |    NX_BFR : 35
+09:26:22:info     |    NX_WFG_U : 1
+09:26:22:info     | 

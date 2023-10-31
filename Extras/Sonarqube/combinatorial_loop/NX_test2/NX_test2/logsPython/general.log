@@ -4,24 +4,24 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:06 2023
+// Execution date:       Tue Oct 31 09:26:20 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:06:info     | Changing current directory to NX_test2
-09:23:06:info     | Using variant NG-LARGE from family NG-LARGE
-09:23:06:info     | Using package CLGA-1752 from variant NG-LARGE
-09:23:06:info     | Initializing library.
-09:23:06:info     |   Library initialized in 12 milliseconds
-09:23:06:info     | Calibrating plane
-09:23:06:info     |   Calibrating plane succeeded in 2 milliseconds
-09:23:06:info     | Characterizing plane
-09:23:06:info     |   Characterizing library
-09:23:06:info     |     Characterizing library done in 119 milliseconds
-09:23:06:info     |   Characterizing plane done in 119 milliseconds
-09:23:06:info     | Synthesizing project (step 1/3) with KEVLAR
-09:23:06:info     |   +--------------------------------------------------------------+
+09:26:20:info     | Changing current directory to NX_test2
+09:26:20:info     | Using variant NG-ULTRA from family NG-ULTRA
+09:26:20:info     | Using package FF-1760 from variant NG-ULTRA
+09:26:20:info     | Initializing library.
+09:26:20:info     |   Library initialized in 98 milliseconds
+09:26:20:info     | Calibrating plane
+09:26:20:info     |   Calibrating plane succeeded in 5 milliseconds
+09:26:20:info     | Characterizing plane
+09:26:20:info     |   Characterizing library
+09:26:21:info     |     Characterizing library done in 975 milliseconds
+09:26:21:info     |   Characterizing plane done in 977 milliseconds
+09:26:21:info     | Synthesizing project (step 1/3) with KEVLAR
+09:26:21:info     |   +--------------------------------------------------------------+
                   |   |    Retained options for 'Synthesizing project (step 1/3)'    |
                   |   +------------------------------+-------------+-----------------+
                   |   |             Name             | Asked Value | Effective Value |
@@ -42,36 +42,36 @@
                   |   | IgnoreRAMFlashClear          | No          | No              |
                   |   | ManageUnconnectedOutputs     | Error       | Error           |
                   |   | ManageUnconnectedSignals     | Error       | Error           |
-                  |   | MaxRegisterCount             | 0           | 20000           |
+                  |   | MaxRegisterCount             | 0           | 100000          |
                   |   | SaveTiming                   | No          | No              |
                   |   +------------------------------+-------------+-----------------+
                   |   
-09:23:06:info     |   Loading HDL
-09:23:06:info     |     Loading succeeded in 312 milliseconds
-09:23:06:info     |   Initializing design
-09:23:06:info     |     Creating cell: 'add_8u_8u'
-09:23:06:info     |     Creating cell: 'test2_1'
-09:23:06:info     |     Creating cell: 'test2'
-09:23:06:info     |     Initializing test2 as Design Top
-09:23:06:info     |     Initializing succeeded in 2 milliseconds
-09:23:06:info     |   Checking cascaded GCKs
-09:23:06:info     |     Checking succeeded in 0 milliseconds
-09:23:06:info     |   Checking coherence of constant/global nets/instances in design
-09:23:06:info     |     Checking succeeded in 0 milliseconds
-09:23:06:info     |   Reporting BlackBoxes usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Reporting Modules usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Reporting Model Directives usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Reporting Model Initializers usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Synthesizing project (step 1/3) succeeded in 316 milliseconds
-09:23:06:info     | Saving archive in 'synthesized-auto.nym'
-09:23:06:info     |   Saving succeeded in 0 milliseconds
-09:23:06:info     | Report missing constraints of step Synthesizing
-09:23:06:info     | Synthesizing project (step 2/3) with PLANAR
-09:23:06:info     |   +-----------------------------------------------------------------+
+09:26:21:info     |   Loading HDL
+09:26:22:info     |     Loading succeeded in 325 milliseconds
+09:26:22:info     |   Initializing design
+09:26:22:info     |     Creating cell: 'add_8u_8u'
+09:26:22:info     |     Creating cell: 'test2_1'
+09:26:22:info     |     Creating cell: 'test2'
+09:26:22:info     |     Initializing test2 as Design Top
+09:26:22:info     |     Initializing succeeded in 2 milliseconds
+09:26:22:info     |   Checking cascaded GCKs
+09:26:22:info     |     Checking succeeded in 0 milliseconds
+09:26:22:info     |   Checking coherence of constant/global nets/instances in design
+09:26:22:info     |     Checking succeeded in 0 milliseconds
+09:26:22:info     |   Reporting BlackBoxes usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Reporting Modules usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Reporting Model Directives usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Reporting Model Initializers usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Synthesizing project (step 1/3) succeeded in 329 milliseconds
+09:26:22:info     | Saving archive in 'synthesized-auto.nym'
+09:26:22:info     |   Saving succeeded in 0 milliseconds
+09:26:22:info     | Report missing constraints of step Synthesizing
+09:26:22:info     | Synthesizing project (step 2/3) with PLANAR
+09:26:22:info     |   +-----------------------------------------------------------------+
                   |   |     Retained options for 'Synthesizing project (step 2/3)'      |
                   |   +---------------------------------+-------------+-----------------+
                   |   |              Name               | Asked Value | Effective Value |
@@ -98,135 +98,135 @@
                   |   | VariantRepairSynthesis          | No          | No              |
                   |   +---------------------------------+-------------+-----------------+
                   |   
-09:23:06:info     |   Pre-mapping constant cells
-09:23:06:info     |     Pre-mapping constant cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping-hier dff cells
-09:23:06:info     |     Pre-mapping-hier dff cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping-hier adders
-09:23:06:info     |     Normalize adders
-09:23:06:info     |     Found Generator: add_8u_8u::GENE_ADD / false : 8 : 0 : 8 : 8
-09:23:06:info     |     Subtractors detection begins...
-09:23:06:info     |       Subtractors detection finished. 0 milliseconds
-09:23:06:info     |     Remove Trivial adders
-09:23:06:info     |     Pre-mapping-hier adders succeeded in 0 milliseconds
-09:23:06:info     |   Flattening Top Module cell:
-09:23:06:info     |     Exploding cell done in 0 milliseconds
-09:23:06:info     |     Destroying internal cells done in 0 milliseconds
-09:23:06:info     |     Purging done in 0 milliseconds
-09:23:06:info     |     Flattening Module cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping adders
-09:23:06:info     |     Pre-mapping adders succeeded in  20 milliseconds
-09:23:06:info     |   Pre-mapping lessThan
-09:23:06:info     |     Pre-mapping lessThan succeeded in  0 milliseconds
-09:23:06:info     |   Pre-mapping memories
-09:23:06:info     |     Pre-mapping memories succeeded in 0 milliseconds
-09:23:06:info     |   Flattening Top Module cell:
-09:23:06:info     |     Exploding cell done in 0 milliseconds
-09:23:06:info     |     Destroying internal cells done in 0 milliseconds
-09:23:06:info     |     Purging done in 0 milliseconds
-09:23:06:info     |     Flattening Module cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping constant cells
-09:23:06:info     |     Pre-mapping constant cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping tristate cells
-09:23:06:info     |     Pre-mapping tristate cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping latch cells
-09:23:06:info     |     Pre-mapping latch cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping dff cells
-09:23:06:info     |     Pre-mapping dff cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping dsp groups
-09:23:06:info     |     Pre-mapping dsp groups succeeded in 0 milliseconds
-09:23:06:info     |   Add Mux Transformer is starting...
-09:23:06:info     |     -> AddMux transformations / total nbr of adders <=> 1 / 1
-09:23:06:info     |     Add Mux Transformer finished... 0 milliseconds
-09:23:06:info     |   Adder Tree Balancer is starting...
-09:23:06:info     |     -> Add actual balancings / total nbr of adders <=> 0 / 1
-09:23:06:info     |     Adder Tree Balancer finished... 0 milliseconds
-09:23:06:info     |   Adder net operand reduction is starting...
-09:23:06:info     |     -> cumul New Modifed Adders Stages / cumul Old Modifed Adders Stages <=> 0 / 0
-09:23:06:info     |     -> Nbr of adder net operand reductions / total nbr of adders <=> 0 / 1
-09:23:06:info     |     Adder net operand reduction finished... 0 milliseconds
-09:23:06:info     |   Flattening Top Module cell:
-09:23:06:info     |     Exploding cell done in 0 milliseconds
-09:23:06:info     |     Destroying internal cells done in 0 milliseconds
-09:23:06:info     |     Purging done in 0 milliseconds
-09:23:06:info     |     Flattening Module cells succeeded in 0 milliseconds
-09:23:06:info     |   Flattening Top Module cell:
-09:23:06:info     |     Exploding cell done in 0 milliseconds
-09:23:06:info     |     Destroying internal cells done in 0 milliseconds
-09:23:06:info     |     Purging done in 0 milliseconds
-09:23:06:info     |     Flattening Module cells succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping virtual cells
-09:23:06:info     |     Pre-mapping virtual cells succeeded in 7 milliseconds
-09:23:06:info     |   Pre-mapping top pads
-09:23:06:info     |     Pre-mapping top pads succeeded in 0 milliseconds
-09:23:06:info     |   Pre-mapping top pads
-09:23:06:info     |     Pre-mapping top pads succeeded in 0 milliseconds
-09:23:06:info     |   Preparing logic cell: LOGIC from: test2
-09:23:06:info     |     Preparing logic cell succeeded in 0 milliseconds
-09:23:06:info     |   Loop breaker engine starting...
-09:23:06:warning  |     Detected combinatorial loop :
-09:23:06:info     |       +-> LOGIC:i22.o :: rts :: on line 80 in file ../test2.vhd
-09:23:06:info     |       +----+
-09:23:06:info     |     Loop breaker engine finished. 0 milliseconds
-09:23:06:info     |   Checking logic/sequential cycles done in 0 milliseconds
-09:23:06:info     |   Optimizing #Dffs ...
-09:23:06:info     |   Mapping logic cell: LOGIC
-09:23:06:info     |     Mapping logic cell succeeded in 144 milliseconds
-09:23:06:info     |   Post-mapping GenMultiplier
-09:23:06:info     |     Post-mapping GenMultiplier succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping adders
-09:23:06:info     |     Post-mapping adders succeeded in  0 milliseconds
-09:23:06:info     |   Post-mapping lessThan
-09:23:06:info     |     Post-mapping lessThan succeeded in  0 milliseconds
-09:23:06:info     |   Post-mapping adders cleanup
-09:23:06:info     |     Post-mapping adders cleanup succeeded in  0 milliseconds
-09:23:06:info     |   Post-mapping lut cells
-09:23:06:info     |     Post-mapping lut cells succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping adder cells
-09:23:06:info     |     Post-mapping adder cells succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping dsp cells
-09:23:06:info     |     Post-mapping dsp cells succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping ram cells
-09:23:06:info     |     Post-mapping ram cells succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping rfb cells
-09:23:06:info     |     Post-mapping rfb cells succeeded in 0 milliseconds
-09:23:06:info     |   Post-mapping dff cells
-09:23:06:info     |     Post-mapping dff cells succeeded in 0 milliseconds
-09:23:06:info     |   Reporting Instance Directives usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Reporting Instance Initializers usage
-09:23:06:info     |     Nothing to report
-09:23:06:info     |   Synthesizing project (step 2/3) succeeded in 208 milliseconds
-09:23:06:info     | Saving archive in 'mapped-auto.nym'
-09:23:06:info     |   Saving succeeded in 4 milliseconds
-09:23:06:info     | Report missing constraints of step Mapping
-09:23:06:info     |   
-09:23:06:info     |   Reporting instances at state 'Synthesized':
-09:23:06:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
-                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
-                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 0/40 (0%) | 0/4 (0%) |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+09:26:22:info     |   Pre-mapping constant cells
+09:26:22:info     |     Pre-mapping constant cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping-hier dff cells
+09:26:22:info     |     Pre-mapping-hier dff cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping-hier adders
+09:26:22:info     |     Normalize adders
+09:26:22:info     |     Found Generator: add_8u_8u::GENE_ADD / false : 8 : 0 : 8 : 8
+09:26:22:info     |     Subtractors detection begins...
+09:26:22:info     |       Subtractors detection finished. 0 milliseconds
+09:26:22:info     |     Remove Trivial adders
+09:26:22:info     |     Pre-mapping-hier adders succeeded in 0 milliseconds
+09:26:22:info     |   Flattening Top Module cell:
+09:26:22:info     |     Exploding cell done in 0 milliseconds
+09:26:22:info     |     Destroying internal cells done in 0 milliseconds
+09:26:22:info     |     Purging done in 0 milliseconds
+09:26:22:info     |     Flattening Module cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping adders
+09:26:22:info     |     Pre-mapping adders succeeded in  21 milliseconds
+09:26:22:info     |   Pre-mapping lessThan
+09:26:22:info     |     Pre-mapping lessThan succeeded in  0 milliseconds
+09:26:22:info     |   Pre-mapping memories
+09:26:22:info     |     Pre-mapping memories succeeded in 0 milliseconds
+09:26:22:info     |   Flattening Top Module cell:
+09:26:22:info     |     Exploding cell done in 0 milliseconds
+09:26:22:info     |     Destroying internal cells done in 0 milliseconds
+09:26:22:info     |     Purging done in 0 milliseconds
+09:26:22:info     |     Flattening Module cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping constant cells
+09:26:22:info     |     Pre-mapping constant cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping tristate cells
+09:26:22:info     |     Pre-mapping tristate cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping latch cells
+09:26:22:info     |     Pre-mapping latch cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping dff cells
+09:26:22:info     |     Pre-mapping dff cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping dsp groups
+09:26:22:info     |     Pre-mapping dsp groups succeeded in 0 milliseconds
+09:26:22:info     |   Add Mux Transformer is starting...
+09:26:22:info     |     -> AddMux transformations / total nbr of adders <=> 1 / 1
+09:26:22:info     |     Add Mux Transformer finished... 0 milliseconds
+09:26:22:info     |   Adder Tree Balancer is starting...
+09:26:22:info     |     -> Add actual balancings / total nbr of adders <=> 0 / 1
+09:26:22:info     |     Adder Tree Balancer finished... 0 milliseconds
+09:26:22:info     |   Adder net operand reduction is starting...
+09:26:22:info     |     -> cumul New Modifed Adders Stages / cumul Old Modifed Adders Stages <=> 0 / 0
+09:26:22:info     |     -> Nbr of adder net operand reductions / total nbr of adders <=> 0 / 1
+09:26:22:info     |     Adder net operand reduction finished... 0 milliseconds
+09:26:22:info     |   Flattening Top Module cell:
+09:26:22:info     |     Exploding cell done in 0 milliseconds
+09:26:22:info     |     Destroying internal cells done in 0 milliseconds
+09:26:22:info     |     Purging done in 0 milliseconds
+09:26:22:info     |     Flattening Module cells succeeded in 0 milliseconds
+09:26:22:info     |   Flattening Top Module cell:
+09:26:22:info     |     Exploding cell done in 0 milliseconds
+09:26:22:info     |     Destroying internal cells done in 0 milliseconds
+09:26:22:info     |     Purging done in 0 milliseconds
+09:26:22:info     |     Flattening Module cells succeeded in 0 milliseconds
+09:26:22:info     |   Pre-mapping virtual cells
+09:26:22:info     |     Pre-mapping virtual cells succeeded in 8 milliseconds
+09:26:22:info     |   Pre-mapping top pads
+09:26:22:info     |     Pre-mapping top pads succeeded in 1 millisecond
+09:26:22:info     |   Pre-mapping top pads
+09:26:22:info     |     Pre-mapping top pads succeeded in 0 milliseconds
+09:26:22:info     |   Preparing logic cell: LOGIC from: test2
+09:26:22:info     |     Preparing logic cell succeeded in 0 milliseconds
+09:26:22:info     |   Loop breaker engine starting...
+09:26:22:warning  |     Detected combinatorial loop :
+09:26:22:info     |       +-> LOGIC:i22.o :: rts :: on line 80 in file ../test2.vhd
+09:26:22:info     |       +----+
+09:26:22:info     |     Loop breaker engine finished. 0 milliseconds
+09:26:22:info     |   Checking logic/sequential cycles done in 0 milliseconds
+09:26:22:info     |   Optimizing #Dffs ...
+09:26:22:info     |   Mapping logic cell: LOGIC
+09:26:22:info     |     Mapping logic cell succeeded in 151 milliseconds
+09:26:22:info     |   Post-mapping GenMultiplier
+09:26:22:info     |     Post-mapping GenMultiplier succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping adders
+09:26:22:info     |     Post-mapping adders succeeded in  0 milliseconds
+09:26:22:info     |   Post-mapping lessThan
+09:26:22:info     |     Post-mapping lessThan succeeded in  0 milliseconds
+09:26:22:info     |   Post-mapping adders cleanup
+09:26:22:info     |     Post-mapping adders cleanup succeeded in  0 milliseconds
+09:26:22:info     |   Post-mapping lut cells
+09:26:22:info     |     Post-mapping lut cells succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping adder cells
+09:26:22:info     |     Post-mapping adder cells succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping dsp cells
+09:26:22:info     |     Post-mapping dsp cells succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping ram cells
+09:26:22:info     |     Post-mapping ram cells succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping rfb cells
+09:26:22:info     |     Post-mapping rfb cells succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping dff cells
+09:26:22:info     |     Post-mapping dff cells succeeded in 0 milliseconds
+09:26:22:info     |   Reporting Instance Directives usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Reporting Instance Initializers usage
+09:26:22:info     |     Nothing to report
+09:26:22:info     |   Synthesizing project (step 2/3) succeeded in 241 milliseconds
+09:26:22:info     | Saving archive in 'mapped-auto.nym'
+09:26:22:info     |   Saving succeeded in 10 milliseconds
+09:26:22:info     | Report missing constraints of step Mapping
+09:26:22:info     |   
+09:26:22:info     |   Reporting instances at state 'Synthesized':
+09:26:22:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
+                  |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
+                  |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 0/70 (0%) | 0/7 (0%) | 0/160 (0%) |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:23:06:info     |   Actual FE occupancy is 25/129024 (1%)
-09:23:06:info     |     
-09:23:06:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:06:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:06:info     |     The following table details the use of FEs.
-09:23:06:info     |     +----------------++--------------------------------------+
+09:26:22:info     |   Actual FE occupancy is 25/505344 (1%)
+09:26:22:info     |     
+09:26:22:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:22:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:22:info     |     The following table details the use of FEs.
+09:26:22:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
                   |     +----------------++-------+--------+----+----+-----+-----+
-                  |     | 25/129024 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
+                  |     | 25/505344 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:23:06:info     |     
-09:23:06:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:06:info     |     The following table lists the number of registers for each instance type.
-09:23:06:info     |     +----------++-----------------------+
+09:26:22:info     |     
+09:26:22:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:22:info     |     The following table lists the number of registers for each instance type.
+09:26:22:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |
@@ -234,11 +234,11 @@
                   |     |    8     || 8  |  0  |  0  |  0   |
                   |     +----------++----+-----+-----+------+
                   |     
-09:23:06:info     |   
-09:23:06:info     |   Reporting registers at state 'Mapped':
-09:23:06:info     |     No registers have been found in the current design.
-09:23:06:info     | Synthesizing project (step 3/3) with RINGAR
-09:23:06:info     |   +--------------------------------------------------------+
+09:26:22:info     |   
+09:26:22:info     |   Reporting registers at state 'Mapped':
+09:26:22:info     |     No registers have been found in the current design.
+09:26:22:info     | Synthesizing project (step 3/3) with RINGAR
+09:26:22:info     |   +--------------------------------------------------------+
                   |   | Retained options for 'Synthesizing project (step 3/3)' |
                   |   +--------------------+---------------+-------------------+
                   |   |        Name        |  Asked Value  |  Effective Value  |
@@ -247,63 +247,63 @@
                   |   | Seed               | 1789          | 1789              |
                   |   +--------------------+---------------+-------------------+
                   |   
-09:23:07:info     |   Post-mapping Module re-analysis
-09:23:07:info     |     Post-mapping Module re-analysis succeeded in 0 milliseconds
-09:23:07:info     |   Post-mapping Module reconstruction
-09:23:07:info     |     Post-mapping Module reconstruction succeeded in 0 milliseconds
-09:23:07:info     |   Path-mapping Module reconstruction
-09:23:07:info     |     Path-mapping Module reconstruction succeeded in 0 milliseconds
-09:23:07:info     |   Preparing IPs
-09:23:07:info     |     Preparing IPs succeeded in 0 milliseconds
-09:23:07:info     |   Post mapping ring
-09:23:07:info     |     Post-mapping top pads
-09:23:07:info     |       Post-mapping top pads succeeded in 1 millisecond
-09:23:07:info     |     Post-mapping bd cells
-09:23:07:info     |       Post-mapping bd cells succeeded in 0 milliseconds
-09:23:07:info     |     Post-mapping pll cells
-09:23:07:info     |       Post-mapping pll cells succeeded in 0 milliseconds
-09:23:07:info     |     Post-mapping wfg cells
-09:23:07:info     |       Post-mapping wfg cells succeeded in 0 milliseconds
-09:23:07:info     |     Post-mapping hssl cells
-09:23:07:info     |       Post-mapping hssl cells succeeded in 0 milliseconds
-09:23:07:info     |     Post mapping ring succeeded in 1 millisecond
-09:23:07:info     |   Finalizing synthesized design
-09:23:07:info     |     Cleaning nets
-09:23:07:info     |       Cleaning nets succeeded in 0 milliseconds
-09:23:07:info     |     Checking design
-09:23:07:info     |       Checking design succeeded in 0 milliseconds
-09:23:07:info     |     Reporting Modules usage
-09:23:07:info     |       Nothing to report
-09:23:07:info     |     Reporting Constrained usage
-09:23:07:info     |       Nothing to report
-09:23:07:info     |     Module <~> :
-09:23:07:info     |     
-09:23:07:info     |     Reporting instances at state 'Mapped':
-09:23:07:info     |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |       |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
-                  |       |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
-                  |       |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
-                  |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |       | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
-                  |       +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+09:26:22:info     |   Post-mapping Module re-analysis
+09:26:22:info     |     Post-mapping Module re-analysis succeeded in 0 milliseconds
+09:26:22:info     |   Post-mapping Module reconstruction
+09:26:22:info     |     Post-mapping Module reconstruction succeeded in 0 milliseconds
+09:26:22:info     |   Path-mapping Module reconstruction
+09:26:22:info     |     Path-mapping Module reconstruction succeeded in 0 milliseconds
+09:26:22:info     |   Preparing IPs
+09:26:22:info     |     Preparing IPs succeeded in 0 milliseconds
+09:26:22:info     |   Post mapping ring
+09:26:22:info     |     Post-mapping top pads
+09:26:22:info     |       Post-mapping top pads succeeded in 0 milliseconds
+09:26:22:info     |     Post-mapping bd cells
+09:26:22:info     |       Post-mapping bd cells succeeded in 0 milliseconds
+09:26:22:info     |     Post-mapping pll cells
+09:26:22:info     |       Post-mapping pll cells succeeded in 0 milliseconds
+09:26:22:info     |     Post-mapping wfg cells
+09:26:22:info     |       Post-mapping wfg cells succeeded in 0 milliseconds
+09:26:22:info     |     Post-mapping hssl cells
+09:26:22:info     |       Post-mapping hssl cells succeeded in 0 milliseconds
+09:26:22:info     |     Post mapping ring succeeded in 1 millisecond
+09:26:22:info     |   Finalizing synthesized design
+09:26:22:info     |     Cleaning nets
+09:26:22:info     |       Cleaning nets succeeded in 0 milliseconds
+09:26:22:info     |     Checking design
+09:26:22:info     |       Checking design succeeded in 0 milliseconds
+09:26:22:info     |     Reporting Modules usage
+09:26:22:info     |       Nothing to report
+09:26:22:info     |     Reporting Constrained usage
+09:26:22:info     |       Nothing to report
+09:26:22:info     |     Module <~> :
+09:26:22:info     |     
+09:26:22:info     |     Reporting instances at state 'Mapped':
+09:26:22:info     |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |       |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
+                  |       |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
+                  |       |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
+                  |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |       | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 0/160 (0%) |
+                  |       +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |       
-09:23:07:info     |     Actual FE occupancy is 25/129024 (1%)
-09:23:07:info     |       
-09:23:07:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:07:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:07:info     |       The following table details the use of FEs.
-09:23:07:info     |       +----------------++--------------------------------------+
+09:26:22:info     |     Actual FE occupancy is 25/505344 (1%)
+09:26:22:info     |       
+09:26:22:info     |       Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:22:info     |       These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:22:info     |       The following table details the use of FEs.
+09:26:22:info     |       +----------------++--------------------------------------+
                   |       |     Total      ||               Used By                |
                   |       |       FE       ||       |  DFF   |    |    |     |     |
                   |       |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
                   |       +----------------++-------+--------+----+----+-----+-----+
-                  |       | 25/129024 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
+                  |       | 25/505344 (1%) ||   9   |   8    | 8  | 0  |  0  |  0  |
                   |       +----------------++-------+--------+----+----+-----+-----+
                   |       
-09:23:07:info     |       
-09:23:07:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:07:info     |       The following table lists the number of registers for each instance type.
-09:23:07:info     |       +----------++-----------------------+
+09:26:22:info     |       
+09:26:22:info     |       Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:22:info     |       The following table lists the number of registers for each instance type.
+09:26:22:info     |       +----------++-----------------------+
                   |       |  Total   ||        Used By        |
                   |       | Register ||    |     |     |      |
                   |       |  Count   || FE | DSP | RAM | Pads |
@@ -311,52 +311,52 @@
                   |       |    8     || 8  |  0  |  0  |  0   |
                   |       +----------++----+-----+-----+------+
                   |       
-09:23:07:info     |     --------------------------------------------
-09:23:07:info     |     - Detailed Hierarchy Statistics            -
-09:23:07:info     |     --------------------------------------------
-09:23:07:info     |     ~                   test2
-09:23:07:info     |                         Resources:
-09:23:07:info     |                           NX_LUT : 9
-09:23:07:info     |                           NX_DFF : 8
-09:23:07:info     |                           NX_CY : 2
-09:23:07:info     |                           NX_IOB : 17
-09:23:07:info     |                           NX_BFR : 33
-09:23:07:info     |                           NX_WFG_L : 1
-09:23:07:info     |     ~                   |-> test2_1 [ C_test2_1 ]
-09:23:07:info     |     --------------------------------------------
-09:23:07:info     |     Cleaning design
-09:23:07:info     |       Cleaning design succeeded in 0 milliseconds
-09:23:07:info     |     Finalizing synthesized design succeeded in 15 milliseconds
-09:23:07:info     |   Creating modules
-09:23:07:info     |     Creating modules succeeded in 0 milliseconds
-09:23:07:info     |   Creating dynasties
-09:23:07:info     |     Creating dynasties succeeded in 0 milliseconds
-09:23:07:info     |   Converting instances
-09:23:07:info     |     Extracting IP locations
-09:23:07:info     |       Extracting IP locations done in 0 milliseconds
-09:23:07:info     |     Extracting HDL locations
-09:23:07:info     |       Extracting HDL locations in 0 milliseconds
-09:23:07:info     |     Converting instances succeeded in 1 millisecond
-09:23:07:info     |   Converting nets
-09:23:07:info     |     Converting nets succeeded in 0 milliseconds
-09:23:07:info     |   Checking step
-09:23:07:info     |     [         ] Check AnyGCK IsNotCascaded (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     Checking step succeeded in 0 milliseconds
-09:23:07:info     |   Synthesizing project (step 3/3) succeeded in 429 milliseconds
-09:23:07:info     | Saving archive in 'converted-auto.nym'
-09:23:07:info     |   Saving succeeded in 1 millisecond
-09:23:07:info     | Report missing constraints of step Converting
-09:23:07:info     | Saving project in 'synth.vhd'
-09:23:07:info     |   Characterizing library
-09:23:07:info     |     Characterizing library done in 156 milliseconds
-09:23:07:info     |   Characterizing cell
-09:23:07:info     |     Characterizing cell done in 0 milliseconds
-09:23:07:info     |   Saving project test2 to synth.vhd
-09:23:07:info     |     Saving succeeded in 3 milliseconds
-09:23:07:info     |   Saving project succeeded in 161 milliseconds
-09:23:07:info     | Placing project (step 1/5) with PREPAR
-09:23:07:info     |   +---------------------------------------------------+
+09:26:22:info     |     --------------------------------------------
+09:26:22:info     |     - Detailed Hierarchy Statistics            -
+09:26:22:info     |     --------------------------------------------
+09:26:22:info     |     ~                   test2
+09:26:22:info     |                         Resources:
+09:26:22:info     |                           NX_LUT : 9
+09:26:22:info     |                           NX_DFF : 8
+09:26:22:info     |                           NX_CY : 2
+09:26:22:info     |                           NX_IOB : 17
+09:26:22:info     |                           NX_BFR : 33
+09:26:22:info     |                           NX_WFG_U : 1
+09:26:22:info     |     ~                   |-> test2_1 [ C_test2_1 ]
+09:26:22:info     |     --------------------------------------------
+09:26:22:info     |     Cleaning design
+09:26:22:info     |       Cleaning design succeeded in 0 milliseconds
+09:26:22:info     |     Finalizing synthesized design succeeded in 15 milliseconds
+09:26:22:info     |   Creating modules
+09:26:22:info     |     Creating modules succeeded in 0 milliseconds
+09:26:22:info     |   Creating dynasties
+09:26:22:info     |     Creating dynasties succeeded in 0 milliseconds
+09:26:22:info     |   Converting instances
+09:26:22:info     |     Extracting IP locations
+09:26:22:info     |       Extracting IP locations done in 0 milliseconds
+09:26:22:info     |     Extracting HDL locations
+09:26:22:info     |       Extracting HDL locations in 0 milliseconds
+09:26:22:info     |     Converting instances succeeded in 1 millisecond
+09:26:22:info     |   Converting nets
+09:26:22:info     |     Converting nets succeeded in 0 milliseconds
+09:26:22:info     |   Checking step
+09:26:22:info     |     [         ] Check AnyGCK IsNotCascaded (0 target)
+09:26:22:info     |     [SUCCESS  ]
+09:26:22:info     |     Checking step succeeded in 0 milliseconds
+09:26:22:info     |   Synthesizing project (step 3/3) succeeded in 278 milliseconds
+09:26:22:info     | Saving archive in 'converted-auto.nym'
+09:26:22:info     |   Saving succeeded in 2 milliseconds
+09:26:22:info     | Report missing constraints of step Converting
+09:26:22:info     | Saving project in 'synth.vhd'
+09:26:22:info     |   Characterizing library
+09:26:24:info     |     Characterizing library done in 1 second 415 milliseconds
+09:26:24:info     |   Characterizing cell
+09:26:24:info     |     Characterizing cell done in 6 milliseconds
+09:26:24:info     |   Saving project test2 to synth.vhd
+09:26:24:info     |     Saving succeeded in 3 milliseconds
+09:26:24:info     |   Saving project succeeded in 1 second 426 milliseconds
+09:26:24:info     | Placing project (step 1/5) with PREPAR
+09:26:24:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Placing project (step 1/5)' |
                   |   +------------------+--------------+-----------------+
                   |   |       Name       | Asked Value  | Effective Value |
@@ -365,205 +365,205 @@
                   |   | Seed             | 1789         | 1789            |
                   |   +------------------+--------------+-----------------+
                   |   
-09:23:07:info     |   Developping instances
-09:23:07:info     |     Developing instances
-09:23:07:info     |       Developing instances succeeded in 0 milliseconds
-09:23:07:info     |     Developping instances succeeded in 0 milliseconds
-09:23:07:info     |   Developping drawers
-09:23:07:info     |     Developping drawers succeeded in 0 milliseconds
-09:23:07:info     |   Sharing global BDs
-09:23:07:info     |     Sharing global BDs succeeded in 0 milliseconds
-09:23:07:info     |   Placing ring
-09:23:07:info     |     Placing ring succeeded in 10 milliseconds
-09:23:07:info     |   Adjusting DFRs
-09:23:07:info     |     Adjusting DFRs succeeded in 0 milliseconds
-09:23:07:info     |   Adjusting Pads
-09:23:07:info     |     Adjusting pads succeeded in 0 milliseconds
-09:23:07:info     |   Adjusting interfaces
-09:23:07:info     |     Adjusting interfaces succeeded in 0 milliseconds
-09:23:07:info     |   Cleaving nets
-09:23:07:info     |     Cleaving nets succeeded in 1 millisecond
-09:23:07:info     |   Merging nets
-09:23:07:info     |     Merging nets succeeded in 0 milliseconds
-09:23:07:info     |   Cleaning nets
-09:23:07:info     |     Cleaning nets succeeded in 0 milliseconds
-09:23:07:info     |   Cleaning useless BDs
-09:23:07:info     |     Cleaning useless BDs succeeded in 0 milliseconds
-09:23:07:info     |   Creating converters
-09:23:07:info     |     Creating converters succeeded in 0 milliseconds
-09:23:07:info     |   Bypassing converters with a medium effort
-09:23:07:info     |     No converter bypassed
-09:23:07:info     |     Bypassing converters with a medium effort succeeded in 0 milliseconds
-09:23:07:info     |   Sharing CSCs
-09:23:07:info     |     Sharing CSCs succeeded in 0 milliseconds
-09:23:07:info     |   Conforming modules
-09:23:07:info     |     Conforming modules succeeded in 0 milliseconds
-09:23:07:info     |   Preplacing instances
-09:23:07:info     |     Preplacing Others
-09:23:07:info     |       Preplacing others done after 0 milliseconds
-09:23:07:info     |     Preplacing instances succeeded in 4 milliseconds
-09:23:07:info     |   Checking resources
-09:23:07:info     |     [         ] Check ThePlane HasEnoughCDCSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughCYSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughDSPSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughFEOSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughFIFOSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughLUTSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughPLLSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughPadSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughRAMSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughRFSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughWFGSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check ThePlane HasEnoughXLUTSpots (1 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     Checking resources succeeded in 0 milliseconds
-09:23:07:info     |   Checking dsp chains
-09:23:07:info     |     [         ] Check AnyDSP.Chained HasChainedElements (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     Checking dsp chains succeeded in 0 milliseconds
-09:23:07:info     |   Populating core
-09:23:07:debug    |     Dispatching with PULSAR
-09:23:07:info     |       [         ] Check AnyFCO EmitsToAReceiver (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnySCO EmitsToAReceiver (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyTCO EmitsToAReceiver (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyInstance HasDriver (105 targets)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyCX HasPinIConnected (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyFCI IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyFCO IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnySCI IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnySCO IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyTCI IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:info     |       [         ] Check AnyTCO IsRegular (0 target)
-09:23:07:info     |       [SUCCESS  ]
-09:23:07:debug    |       Unlocking chained DSPs
-09:23:07:info     |       Dispatching succeeded in 54 milliseconds
-09:23:07:info     |     Post dispatching test2 in [1 1 48 23]
-09:23:07:info     |       Post dispatching succeeded in 2 milliseconds
-09:23:07:info     |     Checking regions capacity
-09:23:07:info     |       Checking regions capacity succeeded in 0 milliseconds
-09:23:07:info     |     Populating core succeeded in 72 milliseconds
-09:23:07:info     |   Routing ring
-09:23:07:info     |     Routing ring succeeded in 0 milliseconds
-09:23:07:info     |   Checking step
-09:23:07:info     |     Checking pads
-09:23:07:info     |       Checking pads definition succeeded in 0 milliseconds
-09:23:07:info     |     [         ] Check AnyCSC HasAuthorizedInstanceConnectedOn (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyCY HasAuthorizedInstanceConnectedOn (2 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyLUT.NotRequired HasAuthorizedInstanceConnectedOn (17 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyPad HasAuthorizedInstanceConnectedOn (17 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyFEO.NotCSC HasAuthorizedSystemConnection (17 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyInstance HasConfig (105 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyFEI.NotRequired HasConnectedOutput (17 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyFEO.NotRequired HasConnectedOutput (17 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyBFF HasNotUnmergedPair (9 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyNet.NotRequired HasPilot (52 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyInstance HasSite (105 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyInstance HasSpot (105 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     Checking system signals in all tiles
-09:23:07:info     |     Checking step succeeded in 1 millisecond
-09:23:07:info     |   Placing project (step 1/5) succeeded in 271 milliseconds
-09:23:07:info     | Saving archive in 'prepared-auto.nym'
-09:23:07:info     |   Saving succeeded in 2 milliseconds
-09:23:07:info     | Report missing constraints of step Preparing
-09:23:07:info     |   Reporting ports
-09:23:07:info     |     
-09:23:07:info     |     Reporting ports at state 'Prepared':
-09:23:07:info     |     Ports used in current design.
-09:23:07:info     |     +-------------------------+
+09:26:24:info     |   Developping instances
+09:26:24:info     |     Developing instances
+09:26:24:info     |       Developing instances succeeded in 0 milliseconds
+09:26:24:info     |     Developping instances succeeded in 0 milliseconds
+09:26:24:info     |   Developping drawers
+09:26:24:info     |     Developping drawers succeeded in 0 milliseconds
+09:26:24:info     |   Placing ring
+09:26:24:info     |     Placing ring succeeded in 8 milliseconds
+09:26:24:info     |   Adjusting DFRs
+09:26:24:info     |     Adjusting DFRs succeeded in 0 milliseconds
+09:26:24:info     |   Adjusting Pads
+09:26:24:info     |     Adjusting pads succeeded in 0 milliseconds
+09:26:24:info     |   Adjusting interfaces
+09:26:24:info     |     Adjusting interfaces succeeded in 0 milliseconds
+09:26:24:info     |   Cleaving nets
+09:26:24:info     |     Cleaving nets succeeded in 1 millisecond
+09:26:24:info     |   Merging nets
+09:26:24:info     |     Merging nets succeeded in 0 milliseconds
+09:26:24:info     |   Cleaning nets
+09:26:24:info     |     Cleaning nets succeeded in 0 milliseconds
+09:26:24:info     |   Cleaning useless BDs
+09:26:24:info     |     Cleaning useless BDs succeeded in 0 milliseconds
+09:26:24:info     |   Creating GCKs
+09:26:24:info     |     Creating GCKs succeeded in 0 milliseconds
+09:26:24:info     |   Inverting bypassed GCKs
+09:26:24:info     |     Inverting bypassed GCKs succeeded in 0 milliseconds
+09:26:24:info     |   Creating converters
+09:26:24:info     |     Creating converters succeeded in 0 milliseconds
+09:26:24:info     |   Bypassing converters with a medium effort
+09:26:24:info     |     No converter bypassed
+09:26:24:info     |     Bypassing converters with a medium effort succeeded in 0 milliseconds
+09:26:24:info     |   Conforming modules
+09:26:24:info     |     Conforming modules succeeded in 0 milliseconds
+09:26:24:info     |   Preplacing instances
+09:26:24:info     |     Preplacing Others
+09:26:24:info     |       Preplacing others done after 0 milliseconds
+09:26:24:info     |     Preplacing instances succeeded in 5 milliseconds
+09:26:24:info     |   Checking resources
+09:26:24:info     |     [         ] Check ThePlane HasEnoughCDCSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughCYSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughDSPSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughFEOSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughFIFOSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughLUTSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughPLLSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughPadSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughRAMSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughRFSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughWFGSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check ThePlane HasEnoughXLUTSpots (1 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     Checking resources succeeded in 2 milliseconds
+09:26:24:info     |   Checking dsp chains
+09:26:24:info     |     [         ] Check AnyDSP.Chained HasChainedElements (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     Checking dsp chains succeeded in 0 milliseconds
+09:26:24:info     |   Populating core
+09:26:24:debug    |     Dispatching with PULSAR
+09:26:24:info     |       [         ] Check AnyFCO EmitsToAReceiver (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnySCO EmitsToAReceiver (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyTCO EmitsToAReceiver (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyInstance HasDriver (106 targets)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyCX HasPinIConnected (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyFCI IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyFCO IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnySCI IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnySCO IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyTCI IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:info     |       [         ] Check AnyTCO IsRegular (0 target)
+09:26:24:info     |       [SUCCESS  ]
+09:26:24:debug    |       Unlocking chained DSPs
+09:26:24:info     |       Dispatching succeeded in 97 milliseconds
+09:26:24:info     |     Post dispatching test2 in [1 1 92 49]
+09:26:24:info     |       Post dispatching succeeded in 7 milliseconds
+09:26:24:info     |     Checking regions capacity
+09:26:24:info     |       Checking regions capacity succeeded in 0 milliseconds
+09:26:24:info     |     Populating core succeeded in 121 milliseconds
+09:26:24:info     |   Routing ring
+09:26:24:info     |     Routing ring succeeded in 0 milliseconds
+09:26:24:info     |   Checking step
+09:26:24:info     |     Checking pads
+09:26:24:info     |       Checking pads definition succeeded in 0 milliseconds
+09:26:24:info     |     [         ] Check AnyCSC HasAuthorizedInstanceConnectedOn (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyCY HasAuthorizedInstanceConnectedOn (2 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyLUT.NotRequired HasAuthorizedInstanceConnectedOn (17 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyPad HasAuthorizedInstanceConnectedOn (17 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyFEO.NotCSC HasAuthorizedSystemConnection (17 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyInstance HasConfig (106 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyFEI.NotRequired HasConnectedOutput (17 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyFEO.NotRequired HasConnectedOutput (17 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyBFF HasNotUnmergedPair (9 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyNet.NotRequired HasPilot (52 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyInstance HasSite (106 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyInstance HasSpot (106 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     Checking system signals in all tiles
+09:26:24:info     |     Checking step succeeded in 1 millisecond
+09:26:24:info     |   Placing project (step 1/5) succeeded in 258 milliseconds
+09:26:24:info     | Saving archive in 'prepared-auto.nym'
+09:26:24:info     |   Saving succeeded in 2 milliseconds
+09:26:24:info     | Report missing constraints of step Preparing
+09:26:24:info     |   Reporting ports
+09:26:24:info     |     
+09:26:24:info     |     Reporting ports at state 'Prepared':
+09:26:24:info     |     Ports used in current design.
+09:26:24:info     |     +-------------------------+
                   |     |           IOs           |
                   |     | Input | Output | In/Out |
                   |     +-------+--------+--------+
                   |     | 9     | 8      | 0      |
                   |     +-------+--------+--------+
                   |     
-09:23:07:info     |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
+09:26:24:info     |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
                   |     |   Name    | I/O  |    Location    | Standard | Voltage | Drive |     Termination      | SlewRate |   DelayLine   | Differential | Turbo |  Registered   |
                   |     |           |      |                |          |         |       | R / Weak / Reference |          |   In / Out    |              |       | Asked:Applied |
                   |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
-                  |     | i_data[5] | In   | IOB6_D15N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[2] | In   | IOB12_D10P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[1] | In   | IOB4_D08P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[6] | In   | IOB10_D06N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[0] | In   | IOB1_D07P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[3] | In   | IOB20_D16N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[7] | In   | IOB7_D13N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_clk     | In   | IOB6_D10P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | i_data[4] | In   | IOB21_D04P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[7] | Out  | IOB15_D10N (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[4] | Out  | IOB18_D06P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[1] | Out  | IOB6_D08P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[5] | Out  | IOB8_D13N (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[6] | Out  | IOB7_D07P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[2] | Out  | IOB7_D09P (!)  | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[3] | Out  | IOB19_D14P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
-                  |     | o_data[0] | Out  | IOB20_D13P (!) | LVCMOS   |    2.5V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[5] | In   | IOB9_D10P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[2] | In   | IOB7_D14 (!)   | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[1] | In   | IOB1_D06 (!)   | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[6] | In   | IOB3_D15N (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[0] | In   | IOB4_D03P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[3] | In   | IOB10_D15N (!) | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[7] | In   | IOB2_D14P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_clk     | In   | IOB4_D08P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | i_data[4] | In   | IOB5_D08N (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[7] | Out  | IOB11_D13P (!) | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[4] | Out  | IOB13_D10N (!) | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[1] | Out  | IOB2_D13N (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[5] | Out  | IOB3_D13P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[6] | Out  | IOB9_D04P (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[2] | Out  | IOB13_D02N (!) | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[3] | Out  | IOB8_D02N (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
+                  |     | o_data[0] | Out  | IOB8_D16N (!)  | LVCMOS   |    1.8V |   2mA |  None / PullUp / -   |  Medium  | False / False |    False     | False |      -:-      |
                   |     +-----------+------+----------------+----------+---------+-------+----------------------+----------+---------------+--------------+-------+---------------+
                   |     
-09:23:07:info     |     Note: the table above only displays the ports that are used in the current design.
-09:23:07:info     |     Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
-09:23:07:info     |     Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.
-09:23:07:info     |   
-09:23:07:info     |   Reporting instances at state 'Prepared':
-09:23:07:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
-                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
-                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+09:26:24:info     |     Note: the table above only displays the ports that are used in the current design.
+09:26:24:info     |     Note: the exclamation mark (!) indicates that the current pad configuration has been generated during the process and has not been defined by the user.
+09:26:24:info     |     Pads that are not used are dropped during Place step, warnings messages may have been issued earlier in the log.
+09:26:24:info     |   
+09:26:24:info     |   Reporting instances at state 'Prepared':
+09:26:24:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
+                  |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
+                  |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 1/160 (1%) |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:23:07:info     |   Actual FE occupancy is 17/129024 (1%)
-09:23:07:info     |     
-09:23:07:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:07:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:07:info     |     The following table details the use of FEs.
-09:23:07:info     |     +----------------++--------------------------------------+
+09:26:24:info     |   Actual FE occupancy is 17/505344 (1%)
+09:26:24:info     |     
+09:26:24:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:24:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:24:info     |     The following table details the use of FEs.
+09:26:24:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
                   |     +----------------++-------+--------+----+----+-----+-----+
-                  |     | 17/129024 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
+                  |     | 17/505344 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:23:07:info     |     
-09:23:07:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:07:info     |     The following table lists the number of registers for each instance type.
-09:23:07:info     |     +----------++-----------------------+
+09:26:24:info     |     
+09:26:24:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:24:info     |     The following table lists the number of registers for each instance type.
+09:26:24:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |
@@ -571,23 +571,23 @@
                   |     |    8     || 8  |  0  |  0  |  0   |
                   |     +----------++----+-----+-----+------+
                   |     
-09:23:07:info     |   Lowskew network statistics at state: Prepared
-09:23:07:info     |     Lowskew signals: 1
-09:23:07:info     |     Total lowskew branches: 1
-09:23:07:info     |     
-09:23:07:info     |     Lowskew signals list:
-09:23:07:info     |       i_clk:	 8 receivers.
-09:23:07:info     |     
-09:23:07:info     |     Lobe occupancy:
-09:23:07:info     |       LOBE[Rx1]:	 1/12
-09:23:07:info     |     
-09:23:07:info     |     Lobe contents:
-09:23:07:info     |       Lobe: LOBE[Rx1]:
-09:23:07:info     |         Net i_clk from instance i_clk
-09:23:07:info     |   
-09:23:07:info     |   
-09:23:07:info     | Placing project (step 2/5) with STELAR
-09:23:07:info     |   +---------------------------------------------------+
+09:26:24:info     |   Lowskew network statistics at state: Prepared
+09:26:24:info     |     Lowskew signals: 1
+09:26:24:info     |     Total lowskew branches: 1
+09:26:24:info     |     
+09:26:24:info     |     Lowskew signals list:
+09:26:24:info     |       i_clk:	 8 receivers.
+09:26:24:info     |     
+09:26:24:info     |     Lobe occupancy:
+09:26:24:info     |       LOBE[Rx2]:	 1/20
+09:26:24:info     |     
+09:26:24:info     |     Lobe contents:
+09:26:24:info     |       Lobe: LOBE[Rx2]:
+09:26:24:info     |         Net i_clk from instance i_clk
+09:26:24:info     |   
+09:26:24:info     |   
+09:26:24:info     | Placing project (step 2/5) with STELAR
+09:26:24:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Placing project (step 2/5)' |
                   |   +-------------------+-------------+-----------------+
                   |   |       Name        | Asked Value | Effective Value |
@@ -599,67 +599,68 @@
                   |   | SimplifyRegions   | Yes         | Yes             |
                   |   +-------------------+-------------+-----------------+
                   |   
-09:23:07:info     |   Unskewing
-09:23:07:info     |     Unskewing succeeded in 0 milliseconds
-09:23:07:info     |   Unskewing
-09:23:07:info     |     Unskewing succeeded in 0 milliseconds
-09:23:07:info     |   Generalizing lowskew branch ITS~cle[4:9].O of i_clk to all lobes
-09:23:07:info     |   [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyNet IsNetSimple (52 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:debug    |   Dispatching with PULSAR
-09:23:07:info     |     [         ] Check AnyFCO EmitsToAReceiver (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnySCO EmitsToAReceiver (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyTCO EmitsToAReceiver (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyInstance HasDriver (105 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyCX HasPinIConnected (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyFCI IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyFCO IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnySCI IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnySCO IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyTCI IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:info     |     [         ] Check AnyTCO IsRegular (0 target)
-09:23:07:info     |     [SUCCESS  ]
-09:23:07:debug    |     Unlocking chained DSPs
-09:23:07:info     |     Dispatching succeeded in 51 milliseconds
-09:23:07:info     |   Post dispatching test2 in [1 1 48 23]
-09:23:07:info     |     Post dispatching succeeded in 2 milliseconds
-09:23:07:info     |   Checking regions capacity
-09:23:07:info     |     Checking regions capacity succeeded in 0 milliseconds
-09:23:07:info     |   Placing project (step 2/5) succeeded in 73 milliseconds
-09:23:07:info     | Saving archive in 'spreaded-auto.nym'
-09:23:07:info     |   Saving succeeded in 2 milliseconds
-09:23:07:info     | Report missing constraints of step Spreading
-09:23:07:info     |   Lowskew network statistics at state: Spreaded
-09:23:07:info     |     Lowskew signals: 1
-09:23:07:info     |     Total lowskew branches: 1
-09:23:07:info     |     
-09:23:07:info     |     Lowskew signals list:
-09:23:07:info     |       i_clk:	 8 receivers.
-09:23:07:info     |     
-09:23:07:info     |     Lobe occupancy:
-09:23:07:info     |       LOBE[Rx1]:	 1/12
-09:23:07:info     |     
-09:23:07:info     |     Lobe contents:
-09:23:07:info     |       Lobe: LOBE[Rx1]:
-09:23:07:info     |         Net i_clk from instance i_clk
-09:23:07:info     |   
-09:23:07:info     |   
-09:23:07:debug    | Placing project (step 3/5) with PULSAR
-09:23:07:info     |   +---------------------------------------------------------------+
+09:26:24:info     |   Unskewing
+09:26:24:info     |     Unskewing succeeded in 0 milliseconds
+09:26:24:info     |   Unskewing
+09:26:24:info     |     Using a maximum of 20 GCKs.
+09:26:24:info     |     Unskewing succeeded in 0 milliseconds
+09:26:24:info     |   Generalizing lowskew branch ITS~cle[4:9]~nee[4:1].SO of i_clk to all lobes
+09:26:24:info     |   [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyNet IsNetSimple (52 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:debug    |   Dispatching with PULSAR
+09:26:24:info     |     [         ] Check AnyFCO EmitsToAReceiver (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnySCO EmitsToAReceiver (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyTCO EmitsToAReceiver (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyInstance HasDriver (106 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyCX HasPinIConnected (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyFCI IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyFCO IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnySCI IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnySCO IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyTCI IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:info     |     [         ] Check AnyTCO IsRegular (0 target)
+09:26:24:info     |     [SUCCESS  ]
+09:26:24:debug    |     Unlocking chained DSPs
+09:26:24:info     |     Dispatching succeeded in 97 milliseconds
+09:26:24:info     |   Post dispatching test2 in [1 1 92 49]
+09:26:24:info     |     Post dispatching succeeded in 7 milliseconds
+09:26:24:info     |   Checking regions capacity
+09:26:24:info     |     Checking regions capacity succeeded in 0 milliseconds
+09:26:24:info     |   Placing project (step 2/5) succeeded in 126 milliseconds
+09:26:24:info     | Saving archive in 'spreaded-auto.nym'
+09:26:24:info     |   Saving succeeded in 3 milliseconds
+09:26:24:info     | Report missing constraints of step Spreading
+09:26:24:info     |   Lowskew network statistics at state: Spreaded
+09:26:24:info     |     Lowskew signals: 1
+09:26:24:info     |     Total lowskew branches: 1
+09:26:24:info     |     
+09:26:24:info     |     Lowskew signals list:
+09:26:24:info     |       i_clk:	 8 receivers.
+09:26:24:info     |     
+09:26:24:info     |     Lobe occupancy:
+09:26:24:info     |       LOBE[Rx2]:	 1/20
+09:26:24:info     |     
+09:26:24:info     |     Lobe contents:
+09:26:24:info     |       Lobe: LOBE[Rx2]:
+09:26:24:info     |         Net i_clk from instance i_clk
+09:26:24:info     |   
+09:26:24:info     |   
+09:26:24:debug    | Placing project (step 3/5) with PULSAR
+09:26:24:info     |   +---------------------------------------------------------------+
                   |   |       Retained options for 'Placing project (step 3/5)'       |
                   |   +---------------------+--------------------+--------------------+
                   |   |        Name         |    Asked Value     |  Effective Value   |
@@ -674,69 +675,69 @@
                   |   | TimingEffort        | High               | Low                |
                   |   +---------------------+--------------------+--------------------+
                   |   
-09:23:07:debug    |   Optimizing routes with a medium effort
-09:23:07:debug    |     Optimizing routes with a medium effort done in 6 milliseconds
-09:23:07:info     |   [         ] Check AnyFCO EmitsToAReceiver (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCO EmitsToAReceiver (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCO EmitsToAReceiver (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasDriver (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyCX HasPinIConnected (32 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasSite (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasSpot (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyFCI IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyFCO IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCI IsRegular (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCO IsRegular (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCI IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCO IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   Placing project (step 3/5) succeeded in 63 milliseconds
-09:23:07:info     | Saving archive in 'placed-auto.nym'
-09:23:07:info     |   Saving succeeded in 2 milliseconds
-09:23:07:info     | Report missing constraints of step Placing
-09:23:07:info     |   Lowskew network statistics at state: Placed
-09:23:07:info     |     Lowskew signals: 1
-09:23:07:info     |     Total lowskew branches: 1
-09:23:07:info     |     
-09:23:07:info     |     Lowskew signals list:
-09:23:07:info     |       i_clk:	 1 receivers.
-09:23:07:info     |     
-09:23:07:info     |     Lobe occupancy:
-09:23:07:info     |       LOBE[Lx2]:	 1/12
-09:23:07:info     |     
-09:23:07:info     |     Lobe contents:
-09:23:07:info     |       Lobe: LOBE[Lx2]:
-09:23:07:info     |         Net i_clk from instance i_clk
-09:23:07:info     |   
-09:23:07:info     |   
-09:23:07:debug    | Placing project (step 4/5) with BLIZAR
-09:23:07:info     |   [         ] Check AnyInstance HasDriver (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasSite (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyZX IsRegular (33 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySector IsSectorFlowValid (660 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySector IsSectorSizeValid (660 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   +----------------------------------------------------------------+
+09:26:24:debug    |   Optimizing routes with a medium effort
+09:26:24:debug    |     Optimizing routes with a medium effort done in 7 milliseconds
+09:26:24:info     |   [         ] Check AnyFCO EmitsToAReceiver (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCO EmitsToAReceiver (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCO EmitsToAReceiver (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasDriver (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyCX HasPinIConnected (32 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasSite (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasSpot (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyFCI IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyFCO IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCI IsRegular (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCO IsRegular (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCI IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCO IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   Placing project (step 3/5) succeeded in 115 milliseconds
+09:26:24:info     | Saving archive in 'placed-auto.nym'
+09:26:24:info     |   Saving succeeded in 3 milliseconds
+09:26:24:info     | Report missing constraints of step Placing
+09:26:24:info     |   Lowskew network statistics at state: Placed
+09:26:24:info     |     Lowskew signals: 1
+09:26:24:info     |     Total lowskew branches: 1
+09:26:24:info     |     
+09:26:24:info     |     Lowskew signals list:
+09:26:24:info     |       i_clk:	 1 receivers.
+09:26:24:info     |     
+09:26:24:info     |     Lobe occupancy:
+09:26:24:info     |       LOBE[Rx2]:	 1/20
+09:26:24:info     |     
+09:26:24:info     |     Lobe contents:
+09:26:24:info     |       Lobe: LOBE[Rx2]:
+09:26:24:info     |         Net i_clk from instance i_clk
+09:26:24:info     |   
+09:26:24:info     |   
+09:26:24:debug    | Placing project (step 4/5) with BLIZAR
+09:26:24:info     |   [         ] Check AnyInstance HasDriver (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasSite (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyZX IsRegular (33 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySector IsSectorFlowValid (2144 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySector IsSectorSizeValid (2144 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   +----------------------------------------------------------------+
                   |   |       Retained options for 'Placing project (step 4/5)'        |
                   |   +----------------------+--------------------+--------------------+
                   |   |         Name         |    Asked Value     |  Effective Value   |
@@ -748,38 +749,38 @@
                   |   | TimingDriven         | No                 | No                 |
                   |   +----------------------+--------------------+--------------------+
                   |   
-09:23:07:info     |   [         ] Check AnyFCO EmitsToAReceiver (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCO EmitsToAReceiver (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCO EmitsToAReceiver (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasDriver (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyNet HasPilot (52 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyCX HasPinIConnected (32 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyInstance HasSpot (138 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyFCI IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyFCO IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCI IsRegular (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnySCO IsRegular (0 target)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCI IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   [         ] Check AnyTCO IsRegular (8 targets)
-09:23:07:info     |   [SUCCESS  ]
-09:23:07:info     |   Placing project (step 4/5) succeeded in 30 milliseconds
-09:23:07:info     | Saving archive in 'polished-auto.nym'
-09:23:07:info     |   Saving succeeded in 2 milliseconds
-09:23:07:info     | Report missing constraints of step Polishing
-09:23:07:info     | Placing project (step 5/5) with QUASAR
-09:23:07:info     |   +---------------------------------------------------+
+09:26:24:info     |   [         ] Check AnyFCO EmitsToAReceiver (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCO EmitsToAReceiver (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCO EmitsToAReceiver (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasDriver (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyNet HasPilot (52 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyCX HasPinIConnected (32 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyInstance HasSpot (139 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyFCI IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyFCO IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCI IsRegular (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnySCO IsRegular (0 target)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCI IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   [         ] Check AnyTCO IsRegular (8 targets)
+09:26:24:info     |   [SUCCESS  ]
+09:26:24:info     |   Placing project (step 4/5) succeeded in 66 milliseconds
+09:26:24:info     | Saving archive in 'polished-auto.nym'
+09:26:24:info     |   Saving succeeded in 3 milliseconds
+09:26:24:info     | Report missing constraints of step Polishing
+09:26:24:info     | Placing project (step 5/5) with QUASAR
+09:26:24:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Placing project (step 5/5)' |
                   |   +----------------+---------------+------------------+
                   |   |      Name      |  Asked Value  | Effective Value  |
@@ -787,28 +788,28 @@
                   |   | TimingDriven   | No            | No               |
                   |   +----------------+---------------+------------------+
                   |   
-09:23:07:info     |   Preparing succeeded in 0 milliseconds
-09:23:07:info     |   PreAssigning succeeded in 0 milliseconds
-09:23:07:info     |   Assigning succeeded in 3 milliseconds
-09:23:07:info     |   Directing succeeded in 0 milliseconds
-09:23:07:info     |   Splitting outputs succeeded in 0 milliseconds
-09:23:07:info     |   Exploding inputs succeeded in 0 milliseconds
-09:23:07:info     |   Populating succeeded in 0 milliseconds
-09:23:07:info     |   Checking succeeded in 0 milliseconds
-09:23:07:info     | Placing project (step 5/5) succeeded in 4 milliseconds
-09:23:07:info     | Saving archive in 'squaded-auto.nym'
-09:23:07:info     |   Saving succeeded in 2 milliseconds
-09:23:07:info     | Report missing constraints of step Squading
-09:23:07:info     | Saving project in 'placed.vhd'
-09:23:07:info     |   Characterizing library
-09:23:08:info     |     Characterizing library done in 162 milliseconds
-09:23:08:info     |   Characterizing cell
-09:23:08:info     |     Characterizing cell done in 1 millisecond
-09:23:08:info     |   Saving project test2 to placed.vhd
-09:23:08:info     |     Saving succeeded in 6 milliseconds
-09:23:08:info     |   Saving project succeeded in 170 milliseconds
-09:23:08:info     | Routing project (step 1/3) with GUEPAR
-09:23:08:info     |   +---------------------------------------------------+
+09:26:24:info     |   Preparing succeeded in 0 milliseconds
+09:26:24:info     |   PreAssigning succeeded in 0 milliseconds
+09:26:24:info     |   Assigning succeeded in 3 milliseconds
+09:26:24:info     |   Directing succeeded in 0 milliseconds
+09:26:24:info     |   Splitting outputs succeeded in 0 milliseconds
+09:26:24:info     |   Exploding inputs succeeded in 0 milliseconds
+09:26:24:info     |   Populating succeeded in 0 milliseconds
+09:26:24:info     |   Checking succeeded in 0 milliseconds
+09:26:24:info     | Placing project (step 5/5) succeeded in 4 milliseconds
+09:26:24:info     | Saving archive in 'squaded-auto.nym'
+09:26:24:info     |   Saving succeeded in 3 milliseconds
+09:26:24:info     | Report missing constraints of step Squading
+09:26:24:info     | Saving project in 'placed.vhd'
+09:26:24:info     |   Characterizing library
+09:26:26:info     |     Characterizing library done in 1 second 518 milliseconds
+09:26:26:info     |   Characterizing cell
+09:26:26:info     |     Characterizing cell done in 5 milliseconds
+09:26:26:info     |   Saving project test2 to placed.vhd
+09:26:26:info     |     Saving succeeded in 11 milliseconds
+09:26:26:info     |   Saving project succeeded in 1 second 535 milliseconds
+09:26:26:info     | Routing project (step 1/3) with GUEPAR
+09:26:26:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Routing project (step 1/3)' |
                   |   +-------------+----------------+--------------------+
                   |   |    Name     |  Asked Value   |  Effective Value   |
@@ -816,12 +817,12 @@
                   |   | Dynamic     | No             | No                 |
                   |   +-------------+----------------+--------------------+
                   |   
-09:23:08:info     |   Routing project (step 1/3) succeeded in 83 milliseconds
-09:23:08:info     | Saving archive in 'grouped-auto.nym'
-09:23:08:info     |   Saving succeeded in 2 milliseconds
-09:23:08:info     | Report missing constraints of step Grouping
-09:23:08:info     | Routing project (step 2/3) with PANDAR
-09:23:08:info     |   +---------------------------------------------------+
+09:26:26:info     |   Routing project (step 1/3) succeeded in 86 milliseconds
+09:26:26:info     | Saving archive in 'grouped-auto.nym'
+09:26:26:info     |   Saving succeeded in 3 milliseconds
+09:26:26:info     | Report missing constraints of step Grouping
+09:26:26:info     | Routing project (step 2/3) with PANDAR
+09:26:26:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Routing project (step 2/3)' |
                   |   +-------------+----------------+--------------------+
                   |   |    Name     |  Asked Value   |  Effective Value   |
@@ -829,12 +830,12 @@
                   |   | Dynamic     | No             | No                 |
                   |   +-------------+----------------+--------------------+
                   |   
-09:23:08:info     |   Routing project (step 2/3) succeeded in 7 milliseconds
-09:23:08:info     | Saving archive in 'spotted-auto.nym'
-09:23:08:info     |   Saving succeeded in 2 milliseconds
-09:23:08:info     | Report missing constraints of step Spotting
-09:23:08:info     | Routing project (step 3/3) with NECTAR
-09:23:08:info     |   +---------------------------------------------------+
+09:26:26:info     |   Routing project (step 2/3) succeeded in 8 milliseconds
+09:26:26:info     | Saving archive in 'spotted-auto.nym'
+09:26:26:info     |   Saving succeeded in 3 milliseconds
+09:26:26:info     | Report missing constraints of step Spotting
+09:26:26:info     | Routing project (step 3/3) with NECTAR
+09:26:26:info     |   +---------------------------------------------------+
                   |   | Retained options for 'Routing project (step 3/3)' |
                   |   +----------------+---------------+------------------+
                   |   |      Name      |  Asked Value  | Effective Value  |
@@ -843,39 +844,39 @@
                   |   | TimingDriven   | No            | No               |
                   |   +----------------+---------------+------------------+
                   |   
-09:23:11:info     |   [         ] Check AnyNet HasCompleteRoute (52 targets)
-09:23:11:info     |   [SUCCESS  ]
-09:23:11:info     |   Routing project (step 3/3) succeeded in 3 seconds 511 milliseconds
-09:23:11:info     | Saving archive in 'routed-auto.nym'
-09:23:11:info     |   Saving succeeded in 3 milliseconds
-09:23:11:info     | Report missing constraints of step Routing
-09:23:11:info     |   
-09:23:11:info     |   Reporting instances at state 'Routed':
-09:23:11:info     |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     |               |               |             |   1 - bit    |  Register  |   Cross    | Clock  |    Clock    |  Digital   |   Memory   |           |          |
-                  |     |     4-LUT     |      DFF      |    XLUT     |    Carry     |    file    |   domain   | Buffer |   switch    |   signal   |   block    |    WFG    |   PLL    |
-                  |     |               |               |             |              |   block    |   clock    |        |             | processor  |            |           |          |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
-                  |     | 9/129024 (1%) | 8/129024 (1%) | 0/8064 (0%) | 8/32256 (1%) | 0/672 (0%) | 0/672 (0%) |   0    | 0/1344 (0%) | 0/384 (0%) | 0/192 (0%) | 1/40 (3%) | 0/4 (0%) |
-                  |     +---------------+---------------+-------------+--------------+------------+------------+--------+-------------+------------+------------+-----------+----------+
+09:26:39:info     |   [         ] Check AnyNet HasCompleteRoute (52 targets)
+09:26:39:info     |   [SUCCESS  ]
+09:26:39:info     |   Routing project (step 3/3) succeeded in 12 seconds 636 milliseconds
+09:26:39:info     | Saving archive in 'routed-auto.nym'
+09:26:39:info     |   Saving succeeded in 9 milliseconds
+09:26:39:info     | Report missing constraints of step Routing
+09:26:39:info     |   
+09:26:39:info     |   Reporting instances at state 'Routed':
+09:26:39:info     |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     |               |               |              |    1 - bit    |  Register   |    Cross    | Clock  |    Clock    |   Digital   |   Memory   |           |          |            |
+                  |     |     4-LUT     |      DFF      |     XLUT     |     Carry     |    file     |   domain    | Buffer |   switch    |   signal    |   block    |    WFG    |   PLL    |    GCK     |
+                  |     |               |               |              |               |    block    |    clock    |        |             |  processor  |            |           |          |            |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
+                  |     | 9/505344 (1%) | 8/505344 (1%) | 0/31584 (0%) | 8/126336 (1%) | 0/2632 (0%) | 0/2632 (0%) |   0    | 0/5264 (0%) | 0/1344 (0%) | 0/672 (0%) | 1/70 (2%) | 0/7 (0%) | 1/160 (1%) |
+                  |     +---------------+---------------+--------------+---------------+-------------+-------------+--------+-------------+-------------+------------+-----------+----------+------------+
                   |     
-09:23:11:info     |   Actual FE occupancy is 18/129024 (1%)
-09:23:11:info     |     
-09:23:11:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
-09:23:11:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
-09:23:11:info     |     The following table details the use of FEs.
-09:23:11:info     |     +----------------++--------------------------------------+
+09:26:39:info     |   Actual FE occupancy is 18/505344 (1%)
+09:26:39:info     |     
+09:26:39:info     |     Some instances (Register File, Carry, Cross Domain Clock and Clock Switch) use Functional Elements (FEs) to accomodate signal input(s) and output(s).
+09:26:39:info     |     These FEs are automatically created when processing the design. Please check the CookBook for more information.
+09:26:39:info     |     The following table details the use of FEs.
+09:26:39:info     |     +----------------++--------------------------------------+
                   |     |     Total      ||               Used By                |
                   |     |       FE       ||       |  DFF   |    |    |     |     |
                   |     |     Count      || 4-LUT | Buffer | CY | RF | CDC | CKS |
                   |     +----------------++-------+--------+----+----+-----+-----+
-                  |     | 18/129024 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
+                  |     | 18/505344 (1%) ||   9   |   8    | 0  | 0  |  0  |  0  |
                   |     +----------------++-------+--------+----+----+-----+-----+
                   |     
-09:23:11:info     |     
-09:23:11:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
-09:23:11:info     |     The following table lists the number of registers for each instance type.
-09:23:11:info     |     +----------++-----------------------+
+09:26:39:info     |     
+09:26:39:info     |     Several instances have registers, depending on configuration. Please check the CookBook or the NX Library Guide for more information.
+09:26:39:info     |     The following table lists the number of registers for each instance type.
+09:26:39:info     |     +----------++-----------------------+
                   |     |  Total   ||        Used By        |
                   |     | Register ||    |     |     |      |
                   |     |  Count   || FE | DSP | RAM | Pads |
@@ -883,32 +884,32 @@
                   |     |    8     || 8  |  0  |  0  |  0   |
                   |     +----------++----+-----+-----+------+
                   |     
-09:23:11:info     |   
-09:23:11:info     |   Reporting registers at state 'Routed':
-09:23:11:info     |     Printing register summary into 'registerSummary.rpt'.
-09:23:11:info     |     Printing a detailed register report into 'registerSummary.rpt'.
-09:23:11:info     |   Lowskew network statistics at state: Routed
-09:23:11:info     |     Lowskew signals: 1
-09:23:11:info     |     Total lowskew branches: 1
-09:23:11:info     |     
-09:23:11:info     |     Lowskew signals list:
-09:23:11:info     |       i_clk:	 1 receivers.
-09:23:11:info     |     
-09:23:11:info     |     Lobe occupancy:
-09:23:11:info     |       LOBE[Lx2]:	 1/12
-09:23:11:info     |     
-09:23:11:info     |     Lobe contents:
-09:23:11:info     |       Lobe: LOBE[Lx2]:
-09:23:11:info     |         Net i_clk from instance i_clk
-09:23:11:info     |   
-09:23:11:info     |   
-09:23:11:info     | Saving project in 'routed.vhd'
-09:23:11:info     |   Characterizing library
-09:23:11:info     |     Characterizing library done in 172 milliseconds
-09:23:11:info     |   Characterizing cell
-09:23:11:info     |     Characterizing cell done in 1 millisecond
-09:23:11:info     |   Saving project test2 to routed.vhd
-09:23:11:info     |     Saving succeeded in 6 milliseconds
-09:23:11:info     |   Saving project succeeded in 181 milliseconds
-09:23:11:info     | Erasing Information Map
-09:23:12:info     | Closing project succeeded
+09:26:39:info     |   
+09:26:39:info     |   Reporting registers at state 'Routed':
+09:26:39:info     |     Printing register summary into 'registerSummary.rpt'.
+09:26:39:info     |     Printing a detailed register report into 'registerSummary.rpt'.
+09:26:39:info     |   Lowskew network statistics at state: Routed
+09:26:39:info     |     Lowskew signals: 1
+09:26:39:info     |     Total lowskew branches: 1
+09:26:39:info     |     
+09:26:39:info     |     Lowskew signals list:
+09:26:39:info     |       i_clk:	 1 receivers.
+09:26:39:info     |     
+09:26:39:info     |     Lobe occupancy:
+09:26:39:info     |       LOBE[Rx2]:	 1/20
+09:26:39:info     |     
+09:26:39:info     |     Lobe contents:
+09:26:39:info     |       Lobe: LOBE[Rx2]:
+09:26:39:info     |         Net i_clk from instance i_clk
+09:26:39:info     |   
+09:26:39:info     |   
+09:26:39:info     | Saving project in 'routed.vhd'
+09:26:39:info     |   Characterizing library
+09:26:40:info     |     Characterizing library done in 1 second 603 milliseconds
+09:26:40:info     |   Characterizing cell
+09:26:40:info     |     Characterizing cell done in 2 milliseconds
+09:26:40:info     |   Saving project test2 to routed.vhd
+09:26:40:info     |     Saving succeeded in 8 milliseconds
+09:26:40:info     |   Saving project succeeded in 1 second 616 milliseconds
+09:26:40:info     | Erasing Information Map
+09:26:41:info     | Closing project succeeded

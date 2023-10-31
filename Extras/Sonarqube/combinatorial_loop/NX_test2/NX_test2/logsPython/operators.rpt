@@ -4,48 +4,48 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:06 2023
+// Execution date:       Tue Oct 31 09:26:20 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:06:info     |   ----------------------------------------------
-09:23:06:info     |   - Operator Cells analysis                    -
-09:23:06:info     |   ----------------------------------------------
-09:23:06:info     |     
-09:23:06:info     |     Operator 'add_8u_8u'
-09:23:06:info     |     	 : add_L76	(line 76 in ../test2.vhd)
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | // Synthesized Data
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | Synthesized Operators : 
-09:23:06:info     | 
-09:23:06:info     | Operator'add_8u_8u'
-09:23:06:info     | 	 : add_datao	(line 103 in ../test1.vhd)
-09:23:06:info     | 
-09:23:06:info     | Operator'add_8u_8u'
-09:23:06:info     | 	 : add_L76	(line 76 in ../test2.vhd)
-09:23:06:info     |   
-09:23:06:info     |   ----------------------------------------------
-09:23:06:info     |   - Operator Instances processing              -
-09:23:06:info     |   ----------------------------------------------
-09:23:06:info     |     Adder add_L76 can be mapped as:
-09:23:06:info     |     15 LUTs with a depth of 6 levels
-09:23:06:info     |     
-09:23:06:info     |       Adder add_L76
-09:23:06:info     |       	Will be mapped into a CY  chain
-09:23:06:info     |       Standard Map into CY   [ FE: 0 CY: 2 DSP: 0 ] for: add_L76
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | // Mapped Data
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | Mapped Operators : 
-09:23:06:info     | 
-09:23:06:info     | Adder add_datao
-09:23:06:info     | 	Will be mapped into a CY  chain
-09:23:06:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
-09:23:06:info     | 
-09:23:06:info     | Adder add_L76
-09:23:06:info     | 	Will be mapped into a CY  chain
-09:23:06:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
-09:23:06:info     | 
-09:23:06:info     | Design instanciates [ FE: 0 CY: 4 DSP: 0 ]
+09:26:21:info     |   ----------------------------------------------
+09:26:21:info     |   - Operator Cells analysis                    -
+09:26:21:info     |   ----------------------------------------------
+09:26:22:info     |     
+09:26:22:info     |     Operator 'add_8u_8u'
+09:26:22:info     |     	 : add_L76	(line 76 in ../test2.vhd)
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | // Synthesized Data
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | Synthesized Operators : 
+09:26:22:info     | 
+09:26:22:info     | Operator'add_8u_8u'
+09:26:22:info     | 	 : add_datao	(line 103 in ../test1.vhd)
+09:26:22:info     | 
+09:26:22:info     | Operator'add_8u_8u'
+09:26:22:info     | 	 : add_L76	(line 76 in ../test2.vhd)
+09:26:22:info     |   
+09:26:22:info     |   ----------------------------------------------
+09:26:22:info     |   - Operator Instances processing              -
+09:26:22:info     |   ----------------------------------------------
+09:26:22:info     |     Adder add_L76 can be mapped as:
+09:26:22:info     |     15 LUTs with a depth of 6 levels
+09:26:22:info     |     
+09:26:22:info     |       Adder add_L76
+09:26:22:info     |       	Will be mapped into a CY  chain
+09:26:22:info     |       Standard Map into CY   [ FE: 0 CY: 2 DSP: 0 ] for: add_L76
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | // Mapped Data
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | Mapped Operators : 
+09:26:22:info     | 
+09:26:22:info     | Adder add_datao
+09:26:22:info     | 	Will be mapped into a CY  chain
+09:26:22:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
+09:26:22:info     | 
+09:26:22:info     | Adder add_L76
+09:26:22:info     | 	Will be mapped into a CY  chain
+09:26:22:info     | 	[ FE: 0 CY: 2 DSP: 0 ]
+09:26:22:info     | 
+09:26:22:info     | Design instanciates [ FE: 0 CY: 4 DSP: 0 ]

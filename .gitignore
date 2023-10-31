@@ -11,4 +11,18 @@ stylesheets/docbook-xsl-ns-1.78.1/
 Extras/Sonarqube/SonarQubeAccessToken
 Extras/Sonarqube/readme_test_setup.md
 
+#vivado project
+**/*.nym
+**/*.cache
+**/*.srcs
+**/*.hw
+**/*.ip_user_files
+**/*.xpr
+**/*.jobs
+**/vivado*.jou
+**/vivado*.log
+**/*.dcp
+**/*.pb
+**/.Xil
+#nanoxplore project
 **/*.nym

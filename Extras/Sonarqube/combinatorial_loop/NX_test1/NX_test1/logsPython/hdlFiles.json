@@ -11,8 +11,8 @@
         "appVersion": "v23.3.0.2",
         "buildDate": "2023-09-29 15:22:00",
         "commandLine": "/opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py",
-        "executionDate": "Tue Oct 31 09:22:54 2023",
-        "pid": 3332651,
+        "executionDate": "Tue Oct 31 09:25:42 2023",
+        "pid": 3334006,
         "revision": "branch HEAD - hash c27499706...",
         "ui": {
             "#HDLFileReport": {

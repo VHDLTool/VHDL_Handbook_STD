@@ -4,23 +4,23 @@
 // Internal revision:    branch HEAD - hash c27499706...
 //
 // Distribution:         Ubuntu 22.04.3 LTS
-// Execution date:       Tue Oct 31 09:23:06 2023
+// Execution date:       Tue Oct 31 09:26:20 2023
 // Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
-// Process ID:           3332651
+// Process ID:           3334006
 ////////////////////////////////////////////////////////////////////////////////
 
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | // Synthesized Data
-09:23:06:info     | ////////////////////////////////////////////////////////////////////////////////
-09:23:06:info     | ----------------------------------------------
-09:23:06:info     | - HDL Source code report                     -
-09:23:06:info     | ----------------------------------------------
-09:23:06:info     | 
-09:23:06:info     | Synthesized HDL Files : 
-09:23:06:info     | Top cell: test2 from : work:../test2.vhd
-09:23:06:info     | 
-09:23:06:info     | <Library>		:: <File>
-09:23:06:info     | work		:: ../test1.vhd
-09:23:06:info     | work		:: ../test2-1.vhd
-09:23:06:info     | work		:: ../test2-1.vhd
-09:23:06:info     | work		:: ../test2.vhd
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | // Synthesized Data
+09:26:22:info     | ////////////////////////////////////////////////////////////////////////////////
+09:26:22:info     | ----------------------------------------------
+09:26:22:info     | - HDL Source code report                     -
+09:26:22:info     | ----------------------------------------------
+09:26:22:info     | 
+09:26:22:info     | Synthesized HDL Files : 
+09:26:22:info     | Top cell: test2 from : work:../test2.vhd
+09:26:22:info     | 
+09:26:22:info     | <Library>		:: <File>
+09:26:22:info     | work		:: ../test1.vhd
+09:26:22:info     | work		:: ../test2-1.vhd
+09:26:22:info     | work		:: ../test2-1.vhd
+09:26:22:info     | work		:: ../test2.vhd
