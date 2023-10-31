@@ -1,0 +1,55 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Tue Oct 31 09:24:47 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3333634
+////////////////////////////////////////////////////////////////////////////////
+
+09:24:50:info     |   Lowskew network statistics at state: Prepared
+09:24:50:info     |     Lowskew signals: 0
+09:24:50:info     |     Total lowskew branches: 0
+09:24:50:info     |     
+09:24:50:info     |     Lowskew signals list:
+09:24:50:info     |     
+09:24:50:info     |     Lobe occupancy:
+09:24:50:info     |     
+09:24:50:info     |     Lobe contents:
+09:24:50:info     |   
+09:24:50:info     |   
+09:24:51:info     |   Lowskew network statistics at state: Spreaded
+09:24:51:info     |     Lowskew signals: 0
+09:24:51:info     |     Total lowskew branches: 0
+09:24:51:info     |     
+09:24:51:info     |     Lowskew signals list:
+09:24:51:info     |     
+09:24:51:info     |     Lobe occupancy:
+09:24:51:info     |     
+09:24:51:info     |     Lobe contents:
+09:24:51:info     |   
+09:24:51:info     |   
+09:24:51:info     |   Lowskew network statistics at state: Placed
+09:24:51:info     |     Lowskew signals: 0
+09:24:51:info     |     Total lowskew branches: 0
+09:24:51:info     |     
+09:24:51:info     |     Lowskew signals list:
+09:24:51:info     |     
+09:24:51:info     |     Lobe occupancy:
+09:24:51:info     |     
+09:24:51:info     |     Lobe contents:
+09:24:51:info     |   
+09:24:51:info     |   
+09:25:05:info     |   Lowskew network statistics at state: Routed
+09:25:05:info     |     Lowskew signals: 0
+09:25:05:info     |     Total lowskew branches: 0
+09:25:05:info     |     
+09:25:05:info     |     Lowskew signals list:
+09:25:05:info     |     
+09:25:05:info     |     Lobe occupancy:
+09:25:05:info     |     
+09:25:05:info     |     Lobe contents:
+09:25:05:info     |   
+09:25:05:info     |   

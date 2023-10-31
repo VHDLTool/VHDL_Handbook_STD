@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////////////////////////////
+// NXpython v23.3.0.2
+// Build date and time:  2023-09-29 15:22:00
+// Internal revision:    branch HEAD - hash c27499706...
+//
+// Distribution:         Ubuntu 22.04.3 LTS
+// Execution date:       Tue Oct 31 09:24:47 2023
+// Command line:         /opt/NanoXplore/nxmap/nxmap-23.3.0.2/bin/nxpython3 ./NX.py
+// Process ID:           3333634
+////////////////////////////////////////////////////////////////////////////////
+
+09:24:48:info     |   ----------------------------------------------
+09:24:48:info     |   - Standard Logic processing                  -
+09:24:48:info     |   ----------------------------------------------
+09:24:48:info     |   Flattening Design
+09:24:48:info     |     Destroying internal cells ...
+09:24:48:info     |     Purging: test1
+09:24:48:info     |   Analyzing LUT-based Adders
+09:24:48:info     |   Analyzing Memory
+09:24:48:info     |   Flattening Design
+09:24:48:info     |     Destroying internal cells ...
+09:24:48:info     |     Purging: test1
+09:24:48:info     |     Removed 1 net (invisible)
+09:24:48:info     |   Analyzing Dsp
+09:24:48:info     |   Flattening Design
+09:24:48:info     |     Destroying internal cells ...
+09:24:48:info     |     Purging: test1
+09:24:48:info     |     Destroying internal cells ...
+09:24:48:info     |     Purging: test1
+09:24:48:info     |   Checking logic cycles
+09:24:49:info     |     Optimizing #Luts ...
+09:24:49:info     |     step 1 :
+09:24:49:info     |     final step
+09:24:49:info     |             lut = 16
